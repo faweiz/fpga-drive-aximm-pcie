@@ -1,0 +1,1 @@
+--incr --debug typical --relax --mt auto -L xpm -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot vc707_pcie_ep xil_defaultlib.vc707_pcie_ep xil_defaultlib.glbl -log elaborate.log

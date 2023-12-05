@@ -9,17 +9,17 @@
 This folder Using VC707 or VC709 to test the function of PCIe Root Complex and End Point communication with either FMC or on-board PCIe connector, Following code/function have been implemented:
 
 Tony (vc709)	     NGC (VC707)
-- [x] VC709_PCIe_RC  <-> VC707_FMC_EP    (Working fine)
-- [x] VC709_PCIe_EP  <-> VC707_FMC_RC    (Working fine)
+- [ ] 1. VC709_PCIe_RC  <-> VC707_FMC_EP    
+- [x] 2. VC709_PCIe_EP  <-> VC707_FMC_RC    (Working fine)
 
-- [x] VC709_FMC_RC   <-> VC707_PCIe_EP   (Working fine)
-- [x] VC709_FMC_EP   <-> VC707_PCIe_RC   (Working fine)
+- [x] 3. VC709_FMC_RC   <-> VC707_PCIe_EP   (Working fine)
+- [x] 4. VC709_FMC_EP   <-> VC707_PCIe_RC   (Working fine)
 
-- [ ] VC709_FMC_RC   <-> VC707_FMC_EP    (Need to test it after receive ITA)
-- [ ] VC709_FMC_EP   <-> VC707_FMC_RC    (Need to test it after receive ITA)
+- [ ] 5. VC709_FMC_RC   <-> VC707_FMC_EP    (Need to test it after receive ITA)
+- [ ] 6. VC709_FMC_EP   <-> VC707_FMC_RC    (Need to test it after receive ITA)
 
-- [ ] VC709_PCIe_RC  <-> VC707_PCIe_EP   (No Hardware available)
-- [ ] VC707_PCIe_EP  <-> VC707_PCIe_RC   (No Hardware available)
+- [ ] 7. VC709_PCIe_RC  <-> VC707_PCIe_EP   (No Hardware available)
+- [ ] 8. VC707_PCIe_EP  <-> VC707_PCIe_RC   (No Hardware available)
 
 
 Reference Documents for Pinout:
@@ -87,8 +87,13 @@ In order to get PCIe Root Complex in VC709 to work, we need to copy axipcie_v3_3
 
 ## Reference
 
+* https://www.xilinx.com/products/boards-and-kits/ek-v7-vc707-g.html
+* https://www.xilinx.com/products/boards-and-kits/dk-v7-vc709-g.html
+
 * https://www.fpgadeveloper.com/2016/04/microblaze-pci-express-root-complex-design-in-vivado.html/
 * https://www.fpgadrive.com/docs/fpga-drive-fmc-gen4/overview/
 * https://refdesign.fpgadrive.com/en/latest/index.html
+
+* https://github.com/faweiz/fpga-drive-aximm-pcie/tree/develop/fmc%20--%20pcie/Reference
 
 
