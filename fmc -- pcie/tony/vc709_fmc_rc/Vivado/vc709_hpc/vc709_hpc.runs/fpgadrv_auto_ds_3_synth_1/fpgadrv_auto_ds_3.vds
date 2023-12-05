@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sun Dec  3 23:55:30 2023
+# Process ID: 72564
+# Current directory: D:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.runs/fpgadrv_auto_ds_3_synth_1
+# Command line: vivado.exe -log fpgadrv_auto_ds_3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fpgadrv_auto_ds_3.tcl
+# Log file: D:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.runs/fpgadrv_auto_ds_3_synth_1/fpgadrv_auto_ds_3.vds
+# Journal file: D:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.runs/fpgadrv_auto_ds_3_synth_1\vivado.jou
+# Running On: Tony-VPI4CJD, OS: Windows, CPU Frequency: 2208 MHz, CPU Physical cores: 6, Host memory: 34140 MB
+#-----------------------------------------------------------
+source fpgadrv_auto_ds_3.tcl -notrace
+create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1284.254 ; gain = 0.000
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP fpgadrv_auto_ds_3, cache-ID = be2fe05ee0b4328f.
+INFO: [Common 17-206] Exiting Vivado at Sun Dec  3 23:55:44 2023...

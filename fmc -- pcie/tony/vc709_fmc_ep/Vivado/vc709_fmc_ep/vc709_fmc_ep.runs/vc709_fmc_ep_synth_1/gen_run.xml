@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="vc709_fmc_ep_synth_1" LaunchPart="xc7vx690tffg1761-2" LaunchTime="1701716266">
+  <File Type="PA-TCL" Name="vc709_fmc_ep.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="vc709_fmc_ep_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="vc709_fmc_ep_reports.tcl"/>
+  <File Type="RDS-RDS" Name="vc709_fmc_ep.vds"/>
+  <File Type="RDS-UTIL" Name="vc709_fmc_ep_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="vc709_fmc_ep_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="vc709_fmc_ep.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="vc709_fmc_ep_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="vc709_fmc_ep_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/vc709_fmc_ep">
+    <File Path="$PSRCDIR/sources_1/ip/vc709_fmc_ep/vc709_fmc_ep.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="vc709_fmc_ep"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/vc709_fmc_ep">
+    <File Path="$PSRCDIR/sources_1/ip/vc709_fmc_ep/vc709_fmc_ep.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="vc709_fmc_ep"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,668 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sat Dec  2 21:20:43 2023
+# Process ID: 16088
+# Current directory: D:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.runs/vc709_pcie_ep_synth_1
+# Command line: vivado.exe -log vc709_pcie_ep.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source vc709_pcie_ep.tcl
+# Log file: D:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.runs/vc709_pcie_ep_synth_1/vc709_pcie_ep.vds
+# Journal file: D:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.runs/vc709_pcie_ep_synth_1\vivado.jou
+# Running On: Tony-VPI4CJD, OS: Windows, CPU Frequency: 2208 MHz, CPU Physical cores: 6, Host memory: 34140 MB
+#-----------------------------------------------------------
+source vc709_pcie_ep.tcl -notrace
+Command: synth_design -top vc709_pcie_ep -part xc7vx690tffg1761-2 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx690t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx690t'
+INFO: [Common 17-86] Your Synthesis license expires in 28 day(s)
+INFO: [Common 17-1540] The version limit for your license is '2023.06' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for new releases.
+INFO: [Device 21-403] Loading part xc7vx690tffg1761-2
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 21700
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1371.324 ; gain = 77.211
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'vc709_pcie_ep' [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/synth/vc709_pcie_ep.v:53]
+INFO: [Synth 8-6157] synthesizing module 'vc709_pcie_ep_pcie_3_0_7vx' [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pcie_3_0_7vx.v:116]
+INFO: [Synth 8-6157] synthesizing module 'vc709_pcie_ep_pcie_top' [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pcie_top.v:82]
+INFO: [Synth 8-6157] synthesizing module 'vc709_pcie_ep_pcie_init_ctrl_7vx' [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pcie_init_ctrl_7vx.v:66]
+INFO: [Synth 8-6155] done synthesizing module 'vc709_pcie_ep_pcie_init_ctrl_7vx' (0#1) [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pcie_init_ctrl_7vx.v:66]
+INFO: [Synth 8-6157] synthesizing module 'vc709_pcie_ep_pcie_tlp_tph_tbl_7vx' [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pcie_tlp_tph_tbl_7vx.v:65]
+INFO: [Synth 8-6157] synthesizing module 'RAMB36E1' [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:103900]
+INFO: [Synth 8-6155] done synthesizing module 'RAMB36E1' (0#1) [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:103900]
+INFO: [Synth 8-6155] done synthesizing module 'vc709_pcie_ep_pcie_tlp_tph_tbl_7vx' (0#1) [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pcie_tlp_tph_tbl_7vx.v:65]
+INFO: [Synth 8-6157] synthesizing module 'vc709_pcie_ep_pcie_7vx' [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pcie_7vx.v:76]
+INFO: [Synth 8-6157] synthesizing module 'PCIE_3_0' [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:85828]
+INFO: [Synth 8-6155] done synthesizing module 'PCIE_3_0' (0#1) [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:85828]
+INFO: [Synth 8-6157] synthesizing module 'vc709_pcie_ep_pcie_bram_7vx' [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pcie_bram_7vx.v:73]
+INFO: [Synth 8-6157] synthesizing module 'vc709_pcie_ep_pcie_bram_7vx_rep' [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pcie_bram_7vx_rep.v:67]
+INFO: [Synth 8-6157] synthesizing module 'vc709_pcie_ep_pcie_bram_7vx_rep_8k' [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pcie_bram_7vx_rep_8k.v:67]
+INFO: [Synth 8-6157] synthesizing module 'RAMB36E1__parameterized0' [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:103900]
+INFO: [Synth 8-6155] done synthesizing module 'RAMB36E1__parameterized0' (0#1) [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:103900]
+INFO: [Synth 8-6155] done synthesizing module 'vc709_pcie_ep_pcie_bram_7vx_rep_8k' (0#1) [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pcie_bram_7vx_rep_8k.v:67]
+INFO: [Synth 8-6155] done synthesizing module 'vc709_pcie_ep_pcie_bram_7vx_rep' (0#1) [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pcie_bram_7vx_rep.v:67]
+INFO: [Synth 8-6157] synthesizing module 'vc709_pcie_ep_pcie_bram_7vx_req' [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pcie_bram_7vx_req.v:67]
+INFO: [Synth 8-6157] synthesizing module 'vc709_pcie_ep_pcie_bram_7vx_8k' [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pcie_bram_7vx_8k.v:68]
+INFO: [Synth 8-6157] synthesizing module 'RAMB18E1' [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:102852]
+INFO: [Synth 8-6155] done synthesizing module 'RAMB18E1' (0#1) [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:102852]
+INFO: [Synth 8-6155] done synthesizing module 'vc709_pcie_ep_pcie_bram_7vx_8k' (0#1) [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pcie_bram_7vx_8k.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'vc709_pcie_ep_pcie_bram_7vx_req' (0#1) [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pcie_bram_7vx_req.v:67]
+INFO: [Synth 8-6157] synthesizing module 'vc709_pcie_ep_pcie_bram_7vx_cpl' [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pcie_bram_7vx_cpl.v:68]
+INFO: [Synth 8-6157] synthesizing module 'vc709_pcie_ep_pcie_bram_7vx_16k' [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pcie_bram_7vx_16k.v:69]
+INFO: [Synth 8-6157] synthesizing module 'RAMB36E1__parameterized1' [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:103900]
+INFO: [Synth 8-6155] done synthesizing module 'RAMB36E1__parameterized1' (0#1) [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:103900]
+INFO: [Synth 8-6155] done synthesizing module 'vc709_pcie_ep_pcie_bram_7vx_16k' (0#1) [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pcie_bram_7vx_16k.v:69]
+INFO: [Synth 8-6155] done synthesizing module 'vc709_pcie_ep_pcie_bram_7vx_cpl' (0#1) [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pcie_bram_7vx_cpl.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'vc709_pcie_ep_pcie_bram_7vx' (0#1) [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pcie_bram_7vx.v:73]
+INFO: [Synth 8-6155] done synthesizing module 'vc709_pcie_ep_pcie_7vx' (0#1) [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pcie_7vx.v:76]
+INFO: [Synth 8-6157] synthesizing module 'vc709_pcie_ep_pcie_force_adapt' [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pcie_force_adapt.v:83]
+INFO: [Synth 8-155] case statement is not full and has no default [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pcie_force_adapt.v:234]
+INFO: [Synth 8-6155] done synthesizing module 'vc709_pcie_ep_pcie_force_adapt' (0#1) [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pcie_force_adapt.v:83]
+INFO: [Synth 8-6157] synthesizing module 'vc709_pcie_ep_pcie_pipe_pipeline' [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pcie_pipe_pipeline.v:67]
+INFO: [Synth 8-6157] synthesizing module 'vc709_pcie_ep_pcie_pipe_lane' [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pcie_pipe_lane.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'vc709_pcie_ep_pcie_pipe_lane' (0#1) [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pcie_pipe_lane.v:65]
+INFO: [Synth 8-6157] synthesizing module 'vc709_pcie_ep_pcie_pipe_misc' [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pcie_pipe_misc.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'vc709_pcie_ep_pcie_pipe_misc' (0#1) [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pcie_pipe_misc.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'vc709_pcie_ep_pcie_pipe_pipeline' (0#1) [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pcie_pipe_pipeline.v:67]
+INFO: [Synth 8-6155] done synthesizing module 'vc709_pcie_ep_pcie_top' (0#1) [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pcie_top.v:82]
+INFO: [Synth 8-6157] synthesizing module 'vc709_pcie_ep_gt_top' [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_gt_top.v:85]
+INFO: [Synth 8-6157] synthesizing module 'vc709_pcie_ep_pipe_wrapper' [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pipe_wrapper.v:158]
+INFO: [Synth 8-6157] synthesizing module 'vc709_pcie_ep_qpll_reset' [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_qpll_reset.v:66]
+INFO: [Synth 8-6155] done synthesizing module 'vc709_pcie_ep_qpll_reset' (0#1) [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_qpll_reset.v:66]
+INFO: [Synth 8-6157] synthesizing module 'vc709_pcie_ep_pipe_eq' [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pipe_eq.v:67]
+INFO: [Synth 8-226] default block is never used [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pipe_eq.v:401]
+INFO: [Synth 8-6157] synthesizing module 'vc709_pcie_ep_rxeq_scan' [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_rxeq_scan.v:66]
+INFO: [Synth 8-6155] done synthesizing module 'vc709_pcie_ep_rxeq_scan' (0#1) [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_rxeq_scan.v:66]
+INFO: [Synth 8-6155] done synthesizing module 'vc709_pcie_ep_pipe_eq' (0#1) [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pipe_eq.v:67]
+INFO: [Synth 8-6157] synthesizing module 'vc709_pcie_ep_gt_common' [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_gt_common.v:57]
+INFO: [Synth 8-6157] synthesizing module 'vc709_pcie_ep_qpll_drp' [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_qpll_drp.v:64]
+INFO: [Synth 8-6155] done synthesizing module 'vc709_pcie_ep_qpll_drp' (0#1) [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_qpll_drp.v:64]
+INFO: [Synth 8-6157] synthesizing module 'vc709_pcie_ep_qpll_wrapper' [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_qpll_wrapper.v:60]
+INFO: [Synth 8-6157] synthesizing module 'GTHE2_COMMON' [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:29657]
+INFO: [Synth 8-6155] done synthesizing module 'GTHE2_COMMON' (0#1) [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:29657]
+INFO: [Synth 8-6155] done synthesizing module 'vc709_pcie_ep_qpll_wrapper' (0#1) [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_qpll_wrapper.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'vc709_pcie_ep_gt_common' (0#1) [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_gt_common.v:57]
+INFO: [Synth 8-6157] synthesizing module 'vc709_pcie_ep_pipe_user' [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pipe_user.v:67]
+INFO: [Synth 8-6155] done synthesizing module 'vc709_pcie_ep_pipe_user' (0#1) [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pipe_user.v:67]
+INFO: [Synth 8-6157] synthesizing module 'vc709_pcie_ep_pipe_rate' [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pipe_rate.v:67]
+INFO: [Synth 8-6155] done synthesizing module 'vc709_pcie_ep_pipe_rate' (0#1) [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pipe_rate.v:67]
+INFO: [Synth 8-6157] synthesizing module 'vc709_pcie_ep_pipe_sync' [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pipe_sync.v:72]
+INFO: [Synth 8-6155] done synthesizing module 'vc709_pcie_ep_pipe_sync' (0#1) [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pipe_sync.v:72]
+INFO: [Synth 8-6157] synthesizing module 'vc709_pcie_ep_pipe_drp' [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pipe_drp.v:67]
+INFO: [Synth 8-6155] done synthesizing module 'vc709_pcie_ep_pipe_drp' (0#1) [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pipe_drp.v:67]
+INFO: [Synth 8-6157] synthesizing module 'vc709_pcie_ep_gt_wrapper' [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_gt_wrapper.v:68]
+INFO: [Synth 8-6157] synthesizing module 'GTHE2_CHANNEL' [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:28823]
+INFO: [Synth 8-6155] done synthesizing module 'GTHE2_CHANNEL' (0#1) [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:28823]
+INFO: [Synth 8-6157] synthesizing module 'vc709_pcie_ep_gtx_cpllpd_ovrd' [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_gtx_cpllpd_ovrd.v:55]
+INFO: [Synth 8-6155] done synthesizing module 'vc709_pcie_ep_gtx_cpllpd_ovrd' (0#1) [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_gtx_cpllpd_ovrd.v:55]
+INFO: [Synth 8-6155] done synthesizing module 'vc709_pcie_ep_gt_wrapper' (0#1) [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_gt_wrapper.v:68]
+INFO: [Synth 8-6157] synthesizing module 'vc709_pcie_ep_pipe_reset' [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pipe_reset.v:67]
+INFO: [Synth 8-6155] done synthesizing module 'vc709_pcie_ep_pipe_reset' (0#1) [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pipe_reset.v:67]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:1082]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (0#1) [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:1082]
+INFO: [Synth 8-6155] done synthesizing module 'vc709_pcie_ep_pipe_wrapper' (0#1) [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pipe_wrapper.v:158]
+INFO: [Synth 8-6155] done synthesizing module 'vc709_pcie_ep_gt_top' (0#1) [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_gt_top.v:85]
+INFO: [Synth 8-6155] done synthesizing module 'vc709_pcie_ep_pcie_3_0_7vx' (0#1) [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pcie_3_0_7vx.v:116]
+WARNING: [Synth 8-7071] port 'free_run_clock' of module 'vc709_pcie_ep_pcie_3_0_7vx' is unconnected for instance 'inst' [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/synth/vc709_pcie_ep.v:848]
+WARNING: [Synth 8-7023] instance 'inst' of module 'vc709_pcie_ep_pcie_3_0_7vx' has 295 connections declared, but only 294 given [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/synth/vc709_pcie_ep.v:848]
+INFO: [Synth 8-6155] done synthesizing module 'vc709_pcie_ep' (0#1) [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/synth/vc709_pcie_ep.v:53]
+WARNING: [Synth 8-6014] Unused sequential element resetovrd_disble.reset_cnt_reg was removed.  [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pipe_user.v:384]
+WARNING: [Synth 8-6014] Unused sequential element rxsync_fsm_disable.rxsync_done_reg was removed.  [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_pipe_sync.v:613]
+WARNING: [Synth 8-6014] Unused sequential element reg_clock_locked_reg was removed.  [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep_gt_top.v:1046]
+WARNING: [Synth 8-7129] Port INT_QPLLLOCK_OUT[1] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INT_QPLLOUTCLK_OUT[1] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INT_QPLLOUTREFCLK_OUT[1] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_QPLLRESET[1] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PIPE_MMCM_RST_N in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INT_PCLK_SEL_SLAVE[3] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INT_PCLK_SEL_SLAVE[2] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INT_PCLK_SEL_SLAVE[1] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INT_PCLK_SEL_SLAVE[0] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_CRSCODE[11] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_CRSCODE[10] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_CRSCODE[9] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_CRSCODE[8] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_CRSCODE[7] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_CRSCODE[6] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_CRSCODE[5] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_CRSCODE[4] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_CRSCODE[3] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_CRSCODE[2] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_CRSCODE[1] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_CRSCODE[0] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_FSM[17] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_FSM[16] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_FSM[15] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_FSM[14] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_FSM[13] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_FSM[12] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_FSM[11] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_FSM[10] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_FSM[9] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_FSM[8] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_FSM[7] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_FSM[6] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_FSM[5] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_FSM[4] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_FSM[3] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_FSM[2] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_FSM[1] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_FSM[0] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_DONE[1] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_DONE[0] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_RESET[1] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_RESET[0] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_QPLLLOCK[1] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_QPLLLOCK[0] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_QPLLOUTCLK[1] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_QPLLOUTCLK[0] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_QPLLOUTREFCLK[1] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_QPLLOUTREFCLK[0] in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PIPE_JTAG_EN in module vc709_pcie_ep_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx_reset in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_rxslide[7] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_rxslide[6] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_rxslide[5] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_rxslide[4] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_ltssm_state[5] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_ltssm_state[4] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_ltssm_state[3] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_ltssm_state[2] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_ltssm_state[1] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_ltssm_state[0] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_rx4_polarity in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_compliance in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_char_is_k[1] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_char_is_k[0] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[31] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[30] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[29] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[28] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[27] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[26] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[25] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[24] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[23] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[22] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[21] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[20] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[19] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[18] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[17] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[16] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[15] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[14] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[13] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[12] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[11] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[10] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[9] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[8] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[7] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[6] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[5] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[4] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[3] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[2] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[1] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[0] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_elec_idle in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_powerdown[1] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_powerdown[0] in module vc709_pcie_ep_gt_top is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 1516.926 ; gain = 222.812
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 1516.926 ; gain = 222.812
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 1516.926 ; gain = 222.812
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.271 . Memory (MB): peak = 1516.926 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 11 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/synth/vc709_pcie_ep_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/synth/vc709_pcie_ep_ooc.xdc] for cell 'inst'
+Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep-PCIE_X0Y1.xdc] for cell 'inst'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep-PCIE_X0Y1.xdc] for cell 'inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [d:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.gen/sources_1/ip/vc709_pcie_ep/source/vc709_pcie_ep-PCIE_X0Y1.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/vc709_pcie_ep_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/vc709_pcie_ep_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [D:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.runs/vc709_pcie_ep_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.runs/vc709_pcie_ep_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1611.434 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.144 . Memory (MB): peak = 1614.191 ; gain = 2.758
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:26 . Memory (MB): peak = 1614.191 ; gain = 320.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7vx690tffg1761-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:26 . Memory (MB): peak = 1614.191 ; gain = 320.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  D:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.runs/vc709_pcie_ep_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:26 . Memory (MB): peak = 1614.191 ; gain = 320.078
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'reg_state_reg' in module 'vc709_pcie_ep_pcie_init_ctrl_7vx'
+INFO: [Synth 8-802] inferred FSM for state register 'eq_state_reg' in module 'vc709_pcie_ep_pcie_force_adapt'
+INFO: [Synth 8-802] inferred FSM for state register 'fsm_reg' in module 'vc709_pcie_ep_qpll_reset'
+INFO: [Synth 8-802] inferred FSM for state register 'fsm_reg' in module 'vc709_pcie_ep_rxeq_scan'
+INFO: [Synth 8-802] inferred FSM for state register 'fsm_tx_reg' in module 'vc709_pcie_ep_pipe_eq'
+INFO: [Synth 8-802] inferred FSM for state register 'fsm_rx_reg' in module 'vc709_pcie_ep_pipe_eq'
+INFO: [Synth 8-802] inferred FSM for state register 'fsm_reg' in module 'vc709_pcie_ep_qpll_drp'
+INFO: [Synth 8-802] inferred FSM for state register 'txsync_fsm.fsm_tx_reg' in module 'vc709_pcie_ep_pipe_sync'
+INFO: [Synth 8-802] inferred FSM for state register 'fsm_reg' in module 'vc709_pcie_ep_pipe_drp'
+INFO: [Synth 8-802] inferred FSM for state register 'fsm_reg' in module 'vc709_pcie_ep_pipe_reset'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+             STATE_RESET |                         00000001 |                              000
+STATE_MGMT_RESET_DEASSERT |                         00000010 |                              001
+   STATE_MC_TRANSFER_REQ |                         00000100 |                              010
+  STATE_INPUT_UPDATE_REQ |                         00001000 |                              011
+           STATE_PHY_RDY |                         00010000 |                              100
+    STATE_RESET_DEASSERT |                         00100000 |                              101
+ STATE_MGMT_RESET_ASSERT |                         01000000 |                              111
+STATE_INPUT_UPDATE_REQ_REDO |                         10000000 |                              110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'reg_state_reg' using encoding 'one-hot' in module 'vc709_pcie_ep_pcie_init_ctrl_7vx'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                 EQ_IDLE |                             0001 |                             0001
+                EQ_ADAPT |                             0010 |                             0010
+                 EQ_WAIT |                             1000 |                             1000
+               EQ_RX_TEK |                             0100 |                             0100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'eq_state_reg' in module 'vc709_pcie_ep_pcie_force_adapt'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+           FSM_WAIT_LOCK |                     000000000010 |                     000000000010
+           FSM_MMCM_LOCK |                     000000000100 |                     000000000100
+       FSM_DRP_START_NOM |                     000000001000 |                     000000001000
+        FSM_DRP_DONE_NOM |                     000000010000 |                     000000010000
+            FSM_QPLLLOCK |                     000000100000 |                     000000100000
+        FSM_QPLL_PDRESET |                     010000000000 |                     010000000000
+             FSM_QPLL_PD |                     100000000000 |                     100000000000
+                FSM_IDLE |                     000000000001 |                     000000000001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'fsm_reg' in module 'vc709_pcie_ep_qpll_reset'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                            00001 |                             0000
+*
+                FSM_IDLE |                            00010 |                             0001
+              FSM_PRESET |                            00100 |                             0010
+            FSM_CONVERGE |                            01000 |                             0100
+     FSM_NEW_TXCOEFF_REQ |                            10000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'fsm_reg' using encoding 'one-hot' in module 'vc709_pcie_ep_rxeq_scan'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                              000 |                           000000
+*
+           FSM_TXEQ_IDLE |                              001 |                           000001
+         FSM_TXEQ_PRESET |                              010 |                           000010
+        FSM_TXEQ_TXCOEFF |                              011 |                           000100
+          FSM_TXEQ_REMAP |                              100 |                           001000
+          FSM_TXEQ_QUERY |                              101 |                           010000
+           FSM_TXEQ_DONE |                              110 |                           100000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'fsm_tx_reg' using encoding 'sequential' in module 'vc709_pcie_ep_pipe_eq'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                          0000001 |                           000000
+*
+           FSM_RXEQ_IDLE |                          0000010 |                           000001
+         FSM_RXEQ_PRESET |                          0000100 |                           000010
+        FSM_RXEQ_TXCOEFF |                          0001000 |                           000100
+             FSM_RXEQ_LF |                          0010000 |                           001000
+FSM_RXEQ_NEW_TXCOEFF_REQ |                          0100000 |                           010000
+           FSM_RXEQ_DONE |                          1000000 |                           100000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'fsm_rx_reg' using encoding 'one-hot' in module 'vc709_pcie_ep_pipe_eq'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                FSM_IDLE |                        000000001 |                        000000001
+                FSM_LOAD |                        000000010 |                        000000010
+                FSM_READ |                        000000100 |                        000000100
+                FSM_RRDY |                        000001000 |                        000001000
+               FSM_WRITE |                        000010000 |                        000010000
+                FSM_WRDY |                        000100000 |                        000100000
+                FSM_DONE |                        001000000 |                        001000000
+           FSM_QPLLRESET |                        010000000 |                        010000000
+            FSM_QPLLLOCK |                        100000000 |                        100000000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'fsm_reg' in module 'vc709_pcie_ep_qpll_drp'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                          0000001 |                           000000
+*
+         FSM_TXSYNC_IDLE |                          0000010 |                           000001
+           FSM_MMCM_LOCK |                          0000100 |                           000010
+        FSM_TXSYNC_START |                          0001000 |                           000100
+        FSM_TXPHINITDONE |                          0010000 |                           001000
+        FSM_TXSYNC_DONE1 |                          0100000 |                           010000
+        FSM_TXSYNC_DONE2 |                          1000000 |                           100000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'txsync_fsm.fsm_tx_reg' using encoding 'one-hot' in module 'vc709_pcie_ep_pipe_sync'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                FSM_IDLE |                          0000001 |                          0000001
+                FSM_LOAD |                          0000010 |                          0000010
+                FSM_READ |                          0000100 |                          0000100
+                FSM_RRDY |                          0001000 |                          0001000
+               FSM_WRITE |                          0010000 |                          0010000
+                FSM_WRDY |                          0100000 |                          0100000
+                FSM_DONE |                          1000000 |                          1000000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'fsm_reg' in module 'vc709_pcie_ep_pipe_drp'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+            FSM_CFG_WAIT |                00000000000000010 |                            00001
+           FSM_CPLLRESET |                00000000000000001 |                            00010
+            FSM_CPLLLOCK |                00000000100000000 |                            00101
+                 FSM_DRP |                01000000000000000 |                            00110
+       FSM_DRP_X16_START |                00000000001000000 |                            00011
+        FSM_DRP_X16_DONE |                00000000010000000 |                            00100
+             FSM_GTRESET |                00010000000000000 |                            00111
+    FSM_RXPMARESETDONE_1 |                00100000000000000 |                            01000
+    FSM_RXPMARESETDONE_2 |                10000000000000000 |                            01001
+       FSM_DRP_X20_START |                00001000000000000 |                            01010
+        FSM_DRP_X20_DONE |                00000100000000000 |                            01011
+           FSM_MMCM_LOCK |                00000000000100000 |                            01100
+           FSM_RESETDONE |                00000000000010000 |                            01101
+             FSM_CPLL_PD |                00000000000000100 |                            01110
+        FSM_TXSYNC_START |                00000000000001000 |                            01111
+         FSM_TXSYNC_DONE |                00000001000000000 |                            10000
+                FSM_IDLE |                00000010000000000 |                            00000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'fsm_reg' using encoding 'one-hot' in module 'vc709_pcie_ep_pipe_reset'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:29 . Memory (MB): peak = 1614.191 ; gain = 320.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   23 Bit       Adders := 4     
+	   2 Input    8 Bit       Adders := 1     
+	   2 Input    6 Bit       Adders := 2     
+	   2 Input    5 Bit       Adders := 5     
+	   2 Input    4 Bit       Adders := 12    
+	   2 Input    3 Bit       Adders := 5     
+	   2 Input    2 Bit       Adders := 14    
+	   2 Input    1 Bit       Adders := 4     
++---Registers : 
+	              128 Bit    Registers := 4     
+	               96 Bit    Registers := 4     
+	               23 Bit    Registers := 4     
+	               19 Bit    Registers := 4     
+	               18 Bit    Registers := 32    
+	               16 Bit    Registers := 15    
+	                8 Bit    Registers := 10    
+	                7 Bit    Registers := 4     
+	                6 Bit    Registers := 45    
+	                5 Bit    Registers := 9     
+	                4 Bit    Registers := 62    
+	                3 Bit    Registers := 29    
+	                2 Bit    Registers := 59    
+	                1 Bit    Registers := 668   
++---Muxes : 
+	   2 Input  128 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 8     
+	   2 Input   23 Bit        Muxes := 4     
+	   5 Input   23 Bit        Muxes := 4     
+	   2 Input   19 Bit        Muxes := 4     
+	   7 Input   19 Bit        Muxes := 4     
+	   2 Input   18 Bit        Muxes := 12    
+	  24 Input   18 Bit        Muxes := 4     
+	   7 Input   18 Bit        Muxes := 8     
+	  17 Input   17 Bit        Muxes := 1     
+	   2 Input   17 Bit        Muxes := 14    
+	   2 Input   16 Bit        Muxes := 21    
+	   2 Input   15 Bit        Muxes := 8     
+	   2 Input   14 Bit        Muxes := 8     
+	  13 Input   12 Bit        Muxes := 1     
+	   2 Input   12 Bit        Muxes := 12    
+	   2 Input   11 Bit        Muxes := 2     
+	   2 Input   10 Bit        Muxes := 2     
+	  10 Input    9 Bit        Muxes := 1     
+	   2 Input    9 Bit        Muxes := 6     
+	   3 Input    9 Bit        Muxes := 1     
+	   8 Input    8 Bit        Muxes := 2     
+	   2 Input    8 Bit        Muxes := 17    
+	   3 Input    8 Bit        Muxes := 4     
+	   2 Input    7 Bit        Muxes := 53    
+	   7 Input    7 Bit        Muxes := 8     
+	   4 Input    7 Bit        Muxes := 4     
+	   8 Input    7 Bit        Muxes := 4     
+	   2 Input    6 Bit        Muxes := 10    
+	   7 Input    6 Bit        Muxes := 12    
+	   8 Input    6 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 110   
+	   5 Input    5 Bit        Muxes := 4     
+	   8 Input    5 Bit        Muxes := 4     
+	  17 Input    5 Bit        Muxes := 1     
+	   5 Input    4 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 32    
+	   7 Input    4 Bit        Muxes := 4     
+	   3 Input    4 Bit        Muxes := 8     
+	   2 Input    3 Bit        Muxes := 41    
+	   3 Input    3 Bit        Muxes := 1     
+	   8 Input    3 Bit        Muxes := 2     
+	   7 Input    3 Bit        Muxes := 12    
+	   4 Input    3 Bit        Muxes := 4     
+	  10 Input    3 Bit        Muxes := 1     
+	  32 Input    3 Bit        Muxes := 4     
+	   2 Input    2 Bit        Muxes := 39    
+	   7 Input    2 Bit        Muxes := 4     
+	  32 Input    2 Bit        Muxes := 4     
+	   2 Input    1 Bit        Muxes := 114   
+	   8 Input    1 Bit        Muxes := 18    
+	   3 Input    1 Bit        Muxes := 1     
+	   5 Input    1 Bit        Muxes := 33    
+	  13 Input    1 Bit        Muxes := 6     
+	   4 Input    1 Bit        Muxes := 8     
+	   7 Input    1 Bit        Muxes := 68    
+	  10 Input    1 Bit        Muxes := 3     
+	  32 Input    1 Bit        Muxes := 76    
+	  17 Input    1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 3600 (col length:200)
+BRAMs: 2940 (col length: RAMB18 200 RAMB36 100)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3332] Sequential element (pcie_top_i/pcie_init_ctrl_7vx_i/FSM_onehot_reg_state_reg[7]) is unused and will be removed from module vc709_pcie_ep_pcie_3_0_7vx.
+WARNING: [Synth 8-3332] Sequential element (rxeq_scan_i/FSM_onehot_fsm_reg[0]) is unused and will be removed from module vc709_pcie_ep_pipe_eq.
+WARNING: [Synth 8-3332] Sequential element (FSM_onehot_fsm_rx_reg[0]) is unused and will be removed from module vc709_pcie_ep_pipe_eq.
+WARNING: [Synth 8-3332] Sequential element (FSM_onehot_txsync_fsm.fsm_tx_reg[0]) is unused and will be removed from module vc709_pcie_ep_pipe_sync.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:40 . Memory (MB): peak = 1614.191 ; gain = 320.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:37 ; elapsed = 00:00:47 . Memory (MB): peak = 1898.695 ; gain = 604.582
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:49 . Memory (MB): peak = 1939.117 ; gain = 645.004
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:41 ; elapsed = 00:00:52 . Memory (MB): peak = 1958.336 ; gain = 664.223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:47 ; elapsed = 00:00:58 . Memory (MB): peak = 1971.855 ; gain = 677.742
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:47 ; elapsed = 00:00:58 . Memory (MB): peak = 1971.855 ; gain = 677.742
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:47 ; elapsed = 00:00:59 . Memory (MB): peak = 1971.855 ; gain = 677.742
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:47 ; elapsed = 00:00:59 . Memory (MB): peak = 1971.855 ; gain = 677.742
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:47 ; elapsed = 00:00:59 . Memory (MB): peak = 1971.855 ; gain = 677.742
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:47 ; elapsed = 00:00:59 . Memory (MB): peak = 1971.855 ; gain = 677.742
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++---------------------------+--------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name                | RTL Name                                                                             | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++---------------------------+--------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|vc709_pcie_ep_pcie_3_0_7vx | gt_top_i/pipe_wrapper_i/pipe_lane[0].gt_wrapper_i/cpllPDInst/cpllpd_wait_reg[95]     | 96     | 4     | NO           | NO                 | YES               | 0      | 12      | 
+|vc709_pcie_ep_pcie_3_0_7vx | gt_top_i/pipe_wrapper_i/pipe_lane[0].gt_wrapper_i/cpllPDInst/cpllreset_wait_reg[127] | 128    | 4     | NO           | NO                 | YES               | 0      | 16      | 
++---------------------------+--------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------------+------+
+|      |Cell          |Count |
++------+--------------+------+
+|1     |BUFG          |     1|
+|2     |CARRY4        |    48|
+|3     |GTHE2_CHANNEL |     4|
+|4     |GTHE2_COMMON  |     1|
+|5     |LUT1          |    19|
+|6     |LUT2          |   446|
+|7     |LUT3          |   379|
+|8     |LUT4          |   201|
+|9     |LUT5          |   576|
+|10    |LUT6          |   609|
+|11    |MUXF7         |    24|
+|12    |PCIE_3        |     1|
+|13    |RAMB18E1      |     4|
+|14    |RAMB36E1      |     7|
+|17    |SRLC32E       |    28|
+|18    |FDCE          |    12|
+|19    |FDPE          |    11|
+|20    |FDRE          |  2441|
+|21    |FDSE          |    56|
++------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:47 ; elapsed = 00:00:59 . Memory (MB): peak = 1971.855 ; gain = 677.742
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 799 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:32 ; elapsed = 00:00:51 . Memory (MB): peak = 1971.855 ; gain = 580.477
+Synthesis Optimization Complete : Time (s): cpu = 00:00:47 ; elapsed = 00:00:59 . Memory (MB): peak = 1971.855 ; gain = 677.742
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.161 . Memory (MB): peak = 1971.855 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 83 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2004.977 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: c49db4f4
+INFO: [Common 17-83] Releasing license: Synthesis
+123 Infos, 110 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:57 ; elapsed = 00:01:11 . Memory (MB): peak = 2004.977 ; gain = 710.863
+INFO: [Common 17-1381] The checkpoint 'D:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.runs/vc709_pcie_ep_synth_1/vc709_pcie_ep.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP vc709_pcie_ep, cache-ID = dfdcfbb5c1893c90
+INFO: [Common 17-1381] The checkpoint 'D:/Tony/Downloads/PCIe/12022023/vc709_pcie_ep/vc709_pcie_ep.runs/vc709_pcie_ep_synth_1/vc709_pcie_ep.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file vc709_pcie_ep_utilization_synth.rpt -pb vc709_pcie_ep_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Dec  2 21:22:04 2023...

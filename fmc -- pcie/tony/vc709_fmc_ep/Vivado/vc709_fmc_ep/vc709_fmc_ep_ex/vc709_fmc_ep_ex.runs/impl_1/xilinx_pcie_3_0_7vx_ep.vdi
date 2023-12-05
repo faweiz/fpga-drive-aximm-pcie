@@ -1,0 +1,948 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Dec  4 15:03:15 2023
+# Process ID: 145036
+# Current directory: d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.runs/impl_1
+# Command line: vivado.exe -log xilinx_pcie_3_0_7vx_ep.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source xilinx_pcie_3_0_7vx_ep.tcl -notrace
+# Log file: d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.runs/impl_1/xilinx_pcie_3_0_7vx_ep.vdi
+# Journal file: d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.runs/impl_1\vivado.jou
+# Running On: Tony-VPI4CJD, OS: Windows, CPU Frequency: 2208 MHz, CPU Physical cores: 6, Host memory: 34140 MB
+#-----------------------------------------------------------
+source xilinx_pcie_3_0_7vx_ep.tcl -notrace
+Command: link_design -top xilinx_pcie_3_0_7vx_ep -part xc7vx690tffg1761-2
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7vx690tffg1761-2
+INFO: [Project 1-454] Reading design checkpoint 'd:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.gen/sources_1/ip/vc709_fmc_ep/vc709_fmc_ep.dcp' for cell 'vc709_fmc_ep_support_i/vc709_fmc_ep_i'
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.163 . Memory (MB): peak = 1294.340 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 98 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.gen/sources_1/ip/vc709_fmc_ep/source/vc709_fmc_ep-PCIE_X0Y1.xdc] for cell 'vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.gen/sources_1/ip/vc709_fmc_ep/source/vc709_fmc_ep-PCIE_X0Y1.xdc] for cell 'vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst'
+Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/xilinx_pcie3_7x_ep_x4g2_VC709.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/xilinx_pcie3_7x_ep_x4g2_VC709.xdc:142]
+INFO: [Timing 38-2] Deriving generated clocks [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/xilinx_pcie3_7x_ep_x4g2_VC709.xdc:142]
+create_generated_clock: Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1957.766 ; gain = 663.426
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/xilinx_pcie3_7x_ep_x4g2_VC709.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1957.766 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+10 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:32 . Memory (MB): peak = 1957.766 ; gain = 663.426
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7vx690t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7vx690t'
+INFO: [Common 17-86] Your Implementation license expires in 26 day(s)
+INFO: [Common 17-1540] The version limit for your license is '2023.06' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for new releases.
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1957.766 ; gain = 0.000
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 1b5bae32c
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.361 . Memory (MB): peak = 1957.766 ; gain = 0.000
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-1287] Pulled Inverter vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_reset_i/FSM_onehot_fsm[1]_i_1__3 into driver instance vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_reset_i/FSM_onehot_fsm[1]_i_2, which resulted in an inversion of 3 pins
+INFO: [Opt 31-138] Pushed 2 inverter(s) to 2 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 1e2457ca3
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.423 . Memory (MB): peak = 2237.340 ; gain = 0.566
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 2 cells
+INFO: [Opt 31-1021] In phase Retarget, 4 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 1e2457ca3
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.459 . Memory (MB): peak = 2237.340 ; gain = 0.566
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 1ba60361e
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2237.340 ; gain = 0.566
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 912 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 1c86460d3
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2237.340 ; gain = 0.566
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: 1c86460d3
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2237.340 ; gain = 0.566
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 1ba60361e
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2237.340 ; gain = 0.566
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               0  |               2  |                                              4  |
+|  Constant propagation         |               0  |               0  |                                              0  |
+|  Sweep                        |               0  |             912  |                                              0  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 2237.340 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: c690bf2a
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2237.340 ; gain = 0.566
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 1 BRAM(s) out of a total of 15 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 1 WE to EN ports
+Number of BRAM Ports augmented: 8 newly gated: 21 Total Ports: 30
+Ending PowerOpt Patch Enables Task | Checksum: 1753f6247
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.152 . Memory (MB): peak = 2401.723 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 1753f6247
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2401.723 ; gain = 164.383
+
+Starting Final Cleanup Task
+
+Starting Logic Optimization Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Logic Optimization Task | Checksum: 177ca8482
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.561 . Memory (MB): peak = 2401.723 ; gain = 0.000
+Ending Final Cleanup Task | Checksum: 177ca8482
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2401.723 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2401.723 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 177ca8482
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 2401.723 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+37 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2401.723 ; gain = 443.957
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.171 . Memory (MB): peak = 2401.723 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'd:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.runs/impl_1/xilinx_pcie_3_0_7vx_ep_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file xilinx_pcie_3_0_7vx_ep_drc_opted.rpt -pb xilinx_pcie_3_0_7vx_ep_drc_opted.pb -rpx xilinx_pcie_3_0_7vx_ep_drc_opted.rpx
+Command: report_drc -file xilinx_pcie_3_0_7vx_ep_drc_opted.rpt -pb xilinx_pcie_3_0_7vx_ep_drc_opted.pb -rpx xilinx_pcie_3_0_7vx_ep_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.runs/impl_1/xilinx_pcie_3_0_7vx_ep_drc_opted.rpt.
+report_drc completed successfully
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7vx690t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7vx690t'
+INFO: [Common 17-86] Your Implementation license expires in 26 day(s)
+INFO: [Common 17-1540] The version limit for your license is '2023.06' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for new releases.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2401.723 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 881eeacc
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 2401.723 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2401.723 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 11a174d54
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2401.723 ; gain = 0.000
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 18f70c7ba
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2401.723 ; gain = 0.000
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 18f70c7ba
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2401.723 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 18f70c7ba
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2401.723 ; gain = 0.000
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: 20c529fdf
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 2401.723 ; gain = 0.000
+
+Phase 2.2 Update Timing before SLR Path Opt
+Phase 2.2 Update Timing before SLR Path Opt | Checksum: 174037244
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 2401.723 ; gain = 0.000
+
+Phase 2.3 Post-Processing in Floorplanning
+Phase 2.3 Post-Processing in Floorplanning | Checksum: 174037244
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 2401.723 ; gain = 0.000
+
+Phase 2.4 Global Placement Core
+
+Phase 2.4.1 Physical Synthesis In Placer
+INFO: [Physopt 32-1035] Found 0 LUTNM shape to break, 318 LUT instances to create LUTNM shape
+INFO: [Physopt 32-1044] Break lutnm for timing: one critical 0, two critical 0, total 0, new lutff created 0
+INFO: [Physopt 32-1138] End 1 Pass. Optimized 147 nets or LUTs. Breaked 0 LUT, combined 147 existing LUTs and moved 0 existing LUT
+INFO: [Physopt 32-76] Pass 1. Identified 1 candidate net for fanout optimization.
+INFO: [Physopt 32-81] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_reset_i/cpllreset. Replicated 7 times.
+INFO: [Physopt 32-232] Optimized 1 net. Created 7 new instances.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 1 net or cell. Created 7 new cells, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 2408.980 ; gain = 0.000
+INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in the design.
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-1123] No candidate cells found for Shift Register to Pipeline optimization
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-677] No candidate cells for Shift Register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-526] No candidate cells for BRAM register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-846] No candidate cells for URAM register optimization found in the design
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-949] No candidate nets found for dynamic/static region interface net replication
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2408.980 ; gain = 0.000
+INFO: [Physopt 32-68] No nets found for critical-cell optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2408.980 ; gain = 0.000
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization                                     |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  LUT Combining                                    |            0  |            147  |                   147  |           0  |           1  |  00:00:00  |
+|  Retime                                           |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Very High Fanout                                 |            7  |              0  |                     1  |           0  |           1  |  00:00:00  |
+|  DSP Register                                     |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register to Pipeline                       |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register                                   |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  BRAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  URAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Dynamic/Static Region Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Critical Cell                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total                                            |            7  |            147  |                   148  |           0  |          10  |  00:00:01  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.4.1 Physical Synthesis In Placer | Checksum: 166c9604e
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:15 . Memory (MB): peak = 2408.980 ; gain = 7.258
+Phase 2.4 Global Placement Core | Checksum: 1c0039a83
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:16 . Memory (MB): peak = 2408.980 ; gain = 7.258
+Phase 2 Global Placement | Checksum: 1c0039a83
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:16 . Memory (MB): peak = 2408.980 ; gain = 7.258
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 1ea337995
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:17 . Memory (MB): peak = 2408.980 ; gain = 7.258
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 10b364d83
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:18 . Memory (MB): peak = 2408.980 ; gain = 7.258
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 18f198e25
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:18 . Memory (MB): peak = 2408.980 ; gain = 7.258
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 1b8580daf
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:18 . Memory (MB): peak = 2408.980 ; gain = 7.258
+
+Phase 3.5 Fast Optimization
+Phase 3.5 Fast Optimization | Checksum: 1bc56c4f2
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:20 . Memory (MB): peak = 2408.980 ; gain = 7.258
+
+Phase 3.6 Small Shape Detail Placement
+Phase 3.6 Small Shape Detail Placement | Checksum: 21dba0801
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:24 . Memory (MB): peak = 2420.082 ; gain = 18.359
+
+Phase 3.7 Re-assign LUT pins
+Phase 3.7 Re-assign LUT pins | Checksum: 22100dc28
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:24 . Memory (MB): peak = 2420.082 ; gain = 18.359
+
+Phase 3.8 Pipeline Register Optimization
+Phase 3.8 Pipeline Register Optimization | Checksum: 88fe100a
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:24 . Memory (MB): peak = 2420.082 ; gain = 18.359
+
+Phase 3.9 Fast Optimization
+Phase 3.9 Fast Optimization | Checksum: 1738618af
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:27 . Memory (MB): peak = 2420.082 ; gain = 18.359
+Phase 3 Detail Placement | Checksum: 1738618af
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:27 . Memory (MB): peak = 2420.082 ; gain = 18.359
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 188e4aba2
+
+Phase 4.1.1.1 BUFG Insertion
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-2.072 | TNS=-154.966 |
+Phase 1 Physical Synthesis Initialization | Checksum: 1f5ada846
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.298 . Memory (MB): peak = 2485.918 ; gain = 0.000
+INFO: [Place 46-56] BUFG insertion identified 0 candidate nets. Inserted BUFG: 0, Replicated BUFG Driver: 0, Skipped due to Placement/Routing Conflicts: 0, Skipped due to Timing Degradation: 0, Skipped due to Illegal Netlist: 0.
+Ending Physical Synthesis Task | Checksum: 24c2c6582
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.334 . Memory (MB): peak = 2485.918 ; gain = 0.000
+Phase 4.1.1.1 BUFG Insertion | Checksum: 188e4aba2
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:30 . Memory (MB): peak = 2485.918 ; gain = 84.195
+
+Phase 4.1.1.2 Post Placement Timing Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=-2.024. For the most accurate timing information please run report_timing.
+Phase 4.1.1.2 Post Placement Timing Optimization | Checksum: 1b7c59465
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:58 . Memory (MB): peak = 2485.918 ; gain = 84.195
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:58 . Memory (MB): peak = 2485.918 ; gain = 84.195
+Phase 4.1 Post Commit Optimization | Checksum: 1b7c59465
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:58 . Memory (MB): peak = 2485.918 ; gain = 84.195
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 1b7c59465
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:58 . Memory (MB): peak = 2485.918 ; gain = 84.195
+
+Phase 4.3 Placer Reporting
+
+Phase 4.3.1 Print Estimated Congestion
+INFO: [Place 30-612] Post-Placement Estimated Congestion 
+ ____________________________________________________
+|           | Global Congestion | Short Congestion  |
+| Direction | Region Size       | Region Size       |
+|___________|___________________|___________________|
+|      North|                1x1|                4x4|
+|___________|___________________|___________________|
+|      South|                1x1|                2x2|
+|___________|___________________|___________________|
+|       East|                1x1|                1x1|
+|___________|___________________|___________________|
+|       West|                1x1|                1x1|
+|___________|___________________|___________________|
+
+Phase 4.3.1 Print Estimated Congestion | Checksum: 1b7c59465
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:58 . Memory (MB): peak = 2485.918 ; gain = 84.195
+Phase 4.3 Placer Reporting | Checksum: 1b7c59465
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:58 . Memory (MB): peak = 2485.918 ; gain = 84.195
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2485.918 ; gain = 0.000
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:58 . Memory (MB): peak = 2485.918 ; gain = 84.195
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1cd256f5c
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:58 . Memory (MB): peak = 2485.918 ; gain = 84.195
+Ending Placer Task | Checksum: 18abe149d
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:58 . Memory (MB): peak = 2485.918 ; gain = 84.195
+INFO: [Common 17-83] Releasing license: Implementation
+83 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:00:38 ; elapsed = 00:01:00 . Memory (MB): peak = 2485.918 ; gain = 84.195
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.783 . Memory (MB): peak = 2485.918 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'd:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.runs/impl_1/xilinx_pcie_3_0_7vx_ep_placed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_io -file xilinx_pcie_3_0_7vx_ep_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.228 . Memory (MB): peak = 2485.918 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file xilinx_pcie_3_0_7vx_ep_utilization_placed.rpt -pb xilinx_pcie_3_0_7vx_ep_utilization_placed.pb
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file xilinx_pcie_3_0_7vx_ep_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 2485.918 ; gain = 0.000
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7vx690t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7vx690t'
+INFO: [Common 17-86] Your Implementation license expires in 26 day(s)
+INFO: [Common 17-1540] The version limit for your license is '2023.06' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for new releases.
+INFO: [Vivado_Tcl 4-1435] PhysOpt_Tcl_Interface Runtime Before Starting Physical Synthesis Task | CPU: 1.00s |  WALL: 1.05s
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2485.918 ; gain = 0.000
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-2.024 | TNS=-167.667 |
+Phase 1 Physical Synthesis Initialization | Checksum: 1bfbe152c
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2485.918 ; gain = 0.000
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-2.024 | TNS=-167.667 |
+
+Phase 2 DSP Register Optimization
+INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in the design.
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Phase 2 DSP Register Optimization | Checksum: 1bfbe152c
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2485.918 ; gain = 0.000
+
+Phase 3 Critical Path Optimization
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-2.024 | TNS=-167.667 |
+INFO: [Physopt 32-702] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/pcie_7vx_i/s_axis_rq_tready[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[3].gt_wrapper_i/gt_rxvalid_3. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[3].pipe_user_i/pipe_rx3_valid.  Re-placed instance vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[3].pipe_user_i/PCIE_3_0_i_i_12
+INFO: [Physopt 32-735] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[3].pipe_user_i/pipe_rx3_valid. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.941 | TNS=-167.345 |
+INFO: [Physopt 32-702] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[3].gt_wrapper_i/PIPE_RXDATA[8]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX3DATA[8].  Re-placed instance vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PCIE_3_0_i_i_286
+INFO: [Physopt 32-735] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX3DATA[8]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.860 | TNS=-167.106 |
+INFO: [Physopt 32-702] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[2].gt_wrapper_i/gt_rxvalid_2. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[2].pipe_user_i/pipe_rx2_valid.  Re-placed instance vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[2].pipe_user_i/PCIE_3_0_i_i_9
+INFO: [Physopt 32-735] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[2].pipe_user_i/pipe_rx2_valid. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.850 | TNS=-166.940 |
+INFO: [Physopt 32-702] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[3].gt_wrapper_i/PIPE_RXDATA[6]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX3DATA[6].  Re-placed instance vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PCIE_3_0_i_i_288
+INFO: [Physopt 32-735] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX3DATA[6]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.794 | TNS=-166.703 |
+INFO: [Physopt 32-702] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[3].gt_wrapper_i/PIPE_RXDATA[12]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX3DATA[12].  Re-placed instance vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PCIE_3_0_i_i_282
+INFO: [Physopt 32-735] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX3DATA[12]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.792 | TNS=-166.701 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 5 pins.
+INFO: [Physopt 32-735] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX3DATA[12]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.783 | TNS=-166.455 |
+INFO: [Physopt 32-702] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[3].gt_wrapper_i/PIPE_RXDATA[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 23 pins.
+INFO: [Physopt 32-735] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX3DATA[0]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.769 | TNS=-166.280 |
+INFO: [Physopt 32-702] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[3].gt_wrapper_i/PIPE_RXDATA[10]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX3DATA[10].  Re-placed instance vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PCIE_3_0_i_i_284
+INFO: [Physopt 32-735] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX3DATA[10]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.767 | TNS=-166.198 |
+INFO: [Physopt 32-702] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[3].gt_wrapper_i/PIPE_RXDATA[11]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 10 pins.
+INFO: [Physopt 32-735] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX3DATA[11]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.758 | TNS=-166.055 |
+INFO: [Physopt 32-702] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[3].gt_wrapper_i/PIPE_RXDATA[1]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX3DATA[1].  Re-placed instance vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PCIE_3_0_i_i_293
+INFO: [Physopt 32-735] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX3DATA[1]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.732 | TNS=-166.029 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 5 pins.
+INFO: [Physopt 32-735] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX3DATA[1]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.727 | TNS=-165.868 |
+INFO: [Physopt 32-702] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[3].gt_wrapper_i/D[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 23 pins.
+INFO: [Physopt 32-735] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[3].pipe_user_i/pipe_rx3_phy_status. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.725 | TNS=-165.693 |
+INFO: [Physopt 32-702] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[3].gt_wrapper_i/PIPE_RXDATA[2]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX3DATA[2].  Re-placed instance vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PCIE_3_0_i_i_292
+INFO: [Physopt 32-735] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX3DATA[2]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.712 | TNS=-165.679 |
+INFO: [Physopt 32-702] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[2].gt_wrapper_i/PIPE_RXDATA[7]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX2DATA[7].  Re-placed instance vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PCIE_3_0_i_i_271
+INFO: [Physopt 32-735] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX2DATA[7]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.711 | TNS=-165.528 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 10 pins.
+INFO: [Physopt 32-735] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX3DATA[2]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.702 | TNS=-165.388 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 5 pins.
+INFO: [Physopt 32-735] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX3DATA[8]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.702 | TNS=-165.213 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 6 pins.
+INFO: [Physopt 32-735] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[3].pipe_user_i/pipe_rx3_valid. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.694 | TNS=-165.053 |
+INFO: [Physopt 32-702] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[2].gt_wrapper_i/D[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 22 pins.
+INFO: [Physopt 32-735] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[2].pipe_user_i/pipe_rx2_phy_status. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.694 | TNS=-164.874 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 22 pins.
+INFO: [Physopt 32-735] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[2].pipe_user_i/pipe_rx2_valid. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.690 | TNS=-164.586 |
+INFO: [Physopt 32-702] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[3].gt_wrapper_i/PIPE_RXDATA[3]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 17 pins.
+INFO: [Physopt 32-735] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX3DATA[3]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.687 | TNS=-164.446 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 5 pins.
+INFO: [Physopt 32-735] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX3DATA[10]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.682 | TNS=-164.306 |
+INFO: [Physopt 32-702] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[3].gt_wrapper_i/PIPE_RXDATA[15]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 15 pins.
+INFO: [Physopt 32-735] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX3DATA[15]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.675 | TNS=-164.162 |
+INFO: [Physopt 32-702] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[3].gt_wrapper_i/PIPE_RXDATA[9]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX3DATA[9].  Re-placed instance vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PCIE_3_0_i_i_285
+INFO: [Physopt 32-735] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX3DATA[9]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.674 | TNS=-164.131 |
+INFO: [Physopt 32-702] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[2].gt_wrapper_i/PIPE_RXDATA[6]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX2DATA[6].  Re-placed instance vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PCIE_3_0_i_i_272
+INFO: [Physopt 32-735] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX2DATA[6]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.672 | TNS=-164.074 |
+INFO: [Physopt 32-702] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[3].gt_wrapper_i/PIPE_RXDATA[14]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 15 pins.
+INFO: [Physopt 32-735] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX3DATA[14]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.661 | TNS=-163.930 |
+INFO: [Physopt 32-702] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[3].gt_wrapper_i/PIPE_RXDATA[5]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 11 pins.
+INFO: [Physopt 32-735] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX3DATA[5]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.656 | TNS=-163.697 |
+INFO: [Physopt 32-702] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[3].gt_wrapper_i/PIPE_RXDATA[13]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 22 pins.
+INFO: [Physopt 32-735] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX3DATA[13]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.648 | TNS=-163.464 |
+INFO: [Physopt 32-702] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[3].gt_wrapper_i/PIPE_RXDATA[4]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX3DATA[4].  Re-placed instance vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PCIE_3_0_i_i_290
+INFO: [Physopt 32-735] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX3DATA[4]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.644 | TNS=-163.449 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 15 pins.
+INFO: [Physopt 32-735] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX3DATA[9]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.638 | TNS=-163.287 |
+INFO: [Physopt 32-702] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[2].gt_wrapper_i/PIPE_RXDATA[14]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX2DATA[14].  Re-placed instance vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PCIE_3_0_i_i_264
+INFO: [Physopt 32-735] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX2DATA[14]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.635 | TNS=-163.282 |
+INFO: [Physopt 32-702] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[3].gt_wrapper_i/PIPE_RXDATA[7]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 14 pins.
+INFO: [Physopt 32-735] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX3DATA[7]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.633 | TNS=-163.138 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 5 pins.
+INFO: [Physopt 32-735] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX2DATA[14]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.633 | TNS=-162.984 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 5 pins.
+INFO: [Physopt 32-735] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX3DATA[4]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.626 | TNS=-162.738 |
+INFO: [Physopt 32-702] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[2].gt_wrapper_i/PIPE_RXDATA[11]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX2DATA[11].  Re-placed instance vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PCIE_3_0_i_i_267
+INFO: [Physopt 32-735] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX2DATA[11]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.624 | TNS=-162.711 |
+INFO: [Physopt 32-702] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX3DATA[11]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/pcie_7vx_i/s_axis_rq_tready[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[3].gt_wrapper_i/PIPE_RXDATA[11]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX3DATA[11]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.624 | TNS=-162.711 |
+Phase 3 Critical Path Optimization | Checksum: 1bfbe152c
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 2485.918 ; gain = 0.000
+
+Phase 4 Critical Path Optimization
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.624 | TNS=-162.711 |
+INFO: [Physopt 32-702] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/pcie_7vx_i/s_axis_rq_tready[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[3].gt_wrapper_i/PIPE_RXDATA[11]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX3DATA[11]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/pcie_7vx_i/s_axis_rq_tready[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[3].gt_wrapper_i/PIPE_RXDATA[11]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/PIPERX3DATA[11]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.624 | TNS=-162.711 |
+Phase 4 Critical Path Optimization | Checksum: 1bfbe152c
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 2485.918 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2485.918 ; gain = 0.000
+INFO: [Physopt 32-603] Post Physical Optimization Timing Summary | WNS=-1.624 | TNS=-162.711 |
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization   |  WNS Gain (ns)  |  TNS Gain (ns)  |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  DSP Register   |          0.000  |          0.000  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Critical Path  |          0.400  |          4.956  |            0  |              0  |                    34  |           0  |           2  |  00:00:03  |
+|  Total          |          0.400  |          4.956  |            0  |              0  |                    34  |           0  |           3  |  00:00:03  |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2485.918 ; gain = 0.000
+Ending Physical Synthesis Task | Checksum: 2018da9f2
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 2485.918 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+240 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+phys_opt_design: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 2485.918 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.798 . Memory (MB): peak = 2485.918 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'd:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.runs/impl_1/xilinx_pcie_3_0_7vx_ep_physopt.dcp' has been generated.
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7vx690t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7vx690t'
+INFO: [Common 17-86] Your Implementation license expires in 26 day(s)
+INFO: [Common 17-1540] The version limit for your license is '2023.06' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for new releases.
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+
+Phase 1 Build RT Design
+Checksum: PlaceDB: bd1f711c ConstDB: 0 ShapeSum: 54b2abfd RouteDB: 0
+Post Restoration Checksum: NetGraph: cee50015 NumContArr: c09f94d7 Constraints: 0 Timing: 0
+Phase 1 Build RT Design | Checksum: 18f8494ec
+
+Time (s): cpu = 00:01:32 ; elapsed = 00:01:45 . Memory (MB): peak = 2831.801 ; gain = 345.883
+
+Phase 2 Router Initialization
+
+Phase 2.1 Fix Topology Constraints
+Phase 2.1 Fix Topology Constraints | Checksum: 18f8494ec
+
+Time (s): cpu = 00:01:32 ; elapsed = 00:01:45 . Memory (MB): peak = 2841.902 ; gain = 355.984
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: 18f8494ec
+
+Time (s): cpu = 00:01:32 ; elapsed = 00:01:45 . Memory (MB): peak = 2841.902 ; gain = 355.984
+ Number of Nodes with overlaps = 0
+
+Phase 2.3 Update Timing
+Phase 2.3 Update Timing | Checksum: 180e81541
+
+Time (s): cpu = 00:01:39 ; elapsed = 00:01:56 . Memory (MB): peak = 2984.676 ; gain = 498.758
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.636 | TNS=-150.278| WHS=-0.413 | THS=-567.510|
+
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.000692537 %
+  Global Horizontal Routing Utilization  = 0.000275244 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 6132
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 6132
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 2 Router Initialization | Checksum: 103730401
+
+Time (s): cpu = 00:01:40 ; elapsed = 00:01:58 . Memory (MB): peak = 2985.633 ; gain = 499.715
+
+Phase 3 Initial Routing
+
+Phase 3.1 Global Routing
+Phase 3.1 Global Routing | Checksum: 103730401
+
+Time (s): cpu = 00:01:40 ; elapsed = 00:01:58 . Memory (MB): peak = 2985.633 ; gain = 499.715
+Phase 3 Initial Routing | Checksum: 20d51e1bd
+
+Time (s): cpu = 00:01:48 ; elapsed = 00:02:05 . Memory (MB): peak = 2985.633 ; gain = 499.715
+INFO: [Route 35-580] Design has 2 pins with tight setup and hold constraints.
+
+The top 5 pins with tight setup and hold constraints:
+
++=====================+=====================+=======================================================================================+
+| Launch Setup Clock  | Launch Hold Clock   | Pin                                                                                   |
++=====================+=====================+=======================================================================================+
+| clk_250mhz_mux_x0y1 | clk_125mhz_mux_x0y1 | vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/eq_state_reg[0]/D |
+| clk_250mhz_mux_x0y1 | clk_125mhz_mux_x0y1 | vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/force_adapt_i/eq_state_reg[2]/D |
++---------------------+---------------------+---------------------------------------------------------------------------------------+
+
+File with complete list of pins: tight_setup_hold_pins.txt
+
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 293
+ Number of Nodes with overlaps = 7
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.437 | TNS=-129.381| WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: ff5f1ca6
+
+Time (s): cpu = 00:02:02 ; elapsed = 00:02:23 . Memory (MB): peak = 2985.633 ; gain = 499.715
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 22
+ Number of Nodes with overlaps = 4
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.341 | TNS=-131.264| WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 2614785ca
+
+Time (s): cpu = 00:02:07 ; elapsed = 00:02:30 . Memory (MB): peak = 2985.633 ; gain = 499.715
+
+Phase 4.3 Global Iteration 2
+ Number of Nodes with overlaps = 11
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.382 | TNS=-129.194| WHS=N/A    | THS=N/A    |
+
+Phase 4.3 Global Iteration 2 | Checksum: 1176283f1
+
+Time (s): cpu = 00:02:10 ; elapsed = 00:02:34 . Memory (MB): peak = 2985.633 ; gain = 499.715
+Phase 4 Rip-up And Reroute | Checksum: 1176283f1
+
+Time (s): cpu = 00:02:10 ; elapsed = 00:02:34 . Memory (MB): peak = 2985.633 ; gain = 499.715
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 1bf170ee8
+
+Time (s): cpu = 00:02:10 ; elapsed = 00:02:34 . Memory (MB): peak = 2985.633 ; gain = 499.715
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.329 | TNS=-126.156| WHS=N/A    | THS=N/A    |
+
+ Number of Nodes with overlaps = 0
+Phase 5.1 Delay CleanUp | Checksum: 1638305c8
+
+Time (s): cpu = 00:02:22 ; elapsed = 00:02:43 . Memory (MB): peak = 3030.426 ; gain = 544.508
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 1638305c8
+
+Time (s): cpu = 00:02:22 ; elapsed = 00:02:43 . Memory (MB): peak = 3030.426 ; gain = 544.508
+Phase 5 Delay and Skew Optimization | Checksum: 1638305c8
+
+Time (s): cpu = 00:02:22 ; elapsed = 00:02:43 . Memory (MB): peak = 3030.426 ; gain = 544.508
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 1be26f9c4
+
+Time (s): cpu = 00:02:22 ; elapsed = 00:02:43 . Memory (MB): peak = 3030.426 ; gain = 544.508
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.329 | TNS=-118.072| WHS=0.017  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 1be26f9c4
+
+Time (s): cpu = 00:02:22 ; elapsed = 00:02:43 . Memory (MB): peak = 3030.426 ; gain = 544.508
+Phase 6 Post Hold Fix | Checksum: 1be26f9c4
+
+Time (s): cpu = 00:02:22 ; elapsed = 00:02:43 . Memory (MB): peak = 3030.426 ; gain = 544.508
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.721124 %
+  Global Horizontal Routing Utilization  = 0.225041 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Congestion Report
+North Dir 1x1 Area, Max Cong = 63.0631%, No Congested Regions.
+South Dir 1x1 Area, Max Cong = 67.5676%, No Congested Regions.
+East Dir 1x1 Area, Max Cong = 57.3529%, No Congested Regions.
+West Dir 1x1 Area, Max Cong = 64.7059%, No Congested Regions.
+
+------------------------------
+Reporting congestion hotspots
+------------------------------
+Direction: North
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: South
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: East
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: West
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+
+Phase 7 Route finalize | Checksum: 1919880d7
+
+Time (s): cpu = 00:02:22 ; elapsed = 00:02:44 . Memory (MB): peak = 3030.426 ; gain = 544.508
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 1919880d7
+
+Time (s): cpu = 00:02:22 ; elapsed = 00:02:44 . Memory (MB): peak = 3030.426 ; gain = 544.508
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 10e28b349
+
+Time (s): cpu = 00:02:22 ; elapsed = 00:02:44 . Memory (MB): peak = 3030.426 ; gain = 544.508
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-1.329 | TNS=-118.072| WHS=0.017  | THS=0.000  |
+
+WARNING: [Route 35-328] Router estimated timing not met.
+Resolution: For a complete and accurate timing signoff, report_timing_summary must be run after route_design. Alternatively, route_design can be run with the -timing_summary option to enable a complete timing signoff at the end of route_design.
+Phase 10 Post Router Timing | Checksum: 10e28b349
+
+Time (s): cpu = 00:02:23 ; elapsed = 00:02:45 . Memory (MB): peak = 3030.426 ; gain = 544.508
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:02:23 ; elapsed = 00:02:45 . Memory (MB): peak = 3030.426 ; gain = 544.508
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+259 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:02:27 ; elapsed = 00:02:48 . Memory (MB): peak = 3030.426 ; gain = 544.508
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.653 . Memory (MB): peak = 3030.426 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'd:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.runs/impl_1/xilinx_pcie_3_0_7vx_ep_routed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file xilinx_pcie_3_0_7vx_ep_drc_routed.rpt -pb xilinx_pcie_3_0_7vx_ep_drc_routed.pb -rpx xilinx_pcie_3_0_7vx_ep_drc_routed.rpx
+Command: report_drc -file xilinx_pcie_3_0_7vx_ep_drc_routed.rpt -pb xilinx_pcie_3_0_7vx_ep_drc_routed.pb -rpx xilinx_pcie_3_0_7vx_ep_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.runs/impl_1/xilinx_pcie_3_0_7vx_ep_drc_routed.rpt.
+report_drc completed successfully
+INFO: [runtcl-4] Executing : report_methodology -file xilinx_pcie_3_0_7vx_ep_methodology_drc_routed.rpt -pb xilinx_pcie_3_0_7vx_ep_methodology_drc_routed.pb -rpx xilinx_pcie_3_0_7vx_ep_methodology_drc_routed.rpx
+Command: report_methodology -file xilinx_pcie_3_0_7vx_ep_methodology_drc_routed.rpt -pb xilinx_pcie_3_0_7vx_ep_methodology_drc_routed.pb -rpx xilinx_pcie_3_0_7vx_ep_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.runs/impl_1/xilinx_pcie_3_0_7vx_ep_methodology_drc_routed.rpt.
+report_methodology completed successfully
+INFO: [runtcl-4] Executing : report_power -file xilinx_pcie_3_0_7vx_ep_power_routed.rpt -pb xilinx_pcie_3_0_7vx_ep_power_summary_routed.pb -rpx xilinx_pcie_3_0_7vx_ep_power_routed.rpx
+Command: report_power -file xilinx_pcie_3_0_7vx_ep_power_routed.rpt -pb xilinx_pcie_3_0_7vx_ep_power_summary_routed.pb -rpx xilinx_pcie_3_0_7vx_ep_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+271 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+INFO: [runtcl-4] Executing : report_route_status -file xilinx_pcie_3_0_7vx_ep_route_status.rpt -pb xilinx_pcie_3_0_7vx_ep_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -report_unconstrained -file xilinx_pcie_3_0_7vx_ep_timing_summary_routed.rpt -pb xilinx_pcie_3_0_7vx_ep_timing_summary_routed.pb -rpx xilinx_pcie_3_0_7vx_ep_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+INFO: [runtcl-4] Executing : report_incremental_reuse -file xilinx_pcie_3_0_7vx_ep_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [runtcl-4] Executing : report_clock_utilization -file xilinx_pcie_3_0_7vx_ep_clock_utilization_routed.rpt
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file xilinx_pcie_3_0_7vx_ep_bus_skew_routed.rpt -pb xilinx_pcie_3_0_7vx_ep_bus_skew_routed.pb -rpx xilinx_pcie_3_0_7vx_ep_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+Command: write_bitstream -force xilinx_pcie_3_0_7vx_ep.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7vx690t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7vx690t'
+INFO: [Common 17-86] Your Implementation license expires in 26 day(s)
+INFO: [Common 17-1540] The version limit for your license is '2023.06' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for new releases.
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [DRC REQP-165] writefirst: Synchronous clocking is detected for BRAM (vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/pcie_7vx_i/pcie_bram_7vx_i/req_fifo/U0/RAMB18E1[0].u_fifo) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+INFO: [DRC REQP-165] writefirst: Synchronous clocking is detected for BRAM (vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/pcie_7vx_i/pcie_bram_7vx_i/req_fifo/U0/RAMB18E1[1].u_fifo) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+INFO: [DRC REQP-165] writefirst: Synchronous clocking is detected for BRAM (vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/pcie_7vx_i/pcie_bram_7vx_i/req_fifo/U0/RAMB18E1[2].u_fifo) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+INFO: [DRC REQP-165] writefirst: Synchronous clocking is detected for BRAM (vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/pcie_7vx_i/pcie_bram_7vx_i/req_fifo/U0/RAMB18E1[3].u_fifo) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+INFO: [DRC REQP-181] writefirst: Synchronous clocking is detected for BRAM (vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/pcie_7vx_i/pcie_bram_7vx_i/cpl_fifo/genblk1.CPL_FIFO_16KB.U0/SPEED_250MHz.RAMB36E1[0].u_fifo) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+INFO: [DRC REQP-181] writefirst: Synchronous clocking is detected for BRAM (vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/pcie_7vx_i/pcie_bram_7vx_i/cpl_fifo/genblk1.CPL_FIFO_16KB.U0/SPEED_250MHz.RAMB36E1[1].u_fifo) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+INFO: [DRC REQP-181] writefirst: Synchronous clocking is detected for BRAM (vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/pcie_7vx_i/pcie_bram_7vx_i/cpl_fifo/genblk1.CPL_FIFO_16KB.U0/SPEED_250MHz.RAMB36E1[2].u_fifo) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+INFO: [DRC REQP-181] writefirst: Synchronous clocking is detected for BRAM (vc709_fmc_ep_support_i/vc709_fmc_ep_i/inst/pcie_top_i/pcie_7vx_i/pcie_bram_7vx_i/cpl_fifo/genblk1.CPL_FIFO_16KB.U0/SPEED_250MHz.RAMB36E1[3].u_fifo) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 8 Advisories
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Bitstream compression saved 203624768 bits.
+Writing bitstream ./xilinx_pcie_3_0_7vx_ep.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Common 17-83] Releasing license: Implementation
+21 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 3626.078 ; gain = 595.652
+INFO: [Common 17-206] Exiting Vivado at Mon Dec  4 15:09:00 2023...

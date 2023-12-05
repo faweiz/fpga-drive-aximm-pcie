@@ -1,0 +1,1512 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sun Dec  3 23:44:28 2023
+# Process ID: 94236
+# Current directory: D:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.runs/fpgadrv_axi_pcie_0_0_synth_1
+# Command line: vivado.exe -log fpgadrv_axi_pcie_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fpgadrv_axi_pcie_0_0.tcl
+# Log file: D:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.runs/fpgadrv_axi_pcie_0_0_synth_1/fpgadrv_axi_pcie_0_0.vds
+# Journal file: D:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.runs/fpgadrv_axi_pcie_0_0_synth_1\vivado.jou
+# Running On: Tony-VPI4CJD, OS: Windows, CPU Frequency: 2208 MHz, CPU Physical cores: 6, Host memory: 34140 MB
+#-----------------------------------------------------------
+source fpgadrv_axi_pcie_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 1293.980 ; gain = 24.855
+Command: synth_design -top fpgadrv_axi_pcie_0_0 -part xc7vx690tffg1761-2 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx690t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx690t'
+INFO: [Common 17-86] Your Synthesis license expires in 27 day(s)
+INFO: [Common 17-1540] The version limit for your license is '2023.06' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for new releases.
+INFO: [Device 21-403] Loading part xc7vx690tffg1761-2
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 125896
+WARNING: [Synth 8-9501] generate block is allowed only inside loop and conditional generate in SystemVerilog mode [E:/Xilinx/Vivado/2022.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:4023]
+WARNING: [Synth 8-2292] literal value truncated to fit in 4 bits [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ipshared/809b/hdl/axi_pcie3_v3_0_vl_rfs.v:4797]
+WARNING: [Synth 8-2292] literal value truncated to fit in 4 bits [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ipshared/809b/hdl/axi_pcie3_v3_0_vl_rfs.v:4798]
+WARNING: [Synth 8-2292] literal value truncated to fit in 4 bits [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:162]
+WARNING: [Synth 8-2292] literal value truncated to fit in 4 bits [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:163]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:19 ; elapsed = 00:00:27 . Memory (MB): peak = 1405.230 ; gain = 111.250
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'fpgadrv_axi_pcie_0_0' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/synth/fpgadrv_axi_pcie_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'fpgadrv_axi_pcie_0_0_core_top' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:58]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie3_v3_0_22_fifo_generator_v13_1_4_64B_parity' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_1/synth/axi_pcie3_v3_0_22_fifo_generator_v13_1_4_64B_parity.vhd:73]
+	Parameter C_COMMON_CLOCK bound to: 1 - type: integer 
+	Parameter C_SELECT_XPM bound to: 0 - type: integer 
+	Parameter C_COUNT_TYPE bound to: 0 - type: integer 
+	Parameter C_DATA_COUNT_WIDTH bound to: 10 - type: integer 
+	Parameter C_DEFAULT_VALUE bound to: BlankString - type: string 
+	Parameter C_DIN_WIDTH bound to: 72 - type: integer 
+	Parameter C_DOUT_RST_VAL bound to: 0 - type: string 
+	Parameter C_DOUT_WIDTH bound to: 72 - type: integer 
+	Parameter C_ENABLE_RLOCS bound to: 0 - type: integer 
+	Parameter C_FAMILY bound to: virtex7 - type: string 
+	Parameter C_FULL_FLAGS_RST_VAL bound to: 0 - type: integer 
+	Parameter C_HAS_ALMOST_EMPTY bound to: 0 - type: integer 
+	Parameter C_HAS_ALMOST_FULL bound to: 1 - type: integer 
+	Parameter C_HAS_BACKUP bound to: 0 - type: integer 
+	Parameter C_HAS_DATA_COUNT bound to: 0 - type: integer 
+	Parameter C_HAS_INT_CLK bound to: 0 - type: integer 
+	Parameter C_HAS_MEMINIT_FILE bound to: 0 - type: integer 
+	Parameter C_HAS_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_RD_DATA_COUNT bound to: 0 - type: integer 
+	Parameter C_HAS_RD_RST bound to: 0 - type: integer 
+	Parameter C_HAS_RST bound to: 0 - type: integer 
+	Parameter C_HAS_SRST bound to: 1 - type: integer 
+	Parameter C_HAS_UNDERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_VALID bound to: 0 - type: integer 
+	Parameter C_HAS_WR_ACK bound to: 0 - type: integer 
+	Parameter C_HAS_WR_DATA_COUNT bound to: 0 - type: integer 
+	Parameter C_HAS_WR_RST bound to: 0 - type: integer 
+	Parameter C_IMPLEMENTATION_TYPE bound to: 0 - type: integer 
+	Parameter C_INIT_WR_PNTR_VAL bound to: 0 - type: integer 
+	Parameter C_MEMORY_TYPE bound to: 1 - type: integer 
+	Parameter C_MIF_FILE_NAME bound to: BlankString - type: string 
+	Parameter C_OPTIMIZATION_MODE bound to: 0 - type: integer 
+	Parameter C_OVERFLOW_LOW bound to: 0 - type: integer 
+	Parameter C_PRELOAD_LATENCY bound to: 0 - type: integer 
+	Parameter C_PRELOAD_REGS bound to: 1 - type: integer 
+	Parameter C_PRIM_FIFO_TYPE bound to: 512x72 - type: string 
+	Parameter C_PROG_EMPTY_THRESH_ASSERT_VAL bound to: 4 - type: integer 
+	Parameter C_PROG_EMPTY_THRESH_NEGATE_VAL bound to: 5 - type: integer 
+	Parameter C_PROG_EMPTY_TYPE bound to: 0 - type: integer 
+	Parameter C_PROG_FULL_THRESH_ASSERT_VAL bound to: 511 - type: integer 
+	Parameter C_PROG_FULL_THRESH_NEGATE_VAL bound to: 510 - type: integer 
+	Parameter C_PROG_FULL_TYPE bound to: 0 - type: integer 
+	Parameter C_RD_DATA_COUNT_WIDTH bound to: 10 - type: integer 
+	Parameter C_RD_DEPTH bound to: 512 - type: integer 
+	Parameter C_RD_FREQ bound to: 1 - type: integer 
+	Parameter C_RD_PNTR_WIDTH bound to: 9 - type: integer 
+	Parameter C_UNDERFLOW_LOW bound to: 0 - type: integer 
+	Parameter C_USE_DOUT_RST bound to: 1 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_USE_EMBEDDED_REG bound to: 1 - type: integer 
+	Parameter C_USE_PIPELINE_REG bound to: 0 - type: integer 
+	Parameter C_POWER_SAVING_MODE bound to: 0 - type: integer 
+	Parameter C_USE_FIFO16_FLAGS bound to: 0 - type: integer 
+	Parameter C_USE_FWFT_DATA_COUNT bound to: 1 - type: integer 
+	Parameter C_VALID_LOW bound to: 0 - type: integer 
+	Parameter C_WR_ACK_LOW bound to: 0 - type: integer 
+	Parameter C_WR_DATA_COUNT_WIDTH bound to: 10 - type: integer 
+	Parameter C_WR_DEPTH bound to: 512 - type: integer 
+	Parameter C_WR_FREQ bound to: 1 - type: integer 
+	Parameter C_WR_PNTR_WIDTH bound to: 9 - type: integer 
+	Parameter C_WR_RESPONSE_LATENCY bound to: 1 - type: integer 
+	Parameter C_MSGON_VAL bound to: 1 - type: integer 
+	Parameter C_ENABLE_RST_SYNC bound to: 1 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_ERROR_INJECTION_TYPE bound to: 0 - type: integer 
+	Parameter C_SYNCHRONIZER_STAGE bound to: 2 - type: integer 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_HAS_AXI_WR_CHANNEL bound to: 1 - type: integer 
+	Parameter C_HAS_AXI_RD_CHANNEL bound to: 1 - type: integer 
+	Parameter C_HAS_SLAVE_CE bound to: 0 - type: integer 
+	Parameter C_HAS_MASTER_CE bound to: 0 - type: integer 
+	Parameter C_ADD_NGC_CONSTRAINT bound to: 0 - type: integer 
+	Parameter C_USE_COMMON_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_USE_COMMON_UNDERFLOW bound to: 0 - type: integer 
+	Parameter C_USE_DEFAULT_SETTINGS bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_AXI_DATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_AXI_LEN_WIDTH bound to: 8 - type: integer 
+	Parameter C_AXI_LOCK_WIDTH bound to: 1 - type: integer 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_HAS_AXI_AWUSER bound to: 0 - type: integer 
+	Parameter C_HAS_AXI_WUSER bound to: 0 - type: integer 
+	Parameter C_HAS_AXI_BUSER bound to: 0 - type: integer 
+	Parameter C_HAS_AXI_ARUSER bound to: 0 - type: integer 
+	Parameter C_HAS_AXI_RUSER bound to: 0 - type: integer 
+	Parameter C_AXI_ARUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXI_AWUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXI_WUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXI_BUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXI_RUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_HAS_AXIS_TDATA bound to: 1 - type: integer 
+	Parameter C_HAS_AXIS_TID bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TDEST bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TUSER bound to: 1 - type: integer 
+	Parameter C_HAS_AXIS_TREADY bound to: 1 - type: integer 
+	Parameter C_HAS_AXIS_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TSTRB bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TKEEP bound to: 0 - type: integer 
+	Parameter C_AXIS_TDATA_WIDTH bound to: 8 - type: integer 
+	Parameter C_AXIS_TID_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXIS_TDEST_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXIS_TUSER_WIDTH bound to: 4 - type: integer 
+	Parameter C_AXIS_TSTRB_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXIS_TKEEP_WIDTH bound to: 1 - type: integer 
+	Parameter C_WACH_TYPE bound to: 0 - type: integer 
+	Parameter C_WDCH_TYPE bound to: 0 - type: integer 
+	Parameter C_WRCH_TYPE bound to: 0 - type: integer 
+	Parameter C_RACH_TYPE bound to: 0 - type: integer 
+	Parameter C_RDCH_TYPE bound to: 0 - type: integer 
+	Parameter C_AXIS_TYPE bound to: 0 - type: integer 
+	Parameter C_IMPLEMENTATION_TYPE_WACH bound to: 1 - type: integer 
+	Parameter C_IMPLEMENTATION_TYPE_WDCH bound to: 1 - type: integer 
+	Parameter C_IMPLEMENTATION_TYPE_WRCH bound to: 1 - type: integer 
+	Parameter C_IMPLEMENTATION_TYPE_RACH bound to: 1 - type: integer 
+	Parameter C_IMPLEMENTATION_TYPE_RDCH bound to: 1 - type: integer 
+	Parameter C_IMPLEMENTATION_TYPE_AXIS bound to: 1 - type: integer 
+	Parameter C_APPLICATION_TYPE_WACH bound to: 0 - type: integer 
+	Parameter C_APPLICATION_TYPE_WDCH bound to: 0 - type: integer 
+	Parameter C_APPLICATION_TYPE_WRCH bound to: 0 - type: integer 
+	Parameter C_APPLICATION_TYPE_RACH bound to: 0 - type: integer 
+	Parameter C_APPLICATION_TYPE_RDCH bound to: 0 - type: integer 
+	Parameter C_APPLICATION_TYPE_AXIS bound to: 0 - type: integer 
+	Parameter C_PRIM_FIFO_TYPE_WACH bound to: 512x36 - type: string 
+	Parameter C_PRIM_FIFO_TYPE_WDCH bound to: 1kx36 - type: string 
+	Parameter C_PRIM_FIFO_TYPE_WRCH bound to: 512x36 - type: string 
+	Parameter C_PRIM_FIFO_TYPE_RACH bound to: 512x36 - type: string 
+	Parameter C_PRIM_FIFO_TYPE_RDCH bound to: 1kx36 - type: string 
+	Parameter C_PRIM_FIFO_TYPE_AXIS bound to: 1kx18 - type: string 
+	Parameter C_USE_ECC_WACH bound to: 0 - type: integer 
+	Parameter C_USE_ECC_WDCH bound to: 0 - type: integer 
+	Parameter C_USE_ECC_WRCH bound to: 0 - type: integer 
+	Parameter C_USE_ECC_RACH bound to: 0 - type: integer 
+	Parameter C_USE_ECC_RDCH bound to: 0 - type: integer 
+	Parameter C_USE_ECC_AXIS bound to: 0 - type: integer 
+	Parameter C_ERROR_INJECTION_TYPE_WACH bound to: 0 - type: integer 
+	Parameter C_ERROR_INJECTION_TYPE_WDCH bound to: 0 - type: integer 
+	Parameter C_ERROR_INJECTION_TYPE_WRCH bound to: 0 - type: integer 
+	Parameter C_ERROR_INJECTION_TYPE_RACH bound to: 0 - type: integer 
+	Parameter C_ERROR_INJECTION_TYPE_RDCH bound to: 0 - type: integer 
+	Parameter C_ERROR_INJECTION_TYPE_AXIS bound to: 0 - type: integer 
+	Parameter C_DIN_WIDTH_WACH bound to: 1 - type: integer 
+	Parameter C_DIN_WIDTH_WDCH bound to: 64 - type: integer 
+	Parameter C_DIN_WIDTH_WRCH bound to: 2 - type: integer 
+	Parameter C_DIN_WIDTH_RACH bound to: 32 - type: integer 
+	Parameter C_DIN_WIDTH_RDCH bound to: 64 - type: integer 
+	Parameter C_DIN_WIDTH_AXIS bound to: 1 - type: integer 
+	Parameter C_WR_DEPTH_WACH bound to: 16 - type: integer 
+	Parameter C_WR_DEPTH_WDCH bound to: 1024 - type: integer 
+	Parameter C_WR_DEPTH_WRCH bound to: 16 - type: integer 
+	Parameter C_WR_DEPTH_RACH bound to: 16 - type: integer 
+	Parameter C_WR_DEPTH_RDCH bound to: 1024 - type: integer 
+	Parameter C_WR_DEPTH_AXIS bound to: 1024 - type: integer 
+	Parameter C_WR_PNTR_WIDTH_WACH bound to: 4 - type: integer 
+	Parameter C_WR_PNTR_WIDTH_WDCH bound to: 10 - type: integer 
+	Parameter C_WR_PNTR_WIDTH_WRCH bound to: 4 - type: integer 
+	Parameter C_WR_PNTR_WIDTH_RACH bound to: 4 - type: integer 
+	Parameter C_WR_PNTR_WIDTH_RDCH bound to: 10 - type: integer 
+	Parameter C_WR_PNTR_WIDTH_AXIS bound to: 10 - type: integer 
+	Parameter C_HAS_DATA_COUNTS_WACH bound to: 0 - type: integer 
+	Parameter C_HAS_DATA_COUNTS_WDCH bound to: 0 - type: integer 
+	Parameter C_HAS_DATA_COUNTS_WRCH bound to: 0 - type: integer 
+	Parameter C_HAS_DATA_COUNTS_RACH bound to: 0 - type: integer 
+	Parameter C_HAS_DATA_COUNTS_RDCH bound to: 0 - type: integer 
+	Parameter C_HAS_DATA_COUNTS_AXIS bound to: 0 - type: integer 
+	Parameter C_HAS_PROG_FLAGS_WACH bound to: 0 - type: integer 
+	Parameter C_HAS_PROG_FLAGS_WDCH bound to: 0 - type: integer 
+	Parameter C_HAS_PROG_FLAGS_WRCH bound to: 0 - type: integer 
+	Parameter C_HAS_PROG_FLAGS_RACH bound to: 0 - type: integer 
+	Parameter C_HAS_PROG_FLAGS_RDCH bound to: 0 - type: integer 
+	Parameter C_HAS_PROG_FLAGS_AXIS bound to: 0 - type: integer 
+	Parameter C_PROG_FULL_TYPE_WACH bound to: 0 - type: integer 
+	Parameter C_PROG_FULL_TYPE_WDCH bound to: 0 - type: integer 
+	Parameter C_PROG_FULL_TYPE_WRCH bound to: 0 - type: integer 
+	Parameter C_PROG_FULL_TYPE_RACH bound to: 0 - type: integer 
+	Parameter C_PROG_FULL_TYPE_RDCH bound to: 0 - type: integer 
+	Parameter C_PROG_FULL_TYPE_AXIS bound to: 0 - type: integer 
+	Parameter C_PROG_FULL_THRESH_ASSERT_VAL_WACH bound to: 1023 - type: integer 
+	Parameter C_PROG_FULL_THRESH_ASSERT_VAL_WDCH bound to: 1023 - type: integer 
+	Parameter C_PROG_FULL_THRESH_ASSERT_VAL_WRCH bound to: 1023 - type: integer 
+	Parameter C_PROG_FULL_THRESH_ASSERT_VAL_RACH bound to: 1023 - type: integer 
+	Parameter C_PROG_FULL_THRESH_ASSERT_VAL_RDCH bound to: 1023 - type: integer 
+	Parameter C_PROG_FULL_THRESH_ASSERT_VAL_AXIS bound to: 1023 - type: integer 
+	Parameter C_PROG_EMPTY_TYPE_WACH bound to: 0 - type: integer 
+	Parameter C_PROG_EMPTY_TYPE_WDCH bound to: 0 - type: integer 
+	Parameter C_PROG_EMPTY_TYPE_WRCH bound to: 0 - type: integer 
+	Parameter C_PROG_EMPTY_TYPE_RACH bound to: 0 - type: integer 
+	Parameter C_PROG_EMPTY_TYPE_RDCH bound to: 0 - type: integer 
+	Parameter C_PROG_EMPTY_TYPE_AXIS bound to: 0 - type: integer 
+	Parameter C_PROG_EMPTY_THRESH_ASSERT_VAL_WACH bound to: 1022 - type: integer 
+	Parameter C_PROG_EMPTY_THRESH_ASSERT_VAL_WDCH bound to: 1022 - type: integer 
+	Parameter C_PROG_EMPTY_THRESH_ASSERT_VAL_WRCH bound to: 1022 - type: integer 
+	Parameter C_PROG_EMPTY_THRESH_ASSERT_VAL_RACH bound to: 1022 - type: integer 
+	Parameter C_PROG_EMPTY_THRESH_ASSERT_VAL_RDCH bound to: 1022 - type: integer 
+	Parameter C_PROG_EMPTY_THRESH_ASSERT_VAL_AXIS bound to: 1022 - type: integer 
+	Parameter C_REG_SLICE_MODE_WACH bound to: 0 - type: integer 
+	Parameter C_REG_SLICE_MODE_WDCH bound to: 0 - type: integer 
+	Parameter C_REG_SLICE_MODE_WRCH bound to: 0 - type: integer 
+	Parameter C_REG_SLICE_MODE_RACH bound to: 0 - type: integer 
+	Parameter C_REG_SLICE_MODE_RDCH bound to: 0 - type: integer 
+	Parameter C_REG_SLICE_MODE_AXIS bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'fifo_generator_v13_1_4' declared at 'd:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ipshared/e6d5/hdl/fifo_generator_v13_1_vhsyn_rfs.vhd:38271' bound to instance 'U0' of component 'fifo_generator_v13_1_4' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_1/synth/axi_pcie3_v3_0_22_fifo_generator_v13_1_4_64B_parity.vhd:542]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie3_v3_0_22_fifo_generator_v13_1_4_64B_parity' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_1/synth/axi_pcie3_v3_0_22_fifo_generator_v13_1_4_64B_parity.vhd:73]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie3_v3_0_22_blk_mem_gen_v8_3_6_64B_parity' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_0/synth/axi_pcie3_v3_0_22_blk_mem_gen_v8_3_6_64B_parity.vhd:72]
+	Parameter C_FAMILY bound to: virtex7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: virtex7 - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 1 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: no_coe_file_loaded - type: string 
+	Parameter C_INIT_FILE bound to: axi_pcie3_v3_0_22_blk_mem_gen_v8_3_6_64B_parity.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: READ_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 72 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 72 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 512 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 512 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 9 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 1 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: READ_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 72 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 72 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 512 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 512 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 9 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 1 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 1 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 0 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     7.638025 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_6' declared at 'd:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ipshared/2751/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd:195260' bound to instance 'U0' of component 'blk_mem_gen_v8_3_6' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_0/synth/axi_pcie3_v3_0_22_blk_mem_gen_v8_3_6_64B_parity.vhd:239]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie3_v3_0_22_blk_mem_gen_v8_3_6_64B_parity' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_0/synth/axi_pcie3_v3_0_22_blk_mem_gen_v8_3_6_64B_parity.vhd:72]
+WARNING: [Synth 8-7071] port 'int_event_commit_gnt' of module 'axi_pcie3_v3_0_22_axi_pcie_mm_s_wrap' is unconnected for instance 'inst' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:1533]
+WARNING: [Synth 8-7071] port 'np_cpl_pending' of module 'axi_pcie3_v3_0_22_axi_pcie_mm_s_wrap' is unconnected for instance 'inst' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:1533]
+WARNING: [Synth 8-7071] port 'cfg_interrupt_msi_function_number' of module 'axi_pcie3_v3_0_22_axi_pcie_mm_s_wrap' is unconnected for instance 'inst' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:1533]
+WARNING: [Synth 8-7071] port 'cfg_dev_id' of module 'axi_pcie3_v3_0_22_axi_pcie_mm_s_wrap' is unconnected for instance 'inst' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:1533]
+WARNING: [Synth 8-7023] instance 'inst' of module 'axi_pcie3_v3_0_22_axi_pcie_mm_s_wrap' has 238 connections declared, but only 234 given [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:1533]
+INFO: [Synth 8-6157] synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/synth/fpgadrv_axi_pcie_0_0_pcie3_ip.v:53]
+INFO: [Synth 8-6157] synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_3_0_7vx' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_3_0_7vx.v:116]
+INFO: [Synth 8-6157] synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_top' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_top.v:82]
+INFO: [Synth 8-6157] synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_init_ctrl_7vx' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_init_ctrl_7vx.v:66]
+INFO: [Synth 8-155] case statement is not full and has no default [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_init_ctrl_7vx.v:327]
+INFO: [Synth 8-6155] done synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_init_ctrl_7vx' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_init_ctrl_7vx.v:66]
+INFO: [Synth 8-6157] synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_tlp_tph_tbl_7vx' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_tlp_tph_tbl_7vx.v:65]
+INFO: [Synth 8-6157] synthesizing module 'RAMB36E1' [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:103900]
+INFO: [Synth 8-6155] done synthesizing module 'RAMB36E1' (0#1) [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:103900]
+INFO: [Synth 8-6155] done synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_tlp_tph_tbl_7vx' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_tlp_tph_tbl_7vx.v:65]
+INFO: [Synth 8-6157] synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_7vx' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_7vx.v:76]
+INFO: [Synth 8-6157] synthesizing module 'PCIE_3_0' [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:85828]
+INFO: [Synth 8-6155] done synthesizing module 'PCIE_3_0' (0#1) [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:85828]
+INFO: [Synth 8-6157] synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_bram_7vx' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_bram_7vx.v:73]
+INFO: [Synth 8-6157] synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_bram_7vx_rep' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_bram_7vx_rep.v:67]
+INFO: [Synth 8-6157] synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_bram_7vx_rep_8k' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_bram_7vx_rep_8k.v:67]
+INFO: [Synth 8-6157] synthesizing module 'RAMB36E1__parameterized0' [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:103900]
+INFO: [Synth 8-6155] done synthesizing module 'RAMB36E1__parameterized0' (0#1) [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:103900]
+INFO: [Synth 8-6155] done synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_bram_7vx_rep_8k' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_bram_7vx_rep_8k.v:67]
+INFO: [Synth 8-6155] done synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_bram_7vx_rep' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_bram_7vx_rep.v:67]
+INFO: [Synth 8-6157] synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_bram_7vx_req' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_bram_7vx_req.v:67]
+INFO: [Synth 8-6157] synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_bram_7vx_8k' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_bram_7vx_8k.v:68]
+INFO: [Synth 8-6157] synthesizing module 'RAMB18E1' [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:102852]
+INFO: [Synth 8-6155] done synthesizing module 'RAMB18E1' (0#1) [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:102852]
+INFO: [Synth 8-6155] done synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_bram_7vx_8k' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_bram_7vx_8k.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_bram_7vx_req' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_bram_7vx_req.v:67]
+INFO: [Synth 8-6157] synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_bram_7vx_cpl' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_bram_7vx_cpl.v:68]
+INFO: [Synth 8-6157] synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_bram_7vx_16k' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_bram_7vx_16k.v:69]
+INFO: [Synth 8-6157] synthesizing module 'RAMB18E1__parameterized0' [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:102852]
+INFO: [Synth 8-6155] done synthesizing module 'RAMB18E1__parameterized0' (0#1) [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:102852]
+INFO: [Synth 8-6155] done synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_bram_7vx_16k' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_bram_7vx_16k.v:69]
+INFO: [Synth 8-6155] done synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_bram_7vx_cpl' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_bram_7vx_cpl.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_bram_7vx' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_bram_7vx.v:73]
+INFO: [Synth 8-6155] done synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_7vx' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_7vx.v:76]
+INFO: [Synth 8-6157] synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_force_adapt' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_force_adapt.v:83]
+INFO: [Synth 8-155] case statement is not full and has no default [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_force_adapt.v:234]
+INFO: [Synth 8-6155] done synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_force_adapt' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_force_adapt.v:83]
+INFO: [Synth 8-6157] synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_pipe_pipeline' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_pipe_pipeline.v:67]
+INFO: [Synth 8-6157] synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_pipe_lane' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_pipe_lane.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_pipe_lane' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_pipe_lane.v:65]
+INFO: [Synth 8-6157] synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_pipe_misc' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_pipe_misc.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_pipe_misc' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_pipe_misc.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_pipe_pipeline' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_pipe_pipeline.v:67]
+INFO: [Synth 8-6155] done synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_top' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_top.v:82]
+INFO: [Synth 8-6157] synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top.v:85]
+INFO: [Synth 8-6157] synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper.v:158]
+INFO: [Synth 8-6157] synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_clock' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_clock.v:66]
+INFO: [Synth 8-6157] synthesizing module 'BUFGCTRL' [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:1143]
+INFO: [Synth 8-6155] done synthesizing module 'BUFGCTRL' (0#1) [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:1143]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:1082]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (0#1) [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:1082]
+INFO: [Synth 8-6157] synthesizing module 'MMCME2_ADV' [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:63509]
+INFO: [Synth 8-6155] done synthesizing module 'MMCME2_ADV' (0#1) [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:63509]
+INFO: [Synth 8-6155] done synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_clock' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_clock.v:66]
+INFO: [Synth 8-6157] synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_qpll_reset' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_qpll_reset.v:66]
+INFO: [Synth 8-6155] done synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_qpll_reset' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_qpll_reset.v:66]
+INFO: [Synth 8-6157] synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_eq' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_eq.v:67]
+INFO: [Synth 8-226] default block is never used [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_eq.v:401]
+INFO: [Synth 8-6157] synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_rxeq_scan' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_rxeq_scan.v:66]
+INFO: [Synth 8-6155] done synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_rxeq_scan' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_rxeq_scan.v:66]
+INFO: [Synth 8-6155] done synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_eq' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_eq.v:67]
+INFO: [Synth 8-6157] synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_gt_common' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_gt_common.v:57]
+INFO: [Synth 8-6157] synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_qpll_drp' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_qpll_drp.v:64]
+INFO: [Synth 8-6155] done synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_qpll_drp' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_qpll_drp.v:64]
+INFO: [Synth 8-6157] synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_qpll_wrapper' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_qpll_wrapper.v:60]
+INFO: [Synth 8-6157] synthesizing module 'GTHE2_COMMON' [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:29657]
+INFO: [Synth 8-6155] done synthesizing module 'GTHE2_COMMON' (0#1) [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:29657]
+INFO: [Synth 8-6155] done synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_qpll_wrapper' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_qpll_wrapper.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_gt_common' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_gt_common.v:57]
+INFO: [Synth 8-6157] synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_user' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_user.v:67]
+INFO: [Synth 8-6155] done synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_user' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_user.v:67]
+INFO: [Synth 8-6157] synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_rate' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_rate.v:67]
+INFO: [Synth 8-6155] done synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_rate' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_rate.v:67]
+INFO: [Synth 8-6157] synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_sync' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_sync.v:72]
+INFO: [Synth 8-6155] done synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_sync' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_sync.v:72]
+INFO: [Synth 8-6157] synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_drp' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_drp.v:67]
+INFO: [Synth 8-6155] done synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_drp' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_drp.v:67]
+INFO: [Synth 8-6157] synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_gt_wrapper' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_gt_wrapper.v:68]
+INFO: [Synth 8-6157] synthesizing module 'GTHE2_CHANNEL' [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:28823]
+INFO: [Synth 8-6155] done synthesizing module 'GTHE2_CHANNEL' (0#1) [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:28823]
+INFO: [Synth 8-6157] synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_gtx_cpllpd_ovrd' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_gtx_cpllpd_ovrd.v:55]
+INFO: [Synth 8-6155] done synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_gtx_cpllpd_ovrd' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_gtx_cpllpd_ovrd.v:55]
+INFO: [Synth 8-6155] done synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_gt_wrapper' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_gt_wrapper.v:68]
+INFO: [Synth 8-6157] synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_reset' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_reset.v:67]
+INFO: [Synth 8-6155] done synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_reset' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_reset.v:67]
+INFO: [Synth 8-6155] done synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper.v:158]
+INFO: [Synth 8-6155] done synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top.v:85]
+INFO: [Synth 8-6155] done synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_3_0_7vx' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_3_0_7vx.v:116]
+WARNING: [Synth 8-7071] port 'free_run_clock' of module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_3_0_7vx' is unconnected for instance 'inst' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/synth/fpgadrv_axi_pcie_0_0_pcie3_ip.v:842]
+WARNING: [Synth 8-7023] instance 'inst' of module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_3_0_7vx' has 295 connections declared, but only 294 given [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/synth/fpgadrv_axi_pcie_0_0_pcie3_ip.v:842]
+INFO: [Synth 8-6155] done synthesizing module 'fpgadrv_axi_pcie_0_0_pcie3_ip' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/synth/fpgadrv_axi_pcie_0_0_pcie3_ip.v:53]
+WARNING: [Synth 8-7071] port 'user_app_rdy' of module 'fpgadrv_axi_pcie_0_0_pcie3_ip' is unconnected for instance 'pcie3_ip_i' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:1819]
+WARNING: [Synth 8-7071] port 'cfg_vf_status' of module 'fpgadrv_axi_pcie_0_0_pcie3_ip' is unconnected for instance 'pcie3_ip_i' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:1819]
+WARNING: [Synth 8-7071] port 'cfg_vf_power_state' of module 'fpgadrv_axi_pcie_0_0_pcie3_ip' is unconnected for instance 'pcie3_ip_i' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:1819]
+WARNING: [Synth 8-7071] port 'cfg_tph_requester_enable' of module 'fpgadrv_axi_pcie_0_0_pcie3_ip' is unconnected for instance 'pcie3_ip_i' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:1819]
+WARNING: [Synth 8-7071] port 'cfg_tph_st_mode' of module 'fpgadrv_axi_pcie_0_0_pcie3_ip' is unconnected for instance 'pcie3_ip_i' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:1819]
+WARNING: [Synth 8-7071] port 'cfg_vf_tph_requester_enable' of module 'fpgadrv_axi_pcie_0_0_pcie3_ip' is unconnected for instance 'pcie3_ip_i' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:1819]
+WARNING: [Synth 8-7071] port 'cfg_vf_tph_st_mode' of module 'fpgadrv_axi_pcie_0_0_pcie3_ip' is unconnected for instance 'pcie3_ip_i' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:1819]
+WARNING: [Synth 8-7071] port 'cfg_vf_flr_in_process' of module 'fpgadrv_axi_pcie_0_0_pcie3_ip' is unconnected for instance 'pcie3_ip_i' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:1819]
+WARNING: [Synth 8-7071] port 'cfg_interrupt_msi_vf_enable' of module 'fpgadrv_axi_pcie_0_0_pcie3_ip' is unconnected for instance 'pcie3_ip_i' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:1819]
+WARNING: [Synth 8-7023] instance 'pcie3_ip_i' of module 'fpgadrv_axi_pcie_0_0_pcie3_ip' has 142 connections declared, but only 133 given [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:1819]
+INFO: [Synth 8-6155] done synthesizing module 'fpgadrv_axi_pcie_0_0_core_top' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:58]
+INFO: [Synth 8-6155] done synthesizing module 'fpgadrv_axi_pcie_0_0' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/synth/fpgadrv_axi_pcie_0_0.v:53]
+WARNING: [Synth 8-6014] Unused sequential element reqStreamQ_ff_reg was removed. 
+WARNING: [Synth 8-6014] Unused sequential element reg_mgmt_reset_timer_reg was removed.  [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_init_ctrl_7vx.v:193]
+WARNING: [Synth 8-6014] Unused sequential element regff_mgmt_sticky_reset_n_o_reg was removed.  [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_init_ctrl_7vx.v:422]
+WARNING: [Synth 8-6014] Unused sequential element resetovrd_disble.reset_cnt_reg was removed.  [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_user.v:384]
+WARNING: [Synth 8-6014] Unused sequential element rxsync_fsm_disable.rxsync_done_reg was removed.  [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_sync.v:613]
+WARNING: [Synth 8-6014] Unused sequential element reg_clock_locked_reg was removed.  [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top.v:1046]
+WARNING: [Synth 8-3848] Net pipe_txoutclk_out in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:730]
+WARNING: [Synth 8-3848] Net pipe_rxoutclk_out in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:731]
+WARNING: [Synth 8-3848] Net pipe_pclk_sel_out in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:732]
+WARNING: [Synth 8-3848] Net pipe_gen3_out in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:733]
+WARNING: [Synth 8-3848] Net qpll_qplld in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:743]
+WARNING: [Synth 8-3848] Net qpll_qpllreset in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:744]
+WARNING: [Synth 8-3848] Net qpll_drp_clk in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:745]
+WARNING: [Synth 8-3848] Net qpll_drp_rst_n in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:746]
+WARNING: [Synth 8-3848] Net qpll_drp_ovrd in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:747]
+WARNING: [Synth 8-3848] Net qpll_drp_gen3 in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:748]
+WARNING: [Synth 8-3848] Net qpll_drp_start in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:749]
+WARNING: [Synth 8-3848] Net pipe_rxprbserr in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:757]
+WARNING: [Synth 8-3848] Net pipe_rst_fsm in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:759]
+WARNING: [Synth 8-3848] Net pipe_qrst_fsm in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:760]
+WARNING: [Synth 8-3848] Net pipe_rate_fsm in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:761]
+WARNING: [Synth 8-3848] Net pipe_sync_fsm_tx in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:762]
+WARNING: [Synth 8-3848] Net pipe_sync_fsm_rx in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:763]
+WARNING: [Synth 8-3848] Net pipe_drp_fsm in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:764]
+WARNING: [Synth 8-3848] Net pipe_rst_idle in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:765]
+WARNING: [Synth 8-3848] Net pipe_qrst_idle in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:766]
+WARNING: [Synth 8-3848] Net pipe_rate_idle in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:767]
+WARNING: [Synth 8-3848] Net pipe_eyescandataerror in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:768]
+WARNING: [Synth 8-3848] Net pipe_rxstatus in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:769]
+WARNING: [Synth 8-3848] Net pipe_dmonitorout in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:770]
+WARNING: [Synth 8-3848] Net pipe_cpll_lock in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:771]
+WARNING: [Synth 8-3848] Net pipe_qpll_lock in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:772]
+WARNING: [Synth 8-3848] Net pipe_rxpmaresetdone in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:773]
+WARNING: [Synth 8-3848] Net pipe_rxbufstatus in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:774]
+WARNING: [Synth 8-3848] Net pipe_txphaligndone in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:775]
+WARNING: [Synth 8-3848] Net pipe_txphinitdone in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:776]
+WARNING: [Synth 8-3848] Net pipe_txdlysresetdone in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:777]
+WARNING: [Synth 8-3848] Net pipe_rxphaligndone in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:778]
+WARNING: [Synth 8-3848] Net pipe_rxdlysresetdone in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:779]
+WARNING: [Synth 8-3848] Net pipe_rxsyncdone in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:780]
+WARNING: [Synth 8-3848] Net pipe_rxdisperr in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:781]
+WARNING: [Synth 8-3848] Net pipe_rxnotintable in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:782]
+WARNING: [Synth 8-3848] Net pipe_rxcommadet in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:783]
+WARNING: [Synth 8-3848] Net gt_ch_drp_rdy in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:784]
+WARNING: [Synth 8-3848] Net pipe_debug_0 in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:785]
+WARNING: [Synth 8-3848] Net pipe_debug_1 in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:786]
+WARNING: [Synth 8-3848] Net pipe_debug_2 in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:787]
+WARNING: [Synth 8-3848] Net pipe_debug_3 in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:788]
+WARNING: [Synth 8-3848] Net pipe_debug_4 in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:789]
+WARNING: [Synth 8-3848] Net pipe_debug_5 in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:790]
+WARNING: [Synth 8-3848] Net pipe_debug_6 in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:791]
+WARNING: [Synth 8-3848] Net pipe_debug_7 in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:792]
+WARNING: [Synth 8-3848] Net pipe_debug_8 in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:793]
+WARNING: [Synth 8-3848] Net pipe_debug_9 in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:794]
+WARNING: [Synth 8-3848] Net pipe_debug in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:795]
+WARNING: [Synth 8-3848] Net int_qpll1lock_out in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:696]
+WARNING: [Synth 8-3848] Net int_qpll1outclk_out in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:697]
+WARNING: [Synth 8-3848] Net int_qpll1outrefclk_out in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:698]
+WARNING: [Synth 8-3848] Net ext_qpll1refclk in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:699]
+WARNING: [Synth 8-3848] Net ext_qpll1pd in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:700]
+WARNING: [Synth 8-3848] Net ext_qpll1rate in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:701]
+WARNING: [Synth 8-3848] Net ext_qpll1reset in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:702]
+WARNING: [Synth 8-3848] Net gt_txelecidle in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:807]
+WARNING: [Synth 8-3848] Net gt_txresetdone in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:808]
+WARNING: [Synth 8-3848] Net gt_rxresetdone in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:809]
+WARNING: [Synth 8-3848] Net gt_rxpmaresetdone in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:810]
+WARNING: [Synth 8-3848] Net gt_txphaligndone in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:811]
+WARNING: [Synth 8-3848] Net gt_txphinitdone in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:812]
+WARNING: [Synth 8-3848] Net gt_txdlysresetdone in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:813]
+WARNING: [Synth 8-3848] Net gt_rxphaligndone in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:814]
+WARNING: [Synth 8-3848] Net gt_rxdlysresetdone in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:815]
+WARNING: [Synth 8-3848] Net gt_rxsyncdone in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:816]
+WARNING: [Synth 8-3848] Net gt_eyescandataerror in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:817]
+WARNING: [Synth 8-3848] Net gt_rxprbserr in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:818]
+WARNING: [Synth 8-3848] Net gt_dmonitorout in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:819]
+WARNING: [Synth 8-3848] Net gt_rxcommadet in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:820]
+WARNING: [Synth 8-3848] Net gt_phystatus in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:821]
+WARNING: [Synth 8-3848] Net gt_rxvalid in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:822]
+WARNING: [Synth 8-3848] Net gt_rxcdrlock in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:823]
+WARNING: [Synth 8-3848] Net gt_pcierateidle in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:824]
+WARNING: [Synth 8-3848] Net gt_pcieuserratestart in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:825]
+WARNING: [Synth 8-3848] Net gt_gtpowergood in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:826]
+WARNING: [Synth 8-3848] Net gt_cplllock in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:827]
+WARNING: [Synth 8-3848] Net gt_rxoutclk in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:828]
+WARNING: [Synth 8-3848] Net gt_rxrecclkout in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:829]
+WARNING: [Synth 8-3848] Net gt_qpll1lock in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:830]
+WARNING: [Synth 8-3848] Net gt_rxstatus in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:831]
+WARNING: [Synth 8-3848] Net gt_rxbufstatus in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:832]
+WARNING: [Synth 8-3848] Net gt_bufgtdiv in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:833]
+WARNING: [Synth 8-3848] Net phy_txeq_ctrl in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:834]
+WARNING: [Synth 8-3848] Net phy_txeq_preset in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:835]
+WARNING: [Synth 8-3848] Net phy_rst_fsm in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:836]
+WARNING: [Synth 8-3848] Net phy_txeq_fsm in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:837]
+WARNING: [Synth 8-3848] Net phy_rxeq_fsm in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:838]
+WARNING: [Synth 8-3848] Net phy_rst_idle in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:839]
+WARNING: [Synth 8-3848] Net phy_rrst_n in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:840]
+WARNING: [Synth 8-3848] Net phy_prst_n in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:841]
+WARNING: [Synth 8-3848] Net cfg_interrupt_msix_sent in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:1006]
+WARNING: [Synth 8-3848] Net cfg_interrupt_msix_fail in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:1007]
+WARNING: [Synth 8-3848] Net cfg_local_error in module/entity fpgadrv_axi_pcie_0_0_core_top does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/axi_pcie3_v3_0/hdl/verilog/fpgadrv_axi_pcie_0_0_core_top.v:1219]
+WARNING: [Synth 8-7129] Port CLK_CLK in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_clock is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLK_RXOUTCLK_IN[3] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_clock is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLK_RXOUTCLK_IN[2] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_clock is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLK_RXOUTCLK_IN[1] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_clock is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLK_RXOUTCLK_IN[0] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_clock is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INT_QPLLLOCK_OUT[1] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INT_QPLLOUTCLK_OUT[1] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INT_QPLLOUTREFCLK_OUT[1] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_QPLLRESET[1] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PIPE_PCLK_IN in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PIPE_RXUSRCLK_IN in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PIPE_RXOUTCLK_IN[3] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PIPE_RXOUTCLK_IN[2] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PIPE_RXOUTCLK_IN[1] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PIPE_RXOUTCLK_IN[0] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PIPE_DCLK_IN in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PIPE_USERCLK1_IN in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PIPE_USERCLK2_IN in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PIPE_OOBCLK_IN in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PIPE_MMCM_LOCK_IN in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_CRSCODE[11] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_CRSCODE[10] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_CRSCODE[9] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_CRSCODE[8] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_CRSCODE[7] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_CRSCODE[6] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_CRSCODE[5] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_CRSCODE[4] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_CRSCODE[3] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_CRSCODE[2] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_CRSCODE[1] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_CRSCODE[0] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_FSM[17] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_FSM[16] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_FSM[15] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_FSM[14] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_FSM[13] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_FSM[12] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_FSM[11] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_FSM[10] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_FSM[9] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_FSM[8] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_FSM[7] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_FSM[6] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_FSM[5] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_FSM[4] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_FSM[3] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_FSM[2] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_FSM[1] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_FSM[0] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_DONE[1] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_DONE[0] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_RESET[1] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_DRP_RESET[0] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_QPLLLOCK[1] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_QPLLLOCK[0] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_QPLLOUTCLK[1] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_QPLLOUTCLK[0] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_QPLLOUTREFCLK[1] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port QPLL_QPLLOUTREFCLK[0] in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PIPE_JTAG_EN in module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx_reset in module fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_rxslide[7] in module fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_rxslide[6] in module fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_rxslide[5] in module fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_rxslide[4] in module fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_ltssm_state[5] in module fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_ltssm_state[4] in module fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_ltssm_state[3] in module fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_ltssm_state[2] in module fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_ltssm_state[1] in module fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_ltssm_state[0] in module fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_rx4_polarity in module fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_compliance in module fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_char_is_k[1] in module fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_char_is_k[0] in module fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[31] in module fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[30] in module fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[29] in module fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[28] in module fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[27] in module fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[26] in module fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[25] in module fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[24] in module fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[23] in module fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[22] in module fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[21] in module fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[20] in module fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[19] in module fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[18] in module fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[17] in module fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[16] in module fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[15] in module fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[14] in module fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[13] in module fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[12] in module fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[11] in module fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[10] in module fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[9] in module fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pipe_tx4_data[8] in module fpgadrv_axi_pcie_0_0_pcie3_ip_gt_top is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:55 ; elapsed = 00:01:34 . Memory (MB): peak = 1858.348 ; gain = 564.367
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:56 ; elapsed = 00:01:36 . Memory (MB): peak = 1858.348 ; gain = 564.367
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:56 ; elapsed = 00:01:36 . Memory (MB): peak = 1858.348 ; gain = 564.367
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1858.348 ; gain = 0.000
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'inst/pcie3_ip_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_i1_bufgctrl.pclk_i1' of type 'BUFGCTRL' is 'ULTRASCALE'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist. 
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'inst/pcie3_ip_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_slave_bufgctrl.pclk_slave' of type 'BUFGCTRL' is 'ULTRASCALE'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist. 
+INFO: [Netlist 29-17] Analyzing 332 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/synth/fpgadrv_axi_pcie_0_0_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/synth/fpgadrv_axi_pcie_0_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip-PCIE_X0Y2.xdc] for cell 'inst/pcie3_ip_i/inst'
+INFO: [Timing 38-2] Deriving generated clocks [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip-PCIE_X0Y2.xdc:120]
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip-PCIE_X0Y2.xdc] for cell 'inst/pcie3_ip_i/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_2/source/fpgadrv_axi_pcie_0_0_pcie3_ip-PCIE_X0Y2.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/fpgadrv_axi_pcie_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/fpgadrv_axi_pcie_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_1/axi_pcie3_v3_0_22_fifo_generator_v13_1_4_64B_parity.xdc] for cell 'inst/inst/axi_pcie_mm_s_soft_i/axi_pcie3_v3_0_22_axi_mm_mastertop_inst/ReadDataFifo/fifo_generator_64B_parity[0].u_fifo/U0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_1/axi_pcie3_v3_0_22_fifo_generator_v13_1_4_64B_parity.xdc] for cell 'inst/inst/axi_pcie_mm_s_soft_i/axi_pcie3_v3_0_22_axi_mm_mastertop_inst/ReadDataFifo/fifo_generator_64B_parity[0].u_fifo/U0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_1/axi_pcie3_v3_0_22_fifo_generator_v13_1_4_64B_parity.xdc] for cell 'inst/inst/axi_pcie_mm_s_soft_i/axi_pcie3_v3_0_22_axi_mm_mastertop_inst/ReadDataFifo/fifo_generator_64B_parity[1].u_fifo/U0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_1/axi_pcie3_v3_0_22_fifo_generator_v13_1_4_64B_parity.xdc] for cell 'inst/inst/axi_pcie_mm_s_soft_i/axi_pcie3_v3_0_22_axi_mm_mastertop_inst/ReadDataFifo/fifo_generator_64B_parity[1].u_fifo/U0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_1/axi_pcie3_v3_0_22_fifo_generator_v13_1_4_64B_parity.xdc] for cell 'inst/inst/axi_pcie_mm_s_soft_i/axi_pcie3_v3_0_22_axi_mm_mastertop_inst/ReadDataFifo/fifo_generator_64B_parity[2].u_fifo/U0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_1/axi_pcie3_v3_0_22_fifo_generator_v13_1_4_64B_parity.xdc] for cell 'inst/inst/axi_pcie_mm_s_soft_i/axi_pcie3_v3_0_22_axi_mm_mastertop_inst/ReadDataFifo/fifo_generator_64B_parity[2].u_fifo/U0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_1/axi_pcie3_v3_0_22_fifo_generator_v13_1_4_64B_parity.xdc] for cell 'inst/inst/axi_pcie_mm_s_soft_i/axi_pcie3_v3_0_22_axi_mm_mastertop_inst/ReadDataFifo/fifo_generator_64B_parity[3].u_fifo/U0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_1/axi_pcie3_v3_0_22_fifo_generator_v13_1_4_64B_parity.xdc] for cell 'inst/inst/axi_pcie_mm_s_soft_i/axi_pcie3_v3_0_22_axi_mm_mastertop_inst/ReadDataFifo/fifo_generator_64B_parity[3].u_fifo/U0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_1/axi_pcie3_v3_0_22_fifo_generator_v13_1_4_64B_parity.xdc] for cell 'inst/inst/axi_pcie_mm_s_soft_i/axi_pcie3_v3_0_22_axi_mm_mastertop_inst/WriteDataFifo/fifo_generator_64B_parity[0].u_fifo/U0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_1/axi_pcie3_v3_0_22_fifo_generator_v13_1_4_64B_parity.xdc] for cell 'inst/inst/axi_pcie_mm_s_soft_i/axi_pcie3_v3_0_22_axi_mm_mastertop_inst/WriteDataFifo/fifo_generator_64B_parity[0].u_fifo/U0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_1/axi_pcie3_v3_0_22_fifo_generator_v13_1_4_64B_parity.xdc] for cell 'inst/inst/axi_pcie_mm_s_soft_i/axi_pcie3_v3_0_22_axi_mm_mastertop_inst/WriteDataFifo/fifo_generator_64B_parity[1].u_fifo/U0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_1/axi_pcie3_v3_0_22_fifo_generator_v13_1_4_64B_parity.xdc] for cell 'inst/inst/axi_pcie_mm_s_soft_i/axi_pcie3_v3_0_22_axi_mm_mastertop_inst/WriteDataFifo/fifo_generator_64B_parity[1].u_fifo/U0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_1/axi_pcie3_v3_0_22_fifo_generator_v13_1_4_64B_parity.xdc] for cell 'inst/inst/axi_pcie_mm_s_soft_i/axi_pcie3_v3_0_22_axi_mm_mastertop_inst/WriteDataFifo/fifo_generator_64B_parity[2].u_fifo/U0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_1/axi_pcie3_v3_0_22_fifo_generator_v13_1_4_64B_parity.xdc] for cell 'inst/inst/axi_pcie_mm_s_soft_i/axi_pcie3_v3_0_22_axi_mm_mastertop_inst/WriteDataFifo/fifo_generator_64B_parity[2].u_fifo/U0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_1/axi_pcie3_v3_0_22_fifo_generator_v13_1_4_64B_parity.xdc] for cell 'inst/inst/axi_pcie_mm_s_soft_i/axi_pcie3_v3_0_22_axi_mm_mastertop_inst/WriteDataFifo/fifo_generator_64B_parity[3].u_fifo/U0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_1/axi_pcie3_v3_0_22_fifo_generator_v13_1_4_64B_parity.xdc] for cell 'inst/inst/axi_pcie_mm_s_soft_i/axi_pcie3_v3_0_22_axi_mm_mastertop_inst/WriteDataFifo/fifo_generator_64B_parity[3].u_fifo/U0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_1/axi_pcie3_v3_0_22_fifo_generator_v13_1_4_64B_parity.xdc] for cell 'inst/inst/axi_pcie_mm_s_soft_i/slave_bridge_inst/WriteDataFifo/fifo_generator_64B_parity[0].u_fifo/U0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_1/axi_pcie3_v3_0_22_fifo_generator_v13_1_4_64B_parity.xdc] for cell 'inst/inst/axi_pcie_mm_s_soft_i/slave_bridge_inst/WriteDataFifo/fifo_generator_64B_parity[0].u_fifo/U0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_1/axi_pcie3_v3_0_22_fifo_generator_v13_1_4_64B_parity.xdc] for cell 'inst/inst/axi_pcie_mm_s_soft_i/slave_bridge_inst/WriteDataFifo/fifo_generator_64B_parity[1].u_fifo/U0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_1/axi_pcie3_v3_0_22_fifo_generator_v13_1_4_64B_parity.xdc] for cell 'inst/inst/axi_pcie_mm_s_soft_i/slave_bridge_inst/WriteDataFifo/fifo_generator_64B_parity[1].u_fifo/U0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_1/axi_pcie3_v3_0_22_fifo_generator_v13_1_4_64B_parity.xdc] for cell 'inst/inst/axi_pcie_mm_s_soft_i/slave_bridge_inst/WriteDataFifo/fifo_generator_64B_parity[2].u_fifo/U0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_1/axi_pcie3_v3_0_22_fifo_generator_v13_1_4_64B_parity.xdc] for cell 'inst/inst/axi_pcie_mm_s_soft_i/slave_bridge_inst/WriteDataFifo/fifo_generator_64B_parity[2].u_fifo/U0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_1/axi_pcie3_v3_0_22_fifo_generator_v13_1_4_64B_parity.xdc] for cell 'inst/inst/axi_pcie_mm_s_soft_i/slave_bridge_inst/WriteDataFifo/fifo_generator_64B_parity[3].u_fifo/U0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/ip_1/axi_pcie3_v3_0_22_fifo_generator_v13_1_4_64B_parity.xdc] for cell 'inst/inst/axi_pcie_mm_s_soft_i/slave_bridge_inst/WriteDataFifo/fifo_generator_64B_parity[3].u_fifo/U0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/fpgadrv_axi_pcie_0_0_board.xdc] for cell 'inst'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/fpgadrv_axi_pcie_0_0_board.xdc] for cell 'inst'
+Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/source/fpgadrv_axi_pcie_0_0_apcie3_7vx_ip_xdc.xdc] for cell 'inst'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/source/fpgadrv_axi_pcie_0_0_apcie3_7vx_ip_xdc.xdc] for cell 'inst'
+Parsing XDC File [D:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.runs/fpgadrv_axi_pcie_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.runs/fpgadrv_axi_pcie_0_0_synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.runs/fpgadrv_axi_pcie_0_0_synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/fpgadrv_axi_pcie_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/fpgadrv_axi_pcie_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 1908.750 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1910.090 ; gain = 1.340
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:01:42 ; elapsed = 00:02:46 . Memory (MB): peak = 1910.090 ; gain = 616.109
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7vx690tffg1761-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:42 ; elapsed = 00:02:46 . Memory (MB): peak = 1910.090 ; gain = 616.109
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst/pcie3_ip_i/inst. (constraint file  D:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.runs/fpgadrv_axi_pcie_0_0_synth_1/dont_touch.xdc, line 17).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/inst/axi_pcie_mm_s_soft_i/axi_pcie3_v3_0_22_axi_mm_mastertop_inst/ReadDataFifo/\fifo_generator_64B_parity[0].u_fifo /U0. (constraint file  D:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.runs/fpgadrv_axi_pcie_0_0_synth_1/dont_touch.xdc, line 22).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/inst/axi_pcie_mm_s_soft_i/axi_pcie3_v3_0_22_axi_mm_mastertop_inst/ReadDataFifo/\fifo_generator_64B_parity[1].u_fifo /U0. (constraint file  D:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.runs/fpgadrv_axi_pcie_0_0_synth_1/dont_touch.xdc, line 22).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/inst/axi_pcie_mm_s_soft_i/axi_pcie3_v3_0_22_axi_mm_mastertop_inst/ReadDataFifo/\fifo_generator_64B_parity[2].u_fifo /U0. (constraint file  D:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.runs/fpgadrv_axi_pcie_0_0_synth_1/dont_touch.xdc, line 22).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/inst/axi_pcie_mm_s_soft_i/axi_pcie3_v3_0_22_axi_mm_mastertop_inst/ReadDataFifo/\fifo_generator_64B_parity[3].u_fifo /U0. (constraint file  D:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.runs/fpgadrv_axi_pcie_0_0_synth_1/dont_touch.xdc, line 22).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/inst/axi_pcie_mm_s_soft_i/axi_pcie3_v3_0_22_axi_mm_mastertop_inst/WriteDataFifo/\fifo_generator_64B_parity[0].u_fifo /U0. (constraint file  D:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.runs/fpgadrv_axi_pcie_0_0_synth_1/dont_touch.xdc, line 22).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/inst/axi_pcie_mm_s_soft_i/axi_pcie3_v3_0_22_axi_mm_mastertop_inst/WriteDataFifo/\fifo_generator_64B_parity[1].u_fifo /U0. (constraint file  D:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.runs/fpgadrv_axi_pcie_0_0_synth_1/dont_touch.xdc, line 22).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/inst/axi_pcie_mm_s_soft_i/axi_pcie3_v3_0_22_axi_mm_mastertop_inst/WriteDataFifo/\fifo_generator_64B_parity[2].u_fifo /U0. (constraint file  D:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.runs/fpgadrv_axi_pcie_0_0_synth_1/dont_touch.xdc, line 22).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/inst/axi_pcie_mm_s_soft_i/axi_pcie3_v3_0_22_axi_mm_mastertop_inst/WriteDataFifo/\fifo_generator_64B_parity[3].u_fifo /U0. (constraint file  D:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.runs/fpgadrv_axi_pcie_0_0_synth_1/dont_touch.xdc, line 22).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/inst/axi_pcie_mm_s_soft_i/slave_bridge_inst/WriteDataFifo/\fifo_generator_64B_parity[0].u_fifo /U0. (constraint file  D:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.runs/fpgadrv_axi_pcie_0_0_synth_1/dont_touch.xdc, line 22).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/inst/axi_pcie_mm_s_soft_i/slave_bridge_inst/WriteDataFifo/\fifo_generator_64B_parity[1].u_fifo /U0. (constraint file  D:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.runs/fpgadrv_axi_pcie_0_0_synth_1/dont_touch.xdc, line 22).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/inst/axi_pcie_mm_s_soft_i/slave_bridge_inst/WriteDataFifo/\fifo_generator_64B_parity[2].u_fifo /U0. (constraint file  D:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.runs/fpgadrv_axi_pcie_0_0_synth_1/dont_touch.xdc, line 22).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/inst/axi_pcie_mm_s_soft_i/slave_bridge_inst/WriteDataFifo/\fifo_generator_64B_parity[3].u_fifo /U0. (constraint file  D:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.runs/fpgadrv_axi_pcie_0_0_synth_1/dont_touch.xdc, line 22).
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  D:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.runs/fpgadrv_axi_pcie_0_0_synth_1/dont_touch.xdc, line 28).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/pcie3_ip_i. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/inst/axi_pcie_mm_s_soft_i/axi_pcie3_v3_0_22_axi_mm_mastertop_inst/ReadDataFifo/\fifo_generator_64B_parity[0].u_fifo . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/inst/axi_pcie_mm_s_soft_i/axi_pcie3_v3_0_22_axi_mm_mastertop_inst/ReadDataFifo/\fifo_generator_64B_parity[1].u_fifo . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/inst/axi_pcie_mm_s_soft_i/axi_pcie3_v3_0_22_axi_mm_mastertop_inst/ReadDataFifo/\fifo_generator_64B_parity[2].u_fifo . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/inst/axi_pcie_mm_s_soft_i/axi_pcie3_v3_0_22_axi_mm_mastertop_inst/ReadDataFifo/\fifo_generator_64B_parity[3].u_fifo . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/inst/axi_pcie_mm_s_soft_i/axi_pcie3_v3_0_22_axi_mm_mastertop_inst/WriteDataFifo/\fifo_generator_64B_parity[0].u_fifo . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/inst/axi_pcie_mm_s_soft_i/axi_pcie3_v3_0_22_axi_mm_mastertop_inst/WriteDataFifo/\fifo_generator_64B_parity[1].u_fifo . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/inst/axi_pcie_mm_s_soft_i/axi_pcie3_v3_0_22_axi_mm_mastertop_inst/WriteDataFifo/\fifo_generator_64B_parity[2].u_fifo . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/inst/axi_pcie_mm_s_soft_i/axi_pcie3_v3_0_22_axi_mm_mastertop_inst/WriteDataFifo/\fifo_generator_64B_parity[3].u_fifo . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/inst/axi_pcie_mm_s_soft_i/slave_bridge_inst/WriteDataFifo/\fifo_generator_64B_parity[0].u_fifo . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/inst/axi_pcie_mm_s_soft_i/slave_bridge_inst/WriteDataFifo/\fifo_generator_64B_parity[1].u_fifo . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/inst/axi_pcie_mm_s_soft_i/slave_bridge_inst/WriteDataFifo/\fifo_generator_64B_parity[2].u_fifo . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/inst/axi_pcie_mm_s_soft_i/slave_bridge_inst/WriteDataFifo/\fifo_generator_64B_parity[3].u_fifo . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/inst/axi_pcie_mm_s_soft_i/slave_bridge_inst/rdataBufMem/\blk_mem_64B_parity[0].u_buffermem . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/inst/axi_pcie_mm_s_soft_i/slave_bridge_inst/rdataBufMem/\blk_mem_64B_parity[1].u_buffermem . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/inst/axi_pcie_mm_s_soft_i/slave_bridge_inst/rdataBufMem/\blk_mem_64B_parity[2].u_buffermem . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/inst/axi_pcie_mm_s_soft_i/slave_bridge_inst/rdataBufMem/\blk_mem_64B_parity[3].u_buffermem . (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:43 ; elapsed = 00:02:47 . Memory (MB): peak = 1910.090 ; gain = 616.109
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'regStateSm_cs_reg' in module 'axi_pcie3_v3_0_22_reg_block_v'
+INFO: [Synth 8-802] inferred FSM for state register 'memreqsm_cs_reg' in module 'axi_pcie3_v3_0_22_axi_str_masterbr_wrrd_v'
+INFO: [Synth 8-802] inferred FSM for state register 'wrdatasm_cs_reg' in module 'axi_pcie3_v3_0_22_axi_mm_master_wr_v'
+INFO: [Synth 8-802] inferred FSM for state register 'read_reqSM_cs_reg' in module 'axi_pcie3_v3_0_22_axi_slave_read_v'
+INFO: [Synth 8-802] inferred FSM for state register 'read_dataSM_cs_reg' in module 'axi_pcie3_v3_0_22_axi_slave_read_v'
+INFO: [Synth 8-802] inferred FSM for state register 'gpregsm1.curr_fwft_state_reg' in module 'rd_fwft'
+INFO: [Synth 8-802] inferred FSM for state register 'root_portsm.cfg_sm_cs_reg' in module 'axi_pcie3_v3_0_22_axi_enhanced_cfg_gen_sink'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'axi_pcie3_v3_0_22_slave_attachment'
+INFO: [Synth 8-802] inferred FSM for state register 'int_cs_reg' in module 'axi_pcie3_v3_0_22_axi_pcie_mm_s_wrap'
+INFO: [Synth 8-802] inferred FSM for state register 'reg_state_reg' in module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_init_ctrl_7vx'
+INFO: [Synth 8-802] inferred FSM for state register 'eq_state_reg' in module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_force_adapt'
+INFO: [Synth 8-802] inferred FSM for state register 'fsm_reg' in module 'fpgadrv_axi_pcie_0_0_pcie3_ip_qpll_reset'
+INFO: [Synth 8-802] inferred FSM for state register 'fsm_reg' in module 'fpgadrv_axi_pcie_0_0_pcie3_ip_rxeq_scan'
+INFO: [Synth 8-802] inferred FSM for state register 'fsm_tx_reg' in module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_eq'
+INFO: [Synth 8-802] inferred FSM for state register 'fsm_rx_reg' in module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_eq'
+INFO: [Synth 8-802] inferred FSM for state register 'fsm_reg' in module 'fpgadrv_axi_pcie_0_0_pcie3_ip_qpll_drp'
+INFO: [Synth 8-802] inferred FSM for state register 'txsync_fsm.fsm_tx_reg' in module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_sync'
+INFO: [Synth 8-802] inferred FSM for state register 'fsm_reg' in module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_drp'
+INFO: [Synth 8-802] inferred FSM for state register 'fsm_reg' in module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_reset'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                REG_IDLE |                               00 |                               00
+              REG_ACCESS |                               01 |                               01
+             REG_WAIT_CS |                               10 |                               10
+                  iSTATE |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'regStateSm_cs_reg' using encoding 'sequential' in module 'axi_pcie3_v3_0_22_reg_block_v'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+               WRRD_IDLE |                              000 |                              000
+             WRRD_MEMREQ |                              001 |                              001
+          WRRD_MEMREQ2ND |                              010 |                              010
+          WRRD_MEMWRDATA |                              011 |                              100
+           WRRD_MEMRDREQ |                              100 |                              011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'memreqsm_cs_reg' using encoding 'sequential' in module 'axi_pcie3_v3_0_22_axi_str_masterbr_wrrd_v'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+           WDATASM_START |                               00 |                               00
+            WDATASM_IDLE |                               01 |                               01
+        WDATASM_DATAXFER |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'wrdatasm_cs_reg' using encoding 'sequential' in module 'axi_pcie3_v3_0_22_axi_mm_master_wr_v'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+              RDATA_IDLE |                              000 |                              000
+              RDATA_LOAD |                              001 |                              001
+   RDATA_FIRST_BRAM_READ |                              010 |                              010
+          RDATA_STR_DATA |                              011 |                              011
+          RDATA_STR_DONE |                              100 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'read_dataSM_cs_reg' using encoding 'sequential' in module 'axi_pcie3_v3_0_22_axi_slave_read_v'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+            READREQ_IDLE |                               00 |                               00
+           READREQ_CHECK |                               01 |                               01
+        READREQ_SEND_REQ |                               10 |                               11
+   READREQ_WFOROPEN_SLOT |                               11 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'read_reqSM_cs_reg' using encoding 'sequential' in module 'axi_pcie3_v3_0_22_axi_slave_read_v'
+INFO: [Synth 8-6159] Found Keep on FSM register 'gpregsm1.curr_fwft_state_reg' in module 'rd_fwft', re-encoding will not be performed
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 invalid |                               00 |                               00
+            stage1_valid |                               10 |                               10
+       both_stages_valid |                               11 |                               11
+            stage2_valid |                               01 |                               01
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+             CFG_SM_IDLE |                              000 |                              000
+           CFG_SM_GRABRQ |                              001 |                              010
+         CFG_SM_REQ_LOOP |                              010 |                              001
+              CFG_SM_HDR |                              011 |                              011
+             CFG_SM_HDR2 |                              100 |                              100
+             CFG_SM_DATA |                              101 |                              101
+        CFG_SM_WAIT_RESP |                              110 |                              110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'root_portsm.cfg_sm_cs_reg' using encoding 'sequential' in module 'axi_pcie3_v3_0_22_axi_enhanced_cfg_gen_sink'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 SM_IDLE |                               00 |                               00
+                 SM_READ |                               01 |                               01
+                SM_WRITE |                               10 |                               10
+                  iSTATE |                               11 |                               11
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'axi_pcie3_v3_0_22_slave_attachment'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+               INTX_IDLE |                               00 |                               00
+         INTX_WAIT_GRANT |                               01 |                               01
+             INTX_ASSERT |                               10 |                               10
+           INTX_DEASSERT |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'int_cs_reg' using encoding 'sequential' in module 'axi_pcie3_v3_0_22_axi_pcie_mm_s_wrap'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+             STATE_RESET |                          0000001 |                              000
+STATE_MGMT_RESET_DEASSERT |                          0000010 |                              001
+   STATE_MC_TRANSFER_REQ |                          0000100 |                              010
+  STATE_INPUT_UPDATE_REQ |                          0001000 |                              011
+           STATE_PHY_RDY |                          0010000 |                              100
+    STATE_RESET_DEASSERT |                          0100000 |                              101
+STATE_INPUT_UPDATE_REQ_REDO |                          1000000 |                              110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'reg_state_reg' using encoding 'one-hot' in module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_init_ctrl_7vx'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                 EQ_IDLE |                             0001 |                             0001
+                EQ_ADAPT |                             0010 |                             0010
+                 EQ_WAIT |                             1000 |                             1000
+               EQ_RX_TEK |                             0100 |                             0100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'eq_state_reg' in module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_force_adapt'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+           FSM_WAIT_LOCK |                     000000000010 |                     000000000010
+           FSM_MMCM_LOCK |                     000000000100 |                     000000000100
+       FSM_DRP_START_NOM |                     000000001000 |                     000000001000
+        FSM_DRP_DONE_NOM |                     000000010000 |                     000000010000
+            FSM_QPLLLOCK |                     000000100000 |                     000000100000
+        FSM_QPLL_PDRESET |                     010000000000 |                     010000000000
+             FSM_QPLL_PD |                     100000000000 |                     100000000000
+                FSM_IDLE |                     000000000001 |                     000000000001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'fsm_reg' in module 'fpgadrv_axi_pcie_0_0_pcie3_ip_qpll_reset'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                            00001 |                             0000
+*
+                FSM_IDLE |                            00010 |                             0001
+              FSM_PRESET |                            00100 |                             0010
+            FSM_CONVERGE |                            01000 |                             0100
+     FSM_NEW_TXCOEFF_REQ |                            10000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'fsm_reg' using encoding 'one-hot' in module 'fpgadrv_axi_pcie_0_0_pcie3_ip_rxeq_scan'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                              000 |                           000000
+*
+           FSM_TXEQ_IDLE |                              001 |                           000001
+         FSM_TXEQ_PRESET |                              010 |                           000010
+        FSM_TXEQ_TXCOEFF |                              011 |                           000100
+          FSM_TXEQ_REMAP |                              100 |                           001000
+          FSM_TXEQ_QUERY |                              101 |                           010000
+           FSM_TXEQ_DONE |                              110 |                           100000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'fsm_tx_reg' using encoding 'sequential' in module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_eq'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                          0000001 |                           000000
+*
+           FSM_RXEQ_IDLE |                          0000010 |                           000001
+         FSM_RXEQ_PRESET |                          0000100 |                           000010
+        FSM_RXEQ_TXCOEFF |                          0001000 |                           000100
+             FSM_RXEQ_LF |                          0010000 |                           001000
+FSM_RXEQ_NEW_TXCOEFF_REQ |                          0100000 |                           010000
+           FSM_RXEQ_DONE |                          1000000 |                           100000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'fsm_rx_reg' using encoding 'one-hot' in module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_eq'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                FSM_IDLE |                        000000001 |                        000000001
+                FSM_LOAD |                        000000010 |                        000000010
+                FSM_READ |                        000000100 |                        000000100
+                FSM_RRDY |                        000001000 |                        000001000
+               FSM_WRITE |                        000010000 |                        000010000
+                FSM_WRDY |                        000100000 |                        000100000
+                FSM_DONE |                        001000000 |                        001000000
+           FSM_QPLLRESET |                        010000000 |                        010000000
+            FSM_QPLLLOCK |                        100000000 |                        100000000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'fsm_reg' in module 'fpgadrv_axi_pcie_0_0_pcie3_ip_qpll_drp'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                          0000001 |                           000000
+*
+         FSM_TXSYNC_IDLE |                          0000010 |                           000001
+           FSM_MMCM_LOCK |                          0000100 |                           000010
+        FSM_TXSYNC_START |                          0001000 |                           000100
+        FSM_TXPHINITDONE |                          0010000 |                           001000
+        FSM_TXSYNC_DONE1 |                          0100000 |                           010000
+        FSM_TXSYNC_DONE2 |                          1000000 |                           100000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'txsync_fsm.fsm_tx_reg' using encoding 'one-hot' in module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_sync'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                FSM_IDLE |                          0000001 |                          0000001
+                FSM_LOAD |                          0000010 |                          0000010
+                FSM_READ |                          0000100 |                          0000100
+                FSM_RRDY |                          0001000 |                          0001000
+               FSM_WRITE |                          0010000 |                          0010000
+                FSM_WRDY |                          0100000 |                          0100000
+                FSM_DONE |                          1000000 |                          1000000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'fsm_reg' in module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_drp'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+            FSM_CFG_WAIT |                00000000000000010 |                            00001
+           FSM_CPLLRESET |                00000000000000001 |                            00010
+            FSM_CPLLLOCK |                00000000100000000 |                            00101
+                 FSM_DRP |                01000000000000000 |                            00110
+       FSM_DRP_X16_START |                00000000001000000 |                            00011
+        FSM_DRP_X16_DONE |                00000000010000000 |                            00100
+             FSM_GTRESET |                00010000000000000 |                            00111
+    FSM_RXPMARESETDONE_1 |                00100000000000000 |                            01000
+    FSM_RXPMARESETDONE_2 |                10000000000000000 |                            01001
+       FSM_DRP_X20_START |                00001000000000000 |                            01010
+        FSM_DRP_X20_DONE |                00000100000000000 |                            01011
+           FSM_MMCM_LOCK |                00000000000100000 |                            01100
+           FSM_RESETDONE |                00000000000010000 |                            01101
+             FSM_CPLL_PD |                00000000000000100 |                            01110
+        FSM_TXSYNC_START |                00000000000001000 |                            01111
+         FSM_TXSYNC_DONE |                00000001000000000 |                            10000
+                FSM_IDLE |                00000010000000000 |                            00000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'fsm_reg' using encoding 'one-hot' in module 'fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_reset'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:56 ; elapsed = 00:03:12 . Memory (MB): peak = 1910.090 ; gain = 616.109
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input   23 Bit       Adders := 4     
+	   3 Input   13 Bit       Adders := 3     
+	   2 Input   13 Bit       Adders := 2     
+	   2 Input   12 Bit       Adders := 3     
+	   3 Input   12 Bit       Adders := 2     
+	   3 Input   11 Bit       Adders := 5     
+	   4 Input   11 Bit       Adders := 1     
+	   2 Input   11 Bit       Adders := 5     
+	   2 Input   10 Bit       Adders := 12    
+	   3 Input   10 Bit       Adders := 2     
+	   2 Input    9 Bit       Adders := 26    
+	   4 Input    9 Bit       Adders := 1     
+	   3 Input    9 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 11    
+	   2 Input    7 Bit       Adders := 3     
+	   2 Input    6 Bit       Adders := 10    
+	   2 Input    5 Bit       Adders := 11    
+	   2 Input    4 Bit       Adders := 47    
+	   3 Input    4 Bit       Adders := 2     
+	   2 Input    3 Bit       Adders := 17    
+	   2 Input    2 Bit       Adders := 20    
+	   2 Input    1 Bit       Adders := 4     
++---XORs : 
+	   2 Input     52 Bit         XORs := 2     
+	   2 Input      6 Bit         XORs := 1     
+	   2 Input      5 Bit         XORs := 5     
+	   2 Input      4 Bit         XORs := 1     
+	   2 Input      2 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 541   
++---Registers : 
+	              256 Bit    Registers := 5     
+	              128 Bit    Registers := 6     
+	               96 Bit    Registers := 4     
+	               75 Bit    Registers := 1     
+	               64 Bit    Registers := 2     
+	               60 Bit    Registers := 2     
+	               52 Bit    Registers := 1     
+	               32 Bit    Registers := 98    
+	               23 Bit    Registers := 4     
+	               19 Bit    Registers := 5     
+	               18 Bit    Registers := 32    
+	               16 Bit    Registers := 20    
+	               13 Bit    Registers := 6     
+	               12 Bit    Registers := 6     
+	               11 Bit    Registers := 13    
+	               10 Bit    Registers := 12    
+	                9 Bit    Registers := 61    
+	                8 Bit    Registers := 54    
+	                7 Bit    Registers := 8     
+	                6 Bit    Registers := 68    
+	                5 Bit    Registers := 69    
+	                4 Bit    Registers := 153   
+	                3 Bit    Registers := 105   
+	                2 Bit    Registers := 103   
+	                1 Bit    Registers := 1028  
++---RAMs : 
+	              256 Bit	(8 X 32 bit)          RAMs := 1     
+	              160 Bit	(32 X 5 bit)          RAMs := 1     
+	               96 Bit	(8 X 12 bit)          RAMs := 2     
+	               88 Bit	(8 X 11 bit)          RAMs := 1     
+	               80 Bit	(8 X 10 bit)          RAMs := 1     
+	               64 Bit	(8 X 8 bit)          RAMs := 1     
+	               32 Bit	(8 X 4 bit)          RAMs := 3     
+	               24 Bit	(8 X 3 bit)          RAMs := 3     
++---Muxes : 
+	   2 Input  256 Bit        Muxes := 5     
+	   7 Input  256 Bit        Muxes := 1     
+	   4 Input  128 Bit        Muxes := 1     
+	   2 Input  128 Bit        Muxes := 7     
+	   2 Input   64 Bit        Muxes := 3     
+	   4 Input   64 Bit        Muxes := 1     
+	   9 Input   64 Bit        Muxes := 1     
+	   7 Input   60 Bit        Muxes := 2     
+	   2 Input   60 Bit        Muxes := 7     
+	   2 Input   52 Bit        Muxes := 3     
+	   2 Input   32 Bit        Muxes := 212   
+	   5 Input   32 Bit        Muxes := 3     
+	   4 Input   32 Bit        Muxes := 3     
+	   3 Input   32 Bit        Muxes := 4     
+	  12 Input   32 Bit        Muxes := 2     
+	   8 Input   32 Bit        Muxes := 14    
+	  11 Input   32 Bit        Muxes := 1     
+	   2 Input   28 Bit        Muxes := 1     
+	   2 Input   26 Bit        Muxes := 2     
+	   3 Input   24 Bit        Muxes := 1     
+	   2 Input   23 Bit        Muxes := 4     
+	   5 Input   23 Bit        Muxes := 4     
+	   2 Input   20 Bit        Muxes := 7     
+	   9 Input   20 Bit        Muxes := 1     
+	   4 Input   19 Bit        Muxes := 1     
+	   2 Input   19 Bit        Muxes := 4     
+	   7 Input   19 Bit        Muxes := 4     
+	   2 Input   18 Bit        Muxes := 12    
+	  24 Input   18 Bit        Muxes := 4     
+	   7 Input   18 Bit        Muxes := 8     
+	  17 Input   17 Bit        Muxes := 1     
+	   2 Input   17 Bit        Muxes := 14    
+	   5 Input   16 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 71    
+	   2 Input   15 Bit        Muxes := 11    
+	   2 Input   14 Bit        Muxes := 11    
+	   2 Input   13 Bit        Muxes := 11    
+	   2 Input   12 Bit        Muxes := 16    
+	   4 Input   12 Bit        Muxes := 1     
+	   8 Input   12 Bit        Muxes := 1     
+	  13 Input   12 Bit        Muxes := 1     
+	   5 Input   11 Bit        Muxes := 1     
+	   7 Input   11 Bit        Muxes := 1     
+	   2 Input   11 Bit        Muxes := 45    
+	   4 Input   11 Bit        Muxes := 1     
+	   8 Input   11 Bit        Muxes := 4     
+	   7 Input   10 Bit        Muxes := 3     
+	   2 Input   10 Bit        Muxes := 16    
+	   3 Input   10 Bit        Muxes := 1     
+	   2 Input    9 Bit        Muxes := 9     
+	  10 Input    9 Bit        Muxes := 1     
+	   3 Input    9 Bit        Muxes := 1     
+	   5 Input    8 Bit        Muxes := 4     
+	   2 Input    8 Bit        Muxes := 86    
+	   4 Input    8 Bit        Muxes := 1     
+	   3 Input    8 Bit        Muxes := 7     
+	   7 Input    8 Bit        Muxes := 2     
+	   8 Input    8 Bit        Muxes := 1     
+	   2 Input    7 Bit        Muxes := 84    
+	   7 Input    7 Bit        Muxes := 9     
+	   4 Input    7 Bit        Muxes := 4     
+	   8 Input    7 Bit        Muxes := 4     
+	   2 Input    6 Bit        Muxes := 47    
+	   3 Input    6 Bit        Muxes := 1     
+	   4 Input    6 Bit        Muxes := 1     
+	  12 Input    6 Bit        Muxes := 2     
+	   8 Input    6 Bit        Muxes := 3     
+	   7 Input    6 Bit        Muxes := 12    
+	   2 Input    5 Bit        Muxes := 237   
+	   8 Input    5 Bit        Muxes := 5     
+	   5 Input    5 Bit        Muxes := 4     
+	  17 Input    5 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 85    
+	   5 Input    4 Bit        Muxes := 4     
+	   4 Input    4 Bit        Muxes := 6     
+	   8 Input    4 Bit        Muxes := 7     
+	  10 Input    4 Bit        Muxes := 1     
+	   3 Input    4 Bit        Muxes := 9     
+	  12 Input    4 Bit        Muxes := 1     
+	   7 Input    4 Bit        Muxes := 4     
+	   2 Input    3 Bit        Muxes := 135   
+	   5 Input    3 Bit        Muxes := 6     
+	  12 Input    3 Bit        Muxes := 1     
+	   9 Input    3 Bit        Muxes := 2     
+	   7 Input    3 Bit        Muxes := 16    
+	  11 Input    3 Bit        Muxes := 1     
+	   3 Input    3 Bit        Muxes := 2     
+	   4 Input    3 Bit        Muxes := 4     
+	  10 Input    3 Bit        Muxes := 1     
+	  32 Input    3 Bit        Muxes := 4     
+	   2 Input    2 Bit        Muxes := 332   
+	   3 Input    2 Bit        Muxes := 10    
+	   5 Input    2 Bit        Muxes := 17    
+	   4 Input    2 Bit        Muxes := 21    
+	   7 Input    2 Bit        Muxes := 5     
+	   6 Input    2 Bit        Muxes := 1     
+	  32 Input    2 Bit        Muxes := 4     
+	   2 Input    1 Bit        Muxes := 905   
+	   3 Input    1 Bit        Muxes := 42    
+	   5 Input    1 Bit        Muxes := 56    
+	   4 Input    1 Bit        Muxes := 83    
+	   9 Input    1 Bit        Muxes := 1     
+	   8 Input    1 Bit        Muxes := 72    
+	   7 Input    1 Bit        Muxes := 94    
+	  12 Input    1 Bit        Muxes := 4     
+	   6 Input    1 Bit        Muxes := 6     
+	  13 Input    1 Bit        Muxes := 6     
+	  10 Input    1 Bit        Muxes := 3     
+	  32 Input    1 Bit        Muxes := 76    
+	  17 Input    1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 3600 (col length:200)
+BRAMs: 2940 (col length: RAMB18 200 RAMB36 100)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3332] Sequential element (pcie_top_i/pcie_init_ctrl_7vx_i/FSM_onehot_reg_state_reg[6]) is unused and will be removed from module fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_3_0_7vx.
+WARNING: [Synth 8-3332] Sequential element (rxeq_scan_i/FSM_onehot_fsm_reg[0]) is unused and will be removed from module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_eq__1.
+WARNING: [Synth 8-3332] Sequential element (FSM_onehot_fsm_rx_reg[0]) is unused and will be removed from module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_eq__1.
+WARNING: [Synth 8-3332] Sequential element (FSM_onehot_txsync_fsm.fsm_tx_reg[0]) is unused and will be removed from module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_sync__1.
+WARNING: [Synth 8-3332] Sequential element (rxeq_scan_i/FSM_onehot_fsm_reg[0]) is unused and will be removed from module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_eq__2.
+WARNING: [Synth 8-3332] Sequential element (FSM_onehot_fsm_rx_reg[0]) is unused and will be removed from module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_eq__2.
+WARNING: [Synth 8-3332] Sequential element (FSM_onehot_txsync_fsm.fsm_tx_reg[0]) is unused and will be removed from module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_sync__2.
+WARNING: [Synth 8-3332] Sequential element (rxeq_scan_i/FSM_onehot_fsm_reg[0]) is unused and will be removed from module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_eq__3.
+WARNING: [Synth 8-3332] Sequential element (FSM_onehot_fsm_rx_reg[0]) is unused and will be removed from module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_eq__3.
+WARNING: [Synth 8-3332] Sequential element (FSM_onehot_txsync_fsm.fsm_tx_reg[0]) is unused and will be removed from module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_sync__3.
+WARNING: [Synth 8-3332] Sequential element (rxeq_scan_i/FSM_onehot_fsm_reg[0]) is unused and will be removed from module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_eq.
+WARNING: [Synth 8-3332] Sequential element (FSM_onehot_fsm_rx_reg[0]) is unused and will be removed from module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_eq.
+WARNING: [Synth 8-3332] Sequential element (FSM_onehot_txsync_fsm.fsm_tx_reg[0]) is unused and will be removed from module fpgadrv_axi_pcie_0_0_pcie3_ip_pipe_sync.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:03:59 ; elapsed = 00:07:40 . Memory (MB): peak = 1992.125 ; gain = 698.145
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++------------------------------------------------------------------------------------+--------------------------+-----------+----------------------+---------------+
+|Module Name                                                                         | RTL Object               | Inference | Size (Depth x Width) | Primitives    | 
++------------------------------------------------------------------------------------+--------------------------+-----------+----------------------+---------------+
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/axi_mm_mastertop_inst /axi_str_masterbr_rdtlp_inst | rdtlpfbeq_reg            | Implied   | 8 x 4                | RAM32M x 1    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/axi_mm_mastertop_inst /axi_str_masterbr_rdtlp_inst | rdtlpaddrretlq_reg       | Implied   | 8 x 12               | RAM32M x 2    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/axi_mm_mastertop_inst /axi_str_masterbr_rdtlp_inst | rdtlplengthq_reg         | Implied   | 8 x 10               | RAM32M x 2    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/axi_mm_mastertop_inst /axi_str_masterbr_rdtlp_inst | rdtlplbeq_reg            | Implied   | 8 x 4                | RAM32M x 1    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/axi_mm_mastertop_inst /axi_str_masterbr_rdtlp_inst | rdtlplengthmsbq_reg      | Implied   | 8 x 1                | RAM16X1D x 1  | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/axi_mm_mastertop_inst /axi_str_masterbr_rdtlp_inst | rdtlpreqidq_reg          | Implied   | 8 x 16               | RAM32M x 3    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/axi_mm_mastertop_inst /axi_str_masterbr_rdtlp_inst | rdtlptagq_reg            | Implied   | 8 x 8                | RAM32M x 2    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/axi_mm_mastertop_inst /axi_str_masterbr_rdtlp_inst | rdtlptcq_reg             | Implied   | 8 x 3                | RAM32M x 1    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/axi_mm_mastertop_inst /axi_str_masterbr_rdtlp_inst | rdtlpattrq_reg           | Implied   | 8 x 3                | RAM32M x 1    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/axi_mm_mastertop_inst /axi_mm_master_wr_inst       | m_axi_awaddrq_reg        | Implied   | 8 x 32               | RAM32M x 6    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/axi_mm_mastertop_inst /axi_mm_master_wr_inst       | m_axi_awdwlenq_reg       | Implied   | 8 x 10               | RAM32M x 2    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/axi_mm_mastertop_inst /axi_mm_master_wr_inst       | m_axi_awsizeq_reg        | Implied   | 8 x 3                | RAM32M x 1    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/axi_mm_mastertop_inst /axi_mm_master_wr_inst       | m_axi_awprotq_reg        | Implied   | 8 x 3                | RAM32M x 1    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/axi_mm_mastertop_inst /axi_mm_master_wr_inst       | m_axi_awdwlenstq_reg     | Implied   | 8 x 8                | RAM32M x 2    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/axi_mm_mastertop_inst /axi_mm_master_wr_inst       | m_axi_awfirstdwbestq_reg | Implied   | 8 x 4                | RAM32M x 1    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/axi_mm_mastertop_inst /axi_mm_master_wr_inst       | m_axi_awaddrstq_reg      | Implied   | 8 x 4                | RAM32M x 1    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/axi_mm_mastertop_inst /axi_mm_master_wr_inst       | m_axi_awaddrlststq_reg   | Implied   | 8 x 4                | RAM32M x 1    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/axi_mm_mastertop_inst /axi_mm_master_wr_inst       | m_axi_awlastdwbestq_reg  | Implied   | 8 x 4                | RAM32M x 1    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/slave_bridge_inst /axi_slave_write_v_inst          | widq_ff_reg              | Implied   | 8 x 4                | RAM32M x 1    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/slave_bridge_inst /axi_slave_write_v_inst          | startOffsetq_ff_reg      | Implied   | 8 x 4                | RAM32M x 1    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/slave_bridge_inst /axi_slave_write_v_inst          | waddrq_ff_reg            | Implied   | 8 x 12               | RAM32M x 2    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/slave_bridge_inst /axi_slave_write_v_inst          | wlengthq_ff_reg          | Implied   | 8 x 8                | RAM32M x 2    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/slave_bridge_inst /axi_slave_read_v_inst           | aridq_ff_reg             | Implied   | 8 x 4                | RAM32M x 1    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/slave_bridge_inst /axi_slave_read_v_inst           | firstoffq_reg            | Implied   | 8 x 3                | RAM32M x 1    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/slave_bridge_inst /slave_readwrite_req_tlp_v_inst  | waddrlow_q_reg           | Implied   | 8 x 12               | RAM32M x 2    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/slave_bridge_inst /slave_readwrite_req_tlp_v_inst  | wlength_q_reg            | Implied   | 8 x 11               | RAM32M x 2    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/slave_bridge_inst /slave_readwrite_req_tlp_v_inst  | waddrhi_q_reg            | Implied   | 8 x 20               | RAM32M x 4    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/slave_bridge_inst /slave_readwrite_req_tlp_v_inst  | wbarhit_q_reg            | Implied   | 8 x 2                | RAM16X1D x 2  | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/slave_bridge_inst /slave_readwrite_req_tlp_v_inst  | wlast_BE_q_reg           | Implied   | 8 x 4                | RAM32M x 1    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/slave_bridge_inst /slave_readwrite_req_tlp_v_inst  | wfirst_BE_q_reg          | Implied   | 8 x 4                | RAM32M x 1    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/slave_bridge_inst /slave_read_cpl_tlp_v_inst       | rxbufLlList_ff_reg       | Implied   | 32 x 5               | RAM32M x 3    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/slave_bridge_inst /slave_read_cpl_tlp_v_inst       | tagCurLowBufaddr_ff_reg  | Implied   | 32 x 7               | RAM32X1S x 7  | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/slave_bridge_inst /slave_read_cpl_tlp_v_inst       | tagStBeatAdj_ff_reg      | Implied   | 32 x 3               | RAM32M x 1    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/slave_bridge_inst                                  | slwrpendQ_ff_reg         | Implied   | 8 x 4                | RAM32M x 1    | 
++------------------------------------------------------------------------------------+--------------------------+-----------+----------------------+---------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:04:07 ; elapsed = 00:07:57 . Memory (MB): peak = 2184.383 ; gain = 890.402
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:04:10 ; elapsed = 00:08:05 . Memory (MB): peak = 2204.375 ; gain = 910.395
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping Report
++------------------------------------------------------------------------------------+--------------------------+-----------+----------------------+---------------+
+|Module Name                                                                         | RTL Object               | Inference | Size (Depth x Width) | Primitives    | 
++------------------------------------------------------------------------------------+--------------------------+-----------+----------------------+---------------+
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/axi_mm_mastertop_inst /axi_str_masterbr_rdtlp_inst | rdtlpfbeq_reg            | Implied   | 8 x 4                | RAM32M x 1    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/axi_mm_mastertop_inst /axi_str_masterbr_rdtlp_inst | rdtlpaddrretlq_reg       | Implied   | 8 x 12               | RAM32M x 2    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/axi_mm_mastertop_inst /axi_str_masterbr_rdtlp_inst | rdtlplengthq_reg         | Implied   | 8 x 10               | RAM32M x 2    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/axi_mm_mastertop_inst /axi_str_masterbr_rdtlp_inst | rdtlplbeq_reg            | Implied   | 8 x 4                | RAM32M x 1    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/axi_mm_mastertop_inst /axi_str_masterbr_rdtlp_inst | rdtlplengthmsbq_reg      | Implied   | 8 x 1                | RAM16X1D x 1  | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/axi_mm_mastertop_inst /axi_str_masterbr_rdtlp_inst | rdtlpreqidq_reg          | Implied   | 8 x 16               | RAM32M x 3    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/axi_mm_mastertop_inst /axi_str_masterbr_rdtlp_inst | rdtlptagq_reg            | Implied   | 8 x 8                | RAM32M x 2    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/axi_mm_mastertop_inst /axi_str_masterbr_rdtlp_inst | rdtlptcq_reg             | Implied   | 8 x 3                | RAM32M x 1    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/axi_mm_mastertop_inst /axi_str_masterbr_rdtlp_inst | rdtlpattrq_reg           | Implied   | 8 x 3                | RAM32M x 1    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/axi_mm_mastertop_inst /axi_mm_master_wr_inst       | m_axi_awaddrq_reg        | Implied   | 8 x 32               | RAM32M x 6    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/axi_mm_mastertop_inst /axi_mm_master_wr_inst       | m_axi_awdwlenq_reg       | Implied   | 8 x 10               | RAM32M x 2    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/axi_mm_mastertop_inst /axi_mm_master_wr_inst       | m_axi_awsizeq_reg        | Implied   | 8 x 3                | RAM32M x 1    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/axi_mm_mastertop_inst /axi_mm_master_wr_inst       | m_axi_awprotq_reg        | Implied   | 8 x 3                | RAM32M x 1    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/axi_mm_mastertop_inst /axi_mm_master_wr_inst       | m_axi_awdwlenstq_reg     | Implied   | 8 x 8                | RAM32M x 2    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/axi_mm_mastertop_inst /axi_mm_master_wr_inst       | m_axi_awfirstdwbestq_reg | Implied   | 8 x 4                | RAM32M x 1    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/axi_mm_mastertop_inst /axi_mm_master_wr_inst       | m_axi_awaddrstq_reg      | Implied   | 8 x 4                | RAM32M x 1    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/axi_mm_mastertop_inst /axi_mm_master_wr_inst       | m_axi_awaddrlststq_reg   | Implied   | 8 x 4                | RAM32M x 1    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/axi_mm_mastertop_inst /axi_mm_master_wr_inst       | m_axi_awlastdwbestq_reg  | Implied   | 8 x 4                | RAM32M x 1    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/slave_bridge_inst /axi_slave_write_v_inst          | widq_ff_reg              | Implied   | 8 x 4                | RAM32M x 1    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/slave_bridge_inst /axi_slave_write_v_inst          | startOffsetq_ff_reg      | Implied   | 8 x 4                | RAM32M x 1    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/slave_bridge_inst /axi_slave_write_v_inst          | waddrq_ff_reg            | Implied   | 8 x 12               | RAM32M x 2    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/slave_bridge_inst /axi_slave_write_v_inst          | wlengthq_ff_reg          | Implied   | 8 x 8                | RAM32M x 2    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/slave_bridge_inst /axi_slave_read_v_inst           | aridq_ff_reg             | Implied   | 8 x 4                | RAM32M x 1    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/slave_bridge_inst /axi_slave_read_v_inst           | firstoffq_reg            | Implied   | 8 x 3                | RAM32M x 1    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/slave_bridge_inst /slave_readwrite_req_tlp_v_inst  | waddrlow_q_reg           | Implied   | 8 x 12               | RAM32M x 2    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/slave_bridge_inst /slave_readwrite_req_tlp_v_inst  | wlength_q_reg            | Implied   | 8 x 11               | RAM32M x 2    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/slave_bridge_inst /slave_readwrite_req_tlp_v_inst  | waddrhi_q_reg            | Implied   | 8 x 20               | RAM32M x 4    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/slave_bridge_inst /slave_readwrite_req_tlp_v_inst  | wbarhit_q_reg            | Implied   | 8 x 2                | RAM16X1D x 2  | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/slave_bridge_inst /slave_readwrite_req_tlp_v_inst  | wlast_BE_q_reg           | Implied   | 8 x 4                | RAM32M x 1    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/slave_bridge_inst /slave_readwrite_req_tlp_v_inst  | wfirst_BE_q_reg          | Implied   | 8 x 4                | RAM32M x 1    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/slave_bridge_inst /slave_read_cpl_tlp_v_inst       | rxbufLlList_ff_reg       | Implied   | 32 x 5               | RAM32M x 3    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/slave_bridge_inst /slave_read_cpl_tlp_v_inst       | tagCurLowBufaddr_ff_reg  | Implied   | 32 x 7               | RAM32X1S x 7  | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/slave_bridge_inst /slave_read_cpl_tlp_v_inst       | tagStBeatAdj_ff_reg      | Implied   | 32 x 3               | RAM32M x 1    | 
+|inst/inst/i_0/\axi_pcie_mm_s_v_i/slave_bridge_inst                                  | slwrpendQ_ff_reg         | Implied   | 8 x 4                | RAM32M x 1    | 
++------------------------------------------------------------------------------------+--------------------------+-----------+----------------------+---------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:04:20 ; elapsed = 00:08:30 . Memory (MB): peak = 2229.234 ; gain = 935.254
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_read_received_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_write_received_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_register_number_inferred:in0[9] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_register_number_inferred:in0[8] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_register_number_inferred:in0[7] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_register_number_inferred:in0[6] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_register_number_inferred:in0[5] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_register_number_inferred:in0[4] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_register_number_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_register_number_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_register_number_inferred:in0[1] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_register_number_inferred:in0[0] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_function_number_inferred:in0[7] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_function_number_inferred:in0[6] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_function_number_inferred:in0[5] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_function_number_inferred:in0[4] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_function_number_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_function_number_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_function_number_inferred:in0[1] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_function_number_inferred:in0[0] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_write_data_inferred:in0[31] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_write_data_inferred:in0[30] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_write_data_inferred:in0[29] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_write_data_inferred:in0[28] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_write_data_inferred:in0[27] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_write_data_inferred:in0[26] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_write_data_inferred:in0[25] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_write_data_inferred:in0[24] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_write_data_inferred:in0[23] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_write_data_inferred:in0[22] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_write_data_inferred:in0[21] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_write_data_inferred:in0[20] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_write_data_inferred:in0[19] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_write_data_inferred:in0[18] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_write_data_inferred:in0[17] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_write_data_inferred:in0[16] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_write_data_inferred:in0[15] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_write_data_inferred:in0[14] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_write_data_inferred:in0[13] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_write_data_inferred:in0[12] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_write_data_inferred:in0[11] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_write_data_inferred:in0[10] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_write_data_inferred:in0[9] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_write_data_inferred:in0[8] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_write_data_inferred:in0[7] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_write_data_inferred:in0[6] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_write_data_inferred:in0[5] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_write_data_inferred:in0[4] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_write_data_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_write_data_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_write_data_inferred:in0[1] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_write_data_inferred:in0[0] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_write_byte_enable_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_write_byte_enable_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_write_byte_enable_inferred:in0[1] to constant 0
+INFO: [Synth 8-3295] tying undriven pin blk_cfg_ext_write_byte_enable_inferred:in0[0] to constant 0
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:04:31 ; elapsed = 00:08:50 . Memory (MB): peak = 2229.234 ; gain = 935.254
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:04:31 ; elapsed = 00:08:50 . Memory (MB): peak = 2229.234 ; gain = 935.254
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:04:35 ; elapsed = 00:08:57 . Memory (MB): peak = 2229.234 ; gain = 935.254
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:04:35 ; elapsed = 00:08:57 . Memory (MB): peak = 2229.234 ; gain = 935.254
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:04:36 ; elapsed = 00:09:00 . Memory (MB): peak = 2229.234 ; gain = 935.254
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:04:36 ; elapsed = 00:09:01 . Memory (MB): peak = 2229.234 ; gain = 935.254
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++-------------------------------------------+--------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name                                | RTL Name                                                                             | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++-------------------------------------------+--------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|axi_pcie3_v3_0_22_axi_pcie_mm_s_wrap       | reset_cntrlr/accelerate_timeout_ff_reg[3]                                            | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|axi_pcie3_v3_0_22_axi_pcie_mm_s_wrap       | reset_cntrlr/flush_txn_linkdown_ff_reg[3]                                            | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_3_0_7vx | gt_top_i/pipe_wrapper_i/pipe_lane[0].gt_wrapper_i/cpllPDInst/cpllpd_wait_reg[95]     | 96     | 4     | NO           | NO                 | YES               | 0      | 12      | 
+|fpgadrv_axi_pcie_0_0_pcie3_ip_pcie_3_0_7vx | gt_top_i/pipe_wrapper_i/pipe_lane[0].gt_wrapper_i/cpllPDInst/cpllreset_wait_reg[127] | 128    | 4     | NO           | NO                 | YES               | 0      | 16      | 
++-------------------------------------------+--------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------------+------+
+|      |Cell          |Count |
++------+--------------+------+
+|1     |BUFG          |     4|
+|2     |BUFGCTRL      |     2|
+|3     |CARRY4        |   147|
+|4     |GTHE2_CHANNEL |     4|
+|5     |GTHE2_COMMON  |     1|
+|6     |LUT1          |  1279|
+|7     |LUT2          |  1303|
+|8     |LUT3          |   970|
+|9     |LUT4          |  1567|
+|10    |LUT5          |  1695|
+|11    |LUT6          |  2861|
+|12    |MMCME2_ADV    |     1|
+|13    |MUXCY         |   300|
+|14    |MUXF7         |   252|
+|15    |MUXF8         |    49|
+|16    |PCIE_3        |     1|
+|17    |RAM16X1D      |     2|
+|18    |RAM32M        |    44|
+|19    |RAM32X1D      |     6|
+|20    |RAM32X1S      |     4|
+|21    |RAMB18E1      |    12|
+|23    |RAMB36E1      |    19|
+|27    |SRL16E        |     2|
+|28    |SRLC32E       |    28|
+|29    |FDCE          |    13|
+|30    |FDPE          |     9|
+|31    |FDRE          |  8079|
+|32    |FDSE          |   232|
++------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:04:36 ; elapsed = 00:09:01 . Memory (MB): peak = 2229.234 ; gain = 935.254
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2398 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:03:09 ; elapsed = 00:08:13 . Memory (MB): peak = 2229.234 ; gain = 883.512
+Synthesis Optimization Complete : Time (s): cpu = 00:04:37 ; elapsed = 00:09:01 . Memory (MB): peak = 2229.234 ; gain = 935.254
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 2234.852 ; gain = 0.000
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'inst/pcie3_ip_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_i1_bufgctrl.pclk_i1' of type 'BUFGCTRL' is 'ULTRASCALE'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist. 
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'inst/pcie3_ip_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_slave_bufgctrl.pclk_slave' of type 'BUFGCTRL' is 'ULTRASCALE'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist. 
+INFO: [Netlist 29-17] Analyzing 836 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 2256.609 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 176 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 120 instances
+  RAM16X1D => RAM32X1D (RAMD32(x2)): 2 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 44 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 6 instances
+  RAM32X1S => RAM32X1S (RAMS32): 4 instances
+
+Synth Design complete, checksum: 44863896
+INFO: [Common 17-83] Releasing license: Synthesis
+216 Infos, 240 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:04:59 ; elapsed = 00:09:56 . Memory (MB): peak = 2256.609 ; gain = 962.629
+INFO: [Common 17-1381] The checkpoint 'D:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.runs/fpgadrv_axi_pcie_0_0_synth_1/fpgadrv_axi_pcie_0_0.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2256.609 ; gain = 0.000
+write_verilog: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 2256.609 ; gain = 0.000
+write_vhdl: Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 2256.609 ; gain = 0.000
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP fpgadrv_axi_pcie_0_0, cache-ID = 380e1e5824ec6eda
+INFO: [Coretcl 2-1174] Renamed 360 cell refs.
+INFO: [Common 17-1381] The checkpoint 'D:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.runs/fpgadrv_axi_pcie_0_0_synth_1/fpgadrv_axi_pcie_0_0.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 2256.609 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file fpgadrv_axi_pcie_0_0_utilization_synth.rpt -pb fpgadrv_axi_pcie_0_0_utilization_synth.pb
+write_vhdl: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 2256.609 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sun Dec  3 23:55:45 2023...
