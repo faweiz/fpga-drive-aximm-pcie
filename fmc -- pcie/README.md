@@ -2,13 +2,14 @@
 * FMC to FMC 
 * FMC to PCIe 
 * PCIe to PCIe
+
 ================================
 
 ## Description
 
-This folder Using VC707 or VC709 to test the function of PCIe Root Complex and End Point communication with either FMC or on-board PCIe connector, Following code/function have been implemented:
+This project is designed to form a high speed transceivers PCIe communication between two VC707 or two VC709 or VC707 to VC709 development kits. One board is acting as a PCIe End-Point(EP) device, another board as a Root-Complex(RC) device use either FMC or on-board PCIe connector. Following code/function have been implemented:
 
-Tony (vc709)	     NGC (VC707)
+         VC709              VC707
 - [ ] 1. VC709_PCIe_RC  <-> VC707_FMC_EP    
 - [x] 2. VC709_PCIe_EP  <-> VC707_FMC_RC    (Working fine)
 
@@ -96,4 +97,7 @@ In order to get PCIe Root Complex in VC709 to work, we need to copy axipcie_v3_3
 
 * https://github.com/faweiz/fpga-drive-aximm-pcie/tree/develop/fmc%20--%20pcie/Reference
 
+* https://fmchub.github.io/appendix/VITA57_FMC_HPC_LPC_SIGNALS_AND_PINOUT.html
 
+
+* https://www.xilinx.com/video/fpga/axi-pci-express-mig-subsystem-built-in-ipi.html
