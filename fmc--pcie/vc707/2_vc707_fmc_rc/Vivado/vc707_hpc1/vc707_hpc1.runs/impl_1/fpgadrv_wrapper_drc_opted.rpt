@@ -1,0 +1,93 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Tue May 21 18:46:07 2024
+| Host         : Tony-VPI4CJD running 64-bit major release  (build 9200)
+| Command      : report_drc -file fpgadrv_wrapper_drc_opted.rpt -pb fpgadrv_wrapper_drc_opted.pb -rpx fpgadrv_wrapper_drc_opted.rpx
+| Design       : fpgadrv_wrapper
+| Device       : xc7vx485tffg1761-2
+| Speed File   : -2
+| Design State : Synthesized
+------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 11
++-----------+----------+----------------------------+------------+
+| Rule      | Severity | Description                | Violations |
++-----------+----------+----------------------------+------------+
+| REQP-1709 | Warning  | Clock output buffering     | 1          |
+| REQP-1839 | Warning  | RAMB36 async control check | 4          |
+| REQP-181  | Advisory | writefirst                 | 6          |
++-----------+----------+----------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+REQP-1709#1 Warning
+Clock output buffering  
+PLLE2_ADV connectivity violation. The signal fpgadrv_i/mig_0/u_fpgadrv_mig_0_0_mig/u_ddr3_infrastructure/pll_clk3_out on the fpgadrv_i/mig_0/u_fpgadrv_mig_0_0_mig/u_ddr3_infrastructure/plle2_i/CLKOUT3 pin of fpgadrv_i/mig_0/u_fpgadrv_mig_0_0_mig/u_ddr3_infrastructure/plle2_i does not drive the same kind of BUFFER load as the other CLKOUT pins. Routing from the different buffer types will not be phase aligned.
+Related violations: <none>
+
+REQP-1839#1 Warning
+RAMB36 async control check  
+The RAMB36E1 fpgadrv_i/axi_pcie_0/inst/comp_axi_pcie_mm_s/comp_slave_bridge/comp_read_data_bram/blk_gen_mem.FAMILY_SUPPORTED.I_TRUE_DUAL_PORT_BLK_MEM_GEN/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin fpgadrv_i/axi_pcie_0/inst/comp_axi_pcie_mm_s/comp_slave_bridge/comp_read_data_bram/blk_gen_mem.FAMILY_SUPPORTED.I_TRUE_DUAL_PORT_BLK_MEM_GEN/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ENBWREN (net: fpgadrv_i/axi_pcie_0/inst/comp_axi_pcie_mm_s/comp_slave_bridge/comp_read_data_bram/blk_gen_mem.FAMILY_SUPPORTED.I_TRUE_DUAL_PORT_BLK_MEM_GEN/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/enb) which is driven by a register (fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#2 Warning
+RAMB36 async control check  
+The RAMB36E1 fpgadrv_i/axi_pcie_0/inst/comp_axi_pcie_mm_s/comp_slave_bridge/comp_read_data_bram/blk_gen_mem.FAMILY_SUPPORTED.I_TRUE_DUAL_PORT_BLK_MEM_GEN/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin fpgadrv_i/axi_pcie_0/inst/comp_axi_pcie_mm_s/comp_slave_bridge/comp_read_data_bram/blk_gen_mem.FAMILY_SUPPORTED.I_TRUE_DUAL_PORT_BLK_MEM_GEN/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ENBWREN (net: fpgadrv_i/axi_pcie_0/inst/comp_axi_pcie_mm_s/comp_slave_bridge/comp_read_data_bram/blk_gen_mem.FAMILY_SUPPORTED.I_TRUE_DUAL_PORT_BLK_MEM_GEN/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/enb) which is driven by a register (fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#3 Warning
+RAMB36 async control check  
+The RAMB36E1 fpgadrv_i/axi_pcie_0/inst/comp_axi_pcie_mm_s/comp_slave_bridge/comp_read_data_bram/blk_gen_mem.FAMILY_SUPPORTED.I_TRUE_DUAL_PORT_BLK_MEM_GEN/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin fpgadrv_i/axi_pcie_0/inst/comp_axi_pcie_mm_s/comp_slave_bridge/comp_read_data_bram/blk_gen_mem.FAMILY_SUPPORTED.I_TRUE_DUAL_PORT_BLK_MEM_GEN/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ENBWREN (net: fpgadrv_i/axi_pcie_0/inst/comp_axi_pcie_mm_s/comp_slave_bridge/comp_read_data_bram/blk_gen_mem.FAMILY_SUPPORTED.I_TRUE_DUAL_PORT_BLK_MEM_GEN/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_noinit.ram/enb) which is driven by a register (fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#4 Warning
+RAMB36 async control check  
+The RAMB36E1 fpgadrv_i/axi_pcie_0/inst/comp_axi_pcie_mm_s/comp_slave_bridge/comp_read_data_bram/blk_gen_mem.FAMILY_SUPPORTED.I_TRUE_DUAL_PORT_BLK_MEM_GEN/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin fpgadrv_i/axi_pcie_0/inst/comp_axi_pcie_mm_s/comp_slave_bridge/comp_read_data_bram/blk_gen_mem.FAMILY_SUPPORTED.I_TRUE_DUAL_PORT_BLK_MEM_GEN/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ENBWREN (net: fpgadrv_i/axi_pcie_0/inst/comp_axi_pcie_mm_s/comp_slave_bridge/comp_read_data_bram/blk_gen_mem.FAMILY_SUPPORTED.I_TRUE_DUAL_PORT_BLK_MEM_GEN/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_noinit.ram/enb) which is driven by a register (fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-181#1 Advisory
+writefirst  
+Synchronous clocking is detected for BRAM (fpgadrv_i/axi_pcie_0/inst/comp_axi_pcie_mm_s/comp_AXI_MM_S_MasterBridge/comp_axi_mm_s_masterbridge_wr/comp_write_data_fifo/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_0) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+Related violations: <none>
+
+REQP-181#2 Advisory
+writefirst  
+Synchronous clocking is detected for BRAM (fpgadrv_i/axi_pcie_0/inst/comp_axi_pcie_mm_s/comp_AXI_MM_S_MasterBridge/comp_axi_mm_s_masterbridge_wr/comp_write_data_fifo/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_1) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+Related violations: <none>
+
+REQP-181#3 Advisory
+writefirst  
+Synchronous clocking is detected for BRAM (fpgadrv_i/axi_pcie_0/inst/comp_axi_pcie_mm_s/comp_slave_bridge/comp_write_data_fifo/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_0) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+Related violations: <none>
+
+REQP-181#4 Advisory
+writefirst  
+Synchronous clocking is detected for BRAM (fpgadrv_i/axi_pcie_0/inst/comp_axi_pcie_mm_s/comp_slave_bridge/comp_write_data_fifo/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_1) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+Related violations: <none>
+
+REQP-181#5 Advisory
+writefirst  
+Synchronous clocking is detected for BRAM (fpgadrv_i/axi_pcie_0/inst/comp_axi_pcie_mm_s/comp_slave_bridge/comp_write_data_fifo2/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_0) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+Related violations: <none>
+
+REQP-181#6 Advisory
+writefirst  
+Synchronous clocking is detected for BRAM (fpgadrv_i/axi_pcie_0/inst/comp_axi_pcie_mm_s/comp_slave_bridge/comp_write_data_fifo2/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_1) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+Related violations: <none>
+
+

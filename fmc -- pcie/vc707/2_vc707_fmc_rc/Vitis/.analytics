@@ -1,8 +1,0 @@
-timestamp=[2023-12-03 15:24:57], mode=WORKBENCH_START, duration=0:00:03.872, duration_ms=3872, data={}
-timestamp=[2023-12-03 15:24:58], mode=WORKBENCH_UI_INIT, duration=0:00:00.425, duration_ms=425, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
-timestamp=[2023-12-03 15:25:02], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:02.023, duration_ms=2023, data={}
-timestamp=[2023-12-03 15:26:11], mode=PLATFORM_CREATION, duration=0:00:09.763, duration_ms=9763, data={platform_source=dsa, os=standalone, processor=microblaze, platform=null}
-timestamp=[2023-12-03 15:26:24], mode=APP_CREATION, duration=0:00:03.743, duration_ms=3743, data={name=xaxipcie_rc_enumerate_example_1, project_type=sdk, os=standalone, processor=microblaze_0, runtime=C/C++, platform=vc707_fmc_rc_vitis, application_type=application}
-timestamp=[2023-12-03 15:26:57], mode=PLATFORM_GENERATION, duration=0:00:24.891, duration_ms=24891, data={name=vc707_fmc_rc_vitis}
-timestamp=[2023-12-03 15:27:07], mode=BUILD, duration=0:00:05.736, duration_ms=5736, data={name=xaxipcie_rc_enumerate_example_1, configuration=Debug, clean_build=false}
-timestamp=[2023-12-03 15:27:09], mode=BUILD, duration=0:00:00.668, duration_ms=668, data={name=xaxipcie_rc_enumerate_example_1_system, configuration=Debug, clean_build=false}
