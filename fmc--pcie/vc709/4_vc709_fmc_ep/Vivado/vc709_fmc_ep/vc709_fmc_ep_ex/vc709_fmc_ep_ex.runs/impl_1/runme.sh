@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.runs/impl_1'
+HD_PWD='D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

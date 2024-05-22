@@ -2,163 +2,163 @@
 # Vivado v2022.1 (64-bit)
 # SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
 # IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
-# Start of session at: Mon Dec  4 14:54:24 2023
-# Process ID: 97992
-# Current directory: C:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.runs/impl_1
+# Start of session at: Wed May 22 11:52:18 2024
+# Process ID: 32536
+# Current directory: D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.runs/impl_1
 # Command line: vivado.exe -log fpgadrv_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source fpgadrv_wrapper.tcl -notrace
-# Log file: C:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.runs/impl_1/fpgadrv_wrapper.vdi
-# Journal file: C:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.runs/impl_1\vivado.jou
-# Running On: ITE00611774, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 16, Host memory: 34029 MB
+# Log file: D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.runs/impl_1/fpgadrv_wrapper.vdi
+# Journal file: D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.runs/impl_1\vivado.jou
+# Running On: Tony-VPI4CJD, OS: Windows, CPU Frequency: 2208 MHz, CPU Physical cores: 6, Host memory: 34140 MB
 #-----------------------------------------------------------
 source fpgadrv_wrapper.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Apps/Xilinx/Vivado/2022.1/data/ip'.
-add_files: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1640.887 ; gain = 0.000
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2022.1/data/ip'.
+add_files: Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 1293.465 ; gain = 0.000
 Command: link_design -top fpgadrv_wrapper -part xc7vx485tffg1761-2
 Design is defaulting to srcset: sources_1
 Design is defaulting to constrset: constrs_1
 INFO: [Device 21-403] Loading part xc7vx485tffg1761-2
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_emc_0_0/fpgadrv_axi_emc_0_0.dcp' for cell 'fpgadrv_i/axi_emc_0'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/fpgadrv_axi_pcie_0_0.dcp' for cell 'fpgadrv_i/axi_pcie_0'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_smc_0/fpgadrv_axi_smc_0.dcp' for cell 'fpgadrv_i/axi_smc'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_timer_0_0/fpgadrv_axi_timer_0_0.dcp' for cell 'fpgadrv_i/axi_timer_0'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_uart16550_0_0/fpgadrv_axi_uart16550_0_0.dcp' for cell 'fpgadrv_i/axi_uart16550_0'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_iic_main_0/fpgadrv_iic_main_0.dcp' for cell 'fpgadrv_i/iic_main'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_mdm_1_0/fpgadrv_mdm_1_0.dcp' for cell 'fpgadrv_i/mdm_1'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_microblaze_0_0/fpgadrv_microblaze_0_0.dcp' for cell 'fpgadrv_i/microblaze_0'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_microblaze_0_axi_intc_0/fpgadrv_microblaze_0_axi_intc_0.dcp' for cell 'fpgadrv_i/microblaze_0_axi_intc'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_mig_0_0/fpgadrv_mig_0_0.dcp' for cell 'fpgadrv_i/mig_0'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_ref_clk_buf_0_0/fpgadrv_ref_clk_buf_0_0.dcp' for cell 'fpgadrv_i/ref_clk_buf_0'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_reset_gpio_0/fpgadrv_reset_gpio_0.dcp' for cell 'fpgadrv_i/reset_gpio'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_reset_invert_0/fpgadrv_reset_invert_0.dcp' for cell 'fpgadrv_i/reset_invert'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_axi_pcie_0_125M_0/fpgadrv_rst_axi_pcie_0_125M_0.dcp' for cell 'fpgadrv_i/rst_axi_pcie_0_125M'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_mig_0_100M_0/fpgadrv_rst_mig_0_100M_0.dcp' for cell 'fpgadrv_i/rst_mig_0_100M'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_mig_0_200M_0/fpgadrv_rst_mig_0_200M_0.dcp' for cell 'fpgadrv_i/rst_mig_0_200M'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_pcie_axi_ctl_aclk_0_0/fpgadrv_rst_pcie_axi_ctl_aclk_0_0.dcp' for cell 'fpgadrv_i/rst_pcie_axi_ctl_aclk_0'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_xbar_0/fpgadrv_xbar_0.dcp' for cell 'fpgadrv_i/microblaze_0_axi_periph/xbar'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_0/fpgadrv_auto_ds_0.dcp' for cell 'fpgadrv_i/microblaze_0_axi_periph/m00_couplers/auto_ds'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_cc_0/fpgadrv_auto_cc_0.dcp' for cell 'fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_pc_0/fpgadrv_auto_pc_0.dcp' for cell 'fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_pc'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_us_0/fpgadrv_auto_us_0.dcp' for cell 'fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_us'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_cc_1/fpgadrv_auto_cc_1.dcp' for cell 'fpgadrv_i/microblaze_0_axi_periph/m02_couplers/auto_cc'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_1/fpgadrv_auto_ds_1.dcp' for cell 'fpgadrv_i/microblaze_0_axi_periph/m02_couplers/auto_ds'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_2/fpgadrv_auto_ds_2.dcp' for cell 'fpgadrv_i/microblaze_0_axi_periph/m03_couplers/auto_ds'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_3/fpgadrv_auto_ds_3.dcp' for cell 'fpgadrv_i/microblaze_0_axi_periph/m04_couplers/auto_ds'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_4/fpgadrv_auto_ds_4.dcp' for cell 'fpgadrv_i/microblaze_0_axi_periph/m05_couplers/auto_ds'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_5/fpgadrv_auto_ds_5.dcp' for cell 'fpgadrv_i/microblaze_0_axi_periph/m06_couplers/auto_ds'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_6/fpgadrv_auto_ds_6.dcp' for cell 'fpgadrv_i/microblaze_0_axi_periph/m07_couplers/auto_ds'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_pc_1/fpgadrv_auto_pc_1.dcp' for cell 'fpgadrv_i/microblaze_0_axi_periph/m07_couplers/auto_pc'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_us_1/fpgadrv_auto_us_1.dcp' for cell 'fpgadrv_i/microblaze_0_axi_periph/s00_couplers/auto_us'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_dlmb_bram_if_cntlr_0/fpgadrv_dlmb_bram_if_cntlr_0.dcp' for cell 'fpgadrv_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_dlmb_v10_0/fpgadrv_dlmb_v10_0.dcp' for cell 'fpgadrv_i/microblaze_0_local_memory/dlmb_v10'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_ilmb_bram_if_cntlr_0/fpgadrv_ilmb_bram_if_cntlr_0.dcp' for cell 'fpgadrv_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_ilmb_v10_0/fpgadrv_ilmb_v10_0.dcp' for cell 'fpgadrv_i/microblaze_0_local_memory/ilmb_v10'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_lmb_bram_0/fpgadrv_lmb_bram_0.dcp' for cell 'fpgadrv_i/microblaze_0_local_memory/lmb_bram'
-Netlist sorting complete. Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1758.641 ; gain = 0.000
+INFO: [Project 1-454] Reading design checkpoint 'd:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_emc_0_0/fpgadrv_axi_emc_0_0.dcp' for cell 'fpgadrv_i/axi_emc_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/fpgadrv_axi_pcie_0_0.dcp' for cell 'fpgadrv_i/axi_pcie_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_smc_0/fpgadrv_axi_smc_0.dcp' for cell 'fpgadrv_i/axi_smc'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_timer_0_0/fpgadrv_axi_timer_0_0.dcp' for cell 'fpgadrv_i/axi_timer_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_uart16550_0_0/fpgadrv_axi_uart16550_0_0.dcp' for cell 'fpgadrv_i/axi_uart16550_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_iic_main_0/fpgadrv_iic_main_0.dcp' for cell 'fpgadrv_i/iic_main'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_mdm_1_0/fpgadrv_mdm_1_0.dcp' for cell 'fpgadrv_i/mdm_1'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_microblaze_0_0/fpgadrv_microblaze_0_0.dcp' for cell 'fpgadrv_i/microblaze_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_microblaze_0_axi_intc_0/fpgadrv_microblaze_0_axi_intc_0.dcp' for cell 'fpgadrv_i/microblaze_0_axi_intc'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_mig_0_0/fpgadrv_mig_0_0.dcp' for cell 'fpgadrv_i/mig_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_ref_clk_buf_0_0/fpgadrv_ref_clk_buf_0_0.dcp' for cell 'fpgadrv_i/ref_clk_buf_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_reset_gpio_0/fpgadrv_reset_gpio_0.dcp' for cell 'fpgadrv_i/reset_gpio'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_reset_invert_0/fpgadrv_reset_invert_0.dcp' for cell 'fpgadrv_i/reset_invert'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_axi_pcie_0_125M_0/fpgadrv_rst_axi_pcie_0_125M_0.dcp' for cell 'fpgadrv_i/rst_axi_pcie_0_125M'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_mig_0_100M_0/fpgadrv_rst_mig_0_100M_0.dcp' for cell 'fpgadrv_i/rst_mig_0_100M'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_mig_0_200M_0/fpgadrv_rst_mig_0_200M_0.dcp' for cell 'fpgadrv_i/rst_mig_0_200M'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_pcie_axi_ctl_aclk_0_0/fpgadrv_rst_pcie_axi_ctl_aclk_0_0.dcp' for cell 'fpgadrv_i/rst_pcie_axi_ctl_aclk_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_xbar_0/fpgadrv_xbar_0.dcp' for cell 'fpgadrv_i/microblaze_0_axi_periph/xbar'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_0/fpgadrv_auto_ds_0.dcp' for cell 'fpgadrv_i/microblaze_0_axi_periph/m00_couplers/auto_ds'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_cc_0/fpgadrv_auto_cc_0.dcp' for cell 'fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_pc_0/fpgadrv_auto_pc_0.dcp' for cell 'fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_us_0/fpgadrv_auto_us_0.dcp' for cell 'fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_us'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_cc_1/fpgadrv_auto_cc_1.dcp' for cell 'fpgadrv_i/microblaze_0_axi_periph/m02_couplers/auto_cc'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_1/fpgadrv_auto_ds_1.dcp' for cell 'fpgadrv_i/microblaze_0_axi_periph/m02_couplers/auto_ds'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_2/fpgadrv_auto_ds_2.dcp' for cell 'fpgadrv_i/microblaze_0_axi_periph/m03_couplers/auto_ds'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_3/fpgadrv_auto_ds_3.dcp' for cell 'fpgadrv_i/microblaze_0_axi_periph/m04_couplers/auto_ds'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_4/fpgadrv_auto_ds_4.dcp' for cell 'fpgadrv_i/microblaze_0_axi_periph/m05_couplers/auto_ds'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_5/fpgadrv_auto_ds_5.dcp' for cell 'fpgadrv_i/microblaze_0_axi_periph/m06_couplers/auto_ds'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_6/fpgadrv_auto_ds_6.dcp' for cell 'fpgadrv_i/microblaze_0_axi_periph/m07_couplers/auto_ds'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_pc_1/fpgadrv_auto_pc_1.dcp' for cell 'fpgadrv_i/microblaze_0_axi_periph/m07_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_us_1/fpgadrv_auto_us_1.dcp' for cell 'fpgadrv_i/microblaze_0_axi_periph/s00_couplers/auto_us'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_dlmb_bram_if_cntlr_0/fpgadrv_dlmb_bram_if_cntlr_0.dcp' for cell 'fpgadrv_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_dlmb_v10_0/fpgadrv_dlmb_v10_0.dcp' for cell 'fpgadrv_i/microblaze_0_local_memory/dlmb_v10'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_ilmb_bram_if_cntlr_0/fpgadrv_ilmb_bram_if_cntlr_0.dcp' for cell 'fpgadrv_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_ilmb_v10_0/fpgadrv_ilmb_v10_0.dcp' for cell 'fpgadrv_i/microblaze_0_local_memory/ilmb_v10'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_lmb_bram_0/fpgadrv_lmb_bram_0.dcp' for cell 'fpgadrv_i/microblaze_0_local_memory/lmb_bram'
+Netlist sorting complete. Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1369.738 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 4310 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
 WARNING: [Netlist 29-1115] Found multi-term driver net: fpgadrv_i/ref_clk_buf_0/U0/<const0>.
 INFO: [Project 1-479] Netlist was created with Vivado 2022.1
 INFO: [Project 1-570] Preparing netlist for logic optimization
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_mig_0_0/fpgadrv_mig_0_0/user_design/constraints/fpgadrv_mig_0_0.xdc] for cell 'fpgadrv_i/mig_0'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_mig_0_0/fpgadrv_mig_0_0/user_design/constraints/fpgadrv_mig_0_0.xdc] for cell 'fpgadrv_i/mig_0'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_mig_0_0/fpgadrv_mig_0_0_board.xdc] for cell 'fpgadrv_i/mig_0'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_mig_0_0/fpgadrv_mig_0_0_board.xdc] for cell 'fpgadrv_i/mig_0'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_microblaze_0_0/fpgadrv_microblaze_0_0.xdc] for cell 'fpgadrv_i/microblaze_0/U0'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_microblaze_0_0/fpgadrv_microblaze_0_0.xdc] for cell 'fpgadrv_i/microblaze_0/U0'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_microblaze_0_axi_intc_0/fpgadrv_microblaze_0_axi_intc_0.xdc] for cell 'fpgadrv_i/microblaze_0_axi_intc/U0'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_microblaze_0_axi_intc_0/fpgadrv_microblaze_0_axi_intc_0.xdc] for cell 'fpgadrv_i/microblaze_0_axi_intc/U0'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_mig_0_100M_0/fpgadrv_rst_mig_0_100M_0_board.xdc] for cell 'fpgadrv_i/rst_mig_0_100M/U0'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_mig_0_100M_0/fpgadrv_rst_mig_0_100M_0_board.xdc] for cell 'fpgadrv_i/rst_mig_0_100M/U0'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_mig_0_100M_0/fpgadrv_rst_mig_0_100M_0.xdc] for cell 'fpgadrv_i/rst_mig_0_100M/U0'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_mig_0_100M_0/fpgadrv_rst_mig_0_100M_0.xdc] for cell 'fpgadrv_i/rst_mig_0_100M/U0'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_smc_0/bd_0/ip/ip_1/bd_509f_psr0_0_board.xdc] for cell 'fpgadrv_i/axi_smc/inst/clk_map/psr0/U0'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_smc_0/bd_0/ip/ip_1/bd_509f_psr0_0_board.xdc] for cell 'fpgadrv_i/axi_smc/inst/clk_map/psr0/U0'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_smc_0/bd_0/ip/ip_1/bd_509f_psr0_0.xdc] for cell 'fpgadrv_i/axi_smc/inst/clk_map/psr0/U0'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_smc_0/bd_0/ip/ip_1/bd_509f_psr0_0.xdc] for cell 'fpgadrv_i/axi_smc/inst/clk_map/psr0/U0'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_smc_0/bd_0/ip/ip_2/bd_509f_psr_aclk_0_board.xdc] for cell 'fpgadrv_i/axi_smc/inst/clk_map/psr_aclk/U0'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_smc_0/bd_0/ip/ip_2/bd_509f_psr_aclk_0_board.xdc] for cell 'fpgadrv_i/axi_smc/inst/clk_map/psr_aclk/U0'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_smc_0/bd_0/ip/ip_2/bd_509f_psr_aclk_0.xdc] for cell 'fpgadrv_i/axi_smc/inst/clk_map/psr_aclk/U0'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_smc_0/bd_0/ip/ip_2/bd_509f_psr_aclk_0.xdc] for cell 'fpgadrv_i/axi_smc/inst/clk_map/psr_aclk/U0'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_smc_0/bd_0/ip/ip_3/bd_509f_psr_aclk1_0_board.xdc] for cell 'fpgadrv_i/axi_smc/inst/clk_map/psr_aclk1/U0'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_smc_0/bd_0/ip/ip_3/bd_509f_psr_aclk1_0_board.xdc] for cell 'fpgadrv_i/axi_smc/inst/clk_map/psr_aclk1/U0'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_smc_0/bd_0/ip/ip_3/bd_509f_psr_aclk1_0.xdc] for cell 'fpgadrv_i/axi_smc/inst/clk_map/psr_aclk1/U0'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_smc_0/bd_0/ip/ip_3/bd_509f_psr_aclk1_0.xdc] for cell 'fpgadrv_i/axi_smc/inst/clk_map/psr_aclk1/U0'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_smc_0/bd_0/ip/ip_4/bd_509f_psr_aclk2_0_board.xdc] for cell 'fpgadrv_i/axi_smc/inst/clk_map/psr_aclk2/U0'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_smc_0/bd_0/ip/ip_4/bd_509f_psr_aclk2_0_board.xdc] for cell 'fpgadrv_i/axi_smc/inst/clk_map/psr_aclk2/U0'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_smc_0/bd_0/ip/ip_4/bd_509f_psr_aclk2_0.xdc] for cell 'fpgadrv_i/axi_smc/inst/clk_map/psr_aclk2/U0'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_smc_0/bd_0/ip/ip_4/bd_509f_psr_aclk2_0.xdc] for cell 'fpgadrv_i/axi_smc/inst/clk_map/psr_aclk2/U0'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_mig_0_200M_0/fpgadrv_rst_mig_0_200M_0_board.xdc] for cell 'fpgadrv_i/rst_mig_0_200M/U0'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_mig_0_200M_0/fpgadrv_rst_mig_0_200M_0_board.xdc] for cell 'fpgadrv_i/rst_mig_0_200M/U0'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_mig_0_200M_0/fpgadrv_rst_mig_0_200M_0.xdc] for cell 'fpgadrv_i/rst_mig_0_200M/U0'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_mig_0_200M_0/fpgadrv_rst_mig_0_200M_0.xdc] for cell 'fpgadrv_i/rst_mig_0_200M/U0'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/fpgadrv_axi_pcie_0_0/source/axi_pcie_X1Y0.xdc] for cell 'fpgadrv_i/axi_pcie_0/inst'
-INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/fpgadrv_axi_pcie_0_0/source/axi_pcie_X1Y0.xdc:120]
-INFO: [Timing 38-2] Deriving generated clocks [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/fpgadrv_axi_pcie_0_0/source/axi_pcie_X1Y0.xdc:120]
-get_clocks: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 2889.402 ; gain = 695.805
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/fpgadrv_axi_pcie_0_0/source/axi_pcie_X1Y0.xdc] for cell 'fpgadrv_i/axi_pcie_0/inst'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_axi_pcie_0_125M_0/fpgadrv_rst_axi_pcie_0_125M_0_board.xdc] for cell 'fpgadrv_i/rst_axi_pcie_0_125M/U0'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_axi_pcie_0_125M_0/fpgadrv_rst_axi_pcie_0_125M_0_board.xdc] for cell 'fpgadrv_i/rst_axi_pcie_0_125M/U0'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_axi_pcie_0_125M_0/fpgadrv_rst_axi_pcie_0_125M_0.xdc] for cell 'fpgadrv_i/rst_axi_pcie_0_125M/U0'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_axi_pcie_0_125M_0/fpgadrv_rst_axi_pcie_0_125M_0.xdc] for cell 'fpgadrv_i/rst_axi_pcie_0_125M/U0'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_ref_clk_buf_0_0/fpgadrv_ref_clk_buf_0_0_board.xdc] for cell 'fpgadrv_i/ref_clk_buf_0/U0'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_ref_clk_buf_0_0/fpgadrv_ref_clk_buf_0_0_board.xdc] for cell 'fpgadrv_i/ref_clk_buf_0/U0'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_pcie_axi_ctl_aclk_0_0/fpgadrv_rst_pcie_axi_ctl_aclk_0_0_board.xdc] for cell 'fpgadrv_i/rst_pcie_axi_ctl_aclk_0/U0'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_pcie_axi_ctl_aclk_0_0/fpgadrv_rst_pcie_axi_ctl_aclk_0_0_board.xdc] for cell 'fpgadrv_i/rst_pcie_axi_ctl_aclk_0/U0'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_pcie_axi_ctl_aclk_0_0/fpgadrv_rst_pcie_axi_ctl_aclk_0_0.xdc] for cell 'fpgadrv_i/rst_pcie_axi_ctl_aclk_0/U0'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_pcie_axi_ctl_aclk_0_0/fpgadrv_rst_pcie_axi_ctl_aclk_0_0.xdc] for cell 'fpgadrv_i/rst_pcie_axi_ctl_aclk_0/U0'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_uart16550_0_0/fpgadrv_axi_uart16550_0_0_board.xdc] for cell 'fpgadrv_i/axi_uart16550_0/U0'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_uart16550_0_0/fpgadrv_axi_uart16550_0_0_board.xdc] for cell 'fpgadrv_i/axi_uart16550_0/U0'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_uart16550_0_0/fpgadrv_axi_uart16550_0_0.xdc] for cell 'fpgadrv_i/axi_uart16550_0/U0'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_uart16550_0_0/fpgadrv_axi_uart16550_0_0.xdc] for cell 'fpgadrv_i/axi_uart16550_0/U0'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_timer_0_0/fpgadrv_axi_timer_0_0.xdc] for cell 'fpgadrv_i/axi_timer_0/U0'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_timer_0_0/fpgadrv_axi_timer_0_0.xdc] for cell 'fpgadrv_i/axi_timer_0/U0'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_iic_main_0/fpgadrv_iic_main_0_board.xdc] for cell 'fpgadrv_i/iic_main/U0'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_iic_main_0/fpgadrv_iic_main_0_board.xdc] for cell 'fpgadrv_i/iic_main/U0'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_reset_gpio_0/fpgadrv_reset_gpio_0_board.xdc] for cell 'fpgadrv_i/reset_gpio/U0'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_reset_gpio_0/fpgadrv_reset_gpio_0_board.xdc] for cell 'fpgadrv_i/reset_gpio/U0'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_reset_gpio_0/fpgadrv_reset_gpio_0.xdc] for cell 'fpgadrv_i/reset_gpio/U0'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_reset_gpio_0/fpgadrv_reset_gpio_0.xdc] for cell 'fpgadrv_i/reset_gpio/U0'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_emc_0_0/fpgadrv_axi_emc_0_0_board.xdc] for cell 'fpgadrv_i/axi_emc_0'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_emc_0_0/fpgadrv_axi_emc_0_0_board.xdc] for cell 'fpgadrv_i/axi_emc_0'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_emc_0_0/fpgadrv_axi_emc_0_0.xdc] for cell 'fpgadrv_i/axi_emc_0'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_emc_0_0/fpgadrv_axi_emc_0_0.xdc] for cell 'fpgadrv_i/axi_emc_0'
-Parsing XDC File [C:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.srcs/constrs_1/vc707_hpc1.xdc]
-Finished Parsing XDC File [C:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.srcs/constrs_1/vc707_hpc1.xdc]
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_us_1/fpgadrv_auto_us_1_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/s00_couplers/auto_us/inst'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_us_1/fpgadrv_auto_us_1_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/s00_couplers/auto_us/inst'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_0/fpgadrv_auto_ds_0_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_0/fpgadrv_auto_ds_0_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_us_0/fpgadrv_auto_us_0_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_us/inst'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_us_0/fpgadrv_auto_us_0_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_us/inst'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_cc_0/fpgadrv_auto_cc_0_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst'
-INFO: [Timing 38-2] Deriving generated clocks [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_cc_0/fpgadrv_auto_cc_0_clocks.xdc:16]
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_cc_0/fpgadrv_auto_cc_0_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_cc_1/fpgadrv_auto_cc_1_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m02_couplers/auto_cc/inst'
-WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_cc_1/fpgadrv_auto_cc_1_clocks.xdc:7]
-WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-11' -to list should not be empty. [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_cc_1/fpgadrv_auto_cc_1_clocks.xdc:10]
-WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-15' -to list should not be empty. [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_cc_1/fpgadrv_auto_cc_1_clocks.xdc:13]
-WARNING: [Vivado_Tcl 4-939] Waiver ID 'LUTAR-1' object list should not be empty (perhaps an invalid wildcard was used or only unsupported objects). [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_cc_1/fpgadrv_auto_cc_1_clocks.xdc:17]
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_cc_1/fpgadrv_auto_cc_1_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m02_couplers/auto_cc/inst'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_1/fpgadrv_auto_ds_1_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m02_couplers/auto_ds/inst'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_1/fpgadrv_auto_ds_1_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m02_couplers/auto_ds/inst'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_2/fpgadrv_auto_ds_2_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_2/fpgadrv_auto_ds_2_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_3/fpgadrv_auto_ds_3_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_3/fpgadrv_auto_ds_3_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_4/fpgadrv_auto_ds_4_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_4/fpgadrv_auto_ds_4_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_5/fpgadrv_auto_ds_5_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m06_couplers/auto_ds/inst'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_5/fpgadrv_auto_ds_5_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m06_couplers/auto_ds/inst'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_6/fpgadrv_auto_ds_6_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m07_couplers/auto_ds/inst'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_6/fpgadrv_auto_ds_6_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m07_couplers/auto_ds/inst'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_microblaze_0_axi_intc_0/fpgadrv_microblaze_0_axi_intc_0_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_intc/U0'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_microblaze_0_axi_intc_0/fpgadrv_microblaze_0_axi_intc_0_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_intc/U0'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_mdm_1_0/fpgadrv_mdm_1_0.xdc] for cell 'fpgadrv_i/mdm_1/U0'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_mdm_1_0/fpgadrv_mdm_1_0.xdc] for cell 'fpgadrv_i/mdm_1/U0'
-Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/synth/fpgadrv_axi_pcie_0_0_late.xdc] for cell 'fpgadrv_i/axi_pcie_0/inst'
-Finished Parsing XDC File [c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/synth/fpgadrv_axi_pcie_0_0_late.xdc] for cell 'fpgadrv_i/axi_pcie_0/inst'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_mig_0_0/fpgadrv_mig_0_0/user_design/constraints/fpgadrv_mig_0_0.xdc] for cell 'fpgadrv_i/mig_0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_mig_0_0/fpgadrv_mig_0_0/user_design/constraints/fpgadrv_mig_0_0.xdc] for cell 'fpgadrv_i/mig_0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_mig_0_0/fpgadrv_mig_0_0_board.xdc] for cell 'fpgadrv_i/mig_0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_mig_0_0/fpgadrv_mig_0_0_board.xdc] for cell 'fpgadrv_i/mig_0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_microblaze_0_0/fpgadrv_microblaze_0_0.xdc] for cell 'fpgadrv_i/microblaze_0/U0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_microblaze_0_0/fpgadrv_microblaze_0_0.xdc] for cell 'fpgadrv_i/microblaze_0/U0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_microblaze_0_axi_intc_0/fpgadrv_microblaze_0_axi_intc_0.xdc] for cell 'fpgadrv_i/microblaze_0_axi_intc/U0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_microblaze_0_axi_intc_0/fpgadrv_microblaze_0_axi_intc_0.xdc] for cell 'fpgadrv_i/microblaze_0_axi_intc/U0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_mig_0_100M_0/fpgadrv_rst_mig_0_100M_0_board.xdc] for cell 'fpgadrv_i/rst_mig_0_100M/U0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_mig_0_100M_0/fpgadrv_rst_mig_0_100M_0_board.xdc] for cell 'fpgadrv_i/rst_mig_0_100M/U0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_mig_0_100M_0/fpgadrv_rst_mig_0_100M_0.xdc] for cell 'fpgadrv_i/rst_mig_0_100M/U0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_mig_0_100M_0/fpgadrv_rst_mig_0_100M_0.xdc] for cell 'fpgadrv_i/rst_mig_0_100M/U0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_smc_0/bd_0/ip/ip_1/bd_509f_psr0_0_board.xdc] for cell 'fpgadrv_i/axi_smc/inst/clk_map/psr0/U0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_smc_0/bd_0/ip/ip_1/bd_509f_psr0_0_board.xdc] for cell 'fpgadrv_i/axi_smc/inst/clk_map/psr0/U0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_smc_0/bd_0/ip/ip_1/bd_509f_psr0_0.xdc] for cell 'fpgadrv_i/axi_smc/inst/clk_map/psr0/U0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_smc_0/bd_0/ip/ip_1/bd_509f_psr0_0.xdc] for cell 'fpgadrv_i/axi_smc/inst/clk_map/psr0/U0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_smc_0/bd_0/ip/ip_2/bd_509f_psr_aclk_0_board.xdc] for cell 'fpgadrv_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_smc_0/bd_0/ip/ip_2/bd_509f_psr_aclk_0_board.xdc] for cell 'fpgadrv_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_smc_0/bd_0/ip/ip_2/bd_509f_psr_aclk_0.xdc] for cell 'fpgadrv_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_smc_0/bd_0/ip/ip_2/bd_509f_psr_aclk_0.xdc] for cell 'fpgadrv_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_smc_0/bd_0/ip/ip_3/bd_509f_psr_aclk1_0_board.xdc] for cell 'fpgadrv_i/axi_smc/inst/clk_map/psr_aclk1/U0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_smc_0/bd_0/ip/ip_3/bd_509f_psr_aclk1_0_board.xdc] for cell 'fpgadrv_i/axi_smc/inst/clk_map/psr_aclk1/U0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_smc_0/bd_0/ip/ip_3/bd_509f_psr_aclk1_0.xdc] for cell 'fpgadrv_i/axi_smc/inst/clk_map/psr_aclk1/U0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_smc_0/bd_0/ip/ip_3/bd_509f_psr_aclk1_0.xdc] for cell 'fpgadrv_i/axi_smc/inst/clk_map/psr_aclk1/U0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_smc_0/bd_0/ip/ip_4/bd_509f_psr_aclk2_0_board.xdc] for cell 'fpgadrv_i/axi_smc/inst/clk_map/psr_aclk2/U0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_smc_0/bd_0/ip/ip_4/bd_509f_psr_aclk2_0_board.xdc] for cell 'fpgadrv_i/axi_smc/inst/clk_map/psr_aclk2/U0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_smc_0/bd_0/ip/ip_4/bd_509f_psr_aclk2_0.xdc] for cell 'fpgadrv_i/axi_smc/inst/clk_map/psr_aclk2/U0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_smc_0/bd_0/ip/ip_4/bd_509f_psr_aclk2_0.xdc] for cell 'fpgadrv_i/axi_smc/inst/clk_map/psr_aclk2/U0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_mig_0_200M_0/fpgadrv_rst_mig_0_200M_0_board.xdc] for cell 'fpgadrv_i/rst_mig_0_200M/U0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_mig_0_200M_0/fpgadrv_rst_mig_0_200M_0_board.xdc] for cell 'fpgadrv_i/rst_mig_0_200M/U0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_mig_0_200M_0/fpgadrv_rst_mig_0_200M_0.xdc] for cell 'fpgadrv_i/rst_mig_0_200M/U0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_mig_0_200M_0/fpgadrv_rst_mig_0_200M_0.xdc] for cell 'fpgadrv_i/rst_mig_0_200M/U0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/fpgadrv_axi_pcie_0_0/source/axi_pcie_X1Y0.xdc] for cell 'fpgadrv_i/axi_pcie_0/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/fpgadrv_axi_pcie_0_0/source/axi_pcie_X1Y0.xdc:120]
+INFO: [Timing 38-2] Deriving generated clocks [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/fpgadrv_axi_pcie_0_0/source/axi_pcie_X1Y0.xdc:120]
+get_clocks: Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 2501.223 ; gain = 677.113
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/fpgadrv_axi_pcie_0_0/source/axi_pcie_X1Y0.xdc] for cell 'fpgadrv_i/axi_pcie_0/inst'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_axi_pcie_0_125M_0/fpgadrv_rst_axi_pcie_0_125M_0_board.xdc] for cell 'fpgadrv_i/rst_axi_pcie_0_125M/U0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_axi_pcie_0_125M_0/fpgadrv_rst_axi_pcie_0_125M_0_board.xdc] for cell 'fpgadrv_i/rst_axi_pcie_0_125M/U0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_axi_pcie_0_125M_0/fpgadrv_rst_axi_pcie_0_125M_0.xdc] for cell 'fpgadrv_i/rst_axi_pcie_0_125M/U0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_axi_pcie_0_125M_0/fpgadrv_rst_axi_pcie_0_125M_0.xdc] for cell 'fpgadrv_i/rst_axi_pcie_0_125M/U0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_ref_clk_buf_0_0/fpgadrv_ref_clk_buf_0_0_board.xdc] for cell 'fpgadrv_i/ref_clk_buf_0/U0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_ref_clk_buf_0_0/fpgadrv_ref_clk_buf_0_0_board.xdc] for cell 'fpgadrv_i/ref_clk_buf_0/U0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_pcie_axi_ctl_aclk_0_0/fpgadrv_rst_pcie_axi_ctl_aclk_0_0_board.xdc] for cell 'fpgadrv_i/rst_pcie_axi_ctl_aclk_0/U0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_pcie_axi_ctl_aclk_0_0/fpgadrv_rst_pcie_axi_ctl_aclk_0_0_board.xdc] for cell 'fpgadrv_i/rst_pcie_axi_ctl_aclk_0/U0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_pcie_axi_ctl_aclk_0_0/fpgadrv_rst_pcie_axi_ctl_aclk_0_0.xdc] for cell 'fpgadrv_i/rst_pcie_axi_ctl_aclk_0/U0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_rst_pcie_axi_ctl_aclk_0_0/fpgadrv_rst_pcie_axi_ctl_aclk_0_0.xdc] for cell 'fpgadrv_i/rst_pcie_axi_ctl_aclk_0/U0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_uart16550_0_0/fpgadrv_axi_uart16550_0_0_board.xdc] for cell 'fpgadrv_i/axi_uart16550_0/U0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_uart16550_0_0/fpgadrv_axi_uart16550_0_0_board.xdc] for cell 'fpgadrv_i/axi_uart16550_0/U0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_uart16550_0_0/fpgadrv_axi_uart16550_0_0.xdc] for cell 'fpgadrv_i/axi_uart16550_0/U0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_uart16550_0_0/fpgadrv_axi_uart16550_0_0.xdc] for cell 'fpgadrv_i/axi_uart16550_0/U0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_timer_0_0/fpgadrv_axi_timer_0_0.xdc] for cell 'fpgadrv_i/axi_timer_0/U0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_timer_0_0/fpgadrv_axi_timer_0_0.xdc] for cell 'fpgadrv_i/axi_timer_0/U0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_iic_main_0/fpgadrv_iic_main_0_board.xdc] for cell 'fpgadrv_i/iic_main/U0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_iic_main_0/fpgadrv_iic_main_0_board.xdc] for cell 'fpgadrv_i/iic_main/U0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_reset_gpio_0/fpgadrv_reset_gpio_0_board.xdc] for cell 'fpgadrv_i/reset_gpio/U0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_reset_gpio_0/fpgadrv_reset_gpio_0_board.xdc] for cell 'fpgadrv_i/reset_gpio/U0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_reset_gpio_0/fpgadrv_reset_gpio_0.xdc] for cell 'fpgadrv_i/reset_gpio/U0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_reset_gpio_0/fpgadrv_reset_gpio_0.xdc] for cell 'fpgadrv_i/reset_gpio/U0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_emc_0_0/fpgadrv_axi_emc_0_0_board.xdc] for cell 'fpgadrv_i/axi_emc_0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_emc_0_0/fpgadrv_axi_emc_0_0_board.xdc] for cell 'fpgadrv_i/axi_emc_0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_emc_0_0/fpgadrv_axi_emc_0_0.xdc] for cell 'fpgadrv_i/axi_emc_0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_emc_0_0/fpgadrv_axi_emc_0_0.xdc] for cell 'fpgadrv_i/axi_emc_0'
+Parsing XDC File [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.srcs/constrs_1/vc707_hpc1.xdc]
+Finished Parsing XDC File [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.srcs/constrs_1/vc707_hpc1.xdc]
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_us_1/fpgadrv_auto_us_1_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/s00_couplers/auto_us/inst'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_us_1/fpgadrv_auto_us_1_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/s00_couplers/auto_us/inst'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_0/fpgadrv_auto_ds_0_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_0/fpgadrv_auto_ds_0_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_us_0/fpgadrv_auto_us_0_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_us/inst'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_us_0/fpgadrv_auto_us_0_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_us/inst'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_cc_0/fpgadrv_auto_cc_0_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst'
+INFO: [Timing 38-2] Deriving generated clocks [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_cc_0/fpgadrv_auto_cc_0_clocks.xdc:16]
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_cc_0/fpgadrv_auto_cc_0_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_cc_1/fpgadrv_auto_cc_1_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m02_couplers/auto_cc/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_cc_1/fpgadrv_auto_cc_1_clocks.xdc:7]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-11' -to list should not be empty. [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_cc_1/fpgadrv_auto_cc_1_clocks.xdc:10]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-15' -to list should not be empty. [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_cc_1/fpgadrv_auto_cc_1_clocks.xdc:13]
+WARNING: [Vivado_Tcl 4-939] Waiver ID 'LUTAR-1' object list should not be empty (perhaps an invalid wildcard was used or only unsupported objects). [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_cc_1/fpgadrv_auto_cc_1_clocks.xdc:17]
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_cc_1/fpgadrv_auto_cc_1_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m02_couplers/auto_cc/inst'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_1/fpgadrv_auto_ds_1_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m02_couplers/auto_ds/inst'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_1/fpgadrv_auto_ds_1_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m02_couplers/auto_ds/inst'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_2/fpgadrv_auto_ds_2_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_2/fpgadrv_auto_ds_2_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_3/fpgadrv_auto_ds_3_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_3/fpgadrv_auto_ds_3_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_4/fpgadrv_auto_ds_4_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_4/fpgadrv_auto_ds_4_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_5/fpgadrv_auto_ds_5_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m06_couplers/auto_ds/inst'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_5/fpgadrv_auto_ds_5_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m06_couplers/auto_ds/inst'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_6/fpgadrv_auto_ds_6_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m07_couplers/auto_ds/inst'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_auto_ds_6/fpgadrv_auto_ds_6_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_periph/m07_couplers/auto_ds/inst'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_microblaze_0_axi_intc_0/fpgadrv_microblaze_0_axi_intc_0_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_intc/U0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_microblaze_0_axi_intc_0/fpgadrv_microblaze_0_axi_intc_0_clocks.xdc] for cell 'fpgadrv_i/microblaze_0_axi_intc/U0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_mdm_1_0/fpgadrv_mdm_1_0.xdc] for cell 'fpgadrv_i/mdm_1/U0'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_mdm_1_0/fpgadrv_mdm_1_0.xdc] for cell 'fpgadrv_i/mdm_1/U0'
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/synth/fpgadrv_axi_pcie_0_0_late.xdc] for cell 'fpgadrv_i/axi_pcie_0/inst'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_axi_pcie_0_0/synth/fpgadrv_axi_pcie_0_0_late.xdc] for cell 'fpgadrv_i/axi_pcie_0/inst'
 INFO: [Project 1-1714] 150 XPM XDC files have been applied to the design.
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 WARNING: [Constraints 18-5572] Instance fpgadrv_i/axi_emc_0/U0/EMC_CTRL_I/IO_REGISTERS_I/mem_ben_reg_reg[0] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
@@ -175,9 +175,9 @@ WARNING: [Constraints 18-5572] Instance fpgadrv_i/axi_emc_0/U0/mem_a_int_reg[29]
 WARNING: [Constraints 18-5572] Instance fpgadrv_i/axi_emc_0/U0/mem_a_int_reg[30] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
 WARNING: [Constraints 18-5572] Instance fpgadrv_i/axi_emc_0/U0/mem_a_int_reg[31] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
 Generating merged BMM file for the design top 'fpgadrv_wrapper'...
-INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_microblaze_0_0/data/mb_bootloop_le.elf 
+INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/ip/fpgadrv_microblaze_0_0/data/mb_bootloop_le.elf 
 INFO: [Project 1-1687] 2 scoped IP constraints or related sub-commands were skipped due to synthesis logic optimizations usually triggered by constant connectivity or unconnected output pins. To review the skipped constraints and messages, run the command 'set_param netlist.IPMsgFiltering false' before opening the design.
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.041 . Memory (MB): peak = 2893.305 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.062 . Memory (MB): peak = 2505.137 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 1648 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 18 instances
@@ -192,11 +192,12 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 
 52 Infos, 18 Warnings, 0 Critical Warnings and 0 Errors encountered.
 link_design completed successfully
-link_design: Time (s): cpu = 00:00:51 ; elapsed = 00:01:01 . Memory (MB): peak = 2893.305 ; gain = 1252.418
+link_design: Time (s): cpu = 00:01:08 ; elapsed = 00:01:28 . Memory (MB): peak = 2505.137 ; gain = 1211.672
 Command: opt_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7vx485t'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7vx485t'
-INFO: [Common 17-1540] The version limit for your license is '2022.07' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for new releases.
+INFO: [Common 17-86] Your Implementation license expires in 29 day(s)
+INFO: [Common 17-1540] The version limit for your license is '2024.02' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for new releases.
 Running DRC as a precondition to command opt_design
 
 Starting DRC Task
@@ -204,13 +205,13 @@ INFO: [DRC 23-27] Running DRC with 2 threads
 INFO: [Project 1-461] DRC finished with 0 Errors
 INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 2893.305 ; gain = 0.000
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2505.137 ; gain = 0.000
 
 Starting Cache Timing Information Task
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 Ending Cache Timing Information Task | Checksum: 1ad6fd8a0
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2932.527 ; gain = 39.223
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 2540.066 ; gain = 34.930
 
 Starting Logic Optimization Task
 
@@ -244,7 +245,7 @@ INFO: [Opt 31-138] Pushed 30 inverter(s) to 540 load pin(s).
 INFO: [Opt 31-49] Retargeted 0 cell(s).
 Phase 1 Retarget | Checksum: 179f8d076
 
-Time (s): cpu = 00:00:06 ; elapsed = 00:00:04 . Memory (MB): peak = 3281.750 ; gain = 3.902
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2889.430 ; gain = 4.031
 INFO: [Opt 31-389] Phase Retarget created 810 cells and removed 1425 cells
 INFO: [Opt 31-1021] In phase Retarget, 153 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 
@@ -252,35 +253,35 @@ Phase 2 Constant propagation
 INFO: [Opt 31-138] Pushed 16 inverter(s) to 87 load pin(s).
 Phase 2 Constant propagation | Checksum: 1efe67c77
 
-Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 3281.750 ; gain = 3.902
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2889.430 ; gain = 4.031
 INFO: [Opt 31-389] Phase Constant propagation created 796 cells and removed 2830 cells
 INFO: [Opt 31-1021] In phase Constant propagation, 92 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 
 Phase 3 Sweep
 Phase 3 Sweep | Checksum: 155b6ec37
 
-Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 3281.750 ; gain = 3.902
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 2889.430 ; gain = 4.031
 INFO: [Opt 31-389] Phase Sweep created 3 cells and removed 2194 cells
 INFO: [Opt 31-1021] In phase Sweep, 236 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 
 Phase 4 BUFG optimization
 Phase 4 BUFG optimization | Checksum: 155b6ec37
 
-Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 3281.750 ; gain = 3.902
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2889.430 ; gain = 4.031
 INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
 
 Phase 5 Shift Register Optimization
 INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
 Phase 5 Shift Register Optimization | Checksum: 155b6ec37
 
-Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 3281.750 ; gain = 3.902
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2889.430 ; gain = 4.031
 INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
 
 Phase 6 Post Processing Netlist
 INFO: [Opt 31-1287] Pulled Inverter fpgadrv_i/axi_uart16550_0/U0/XUART_I_1/UART16550_I_1/rx16550_1/sin_d1_i_1 into driver instance fpgadrv_i/axi_uart16550_0/U0/XUART_I_1/UART16550_I_1/rx16550_1/NO_EXTERNAL_XIN.ODDR2_GEN.BAUD_FF_i_1, which resulted in an inversion of 19 pins
 Phase 6 Post Processing Netlist | Checksum: 1fd7f45aa
 
-Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 3281.750 ; gain = 3.902
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 2889.430 ; gain = 4.031
 INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 2 cells
 INFO: [Opt 31-1021] In phase Post Processing Netlist, 85 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 Opt_design Change Summary
@@ -302,16 +303,16 @@ Opt_design Change Summary
 
 Starting Connectivity Check Task
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.120 . Memory (MB): peak = 3281.750 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.212 . Memory (MB): peak = 2889.430 ; gain = 0.000
 Ending Logic Optimization Task | Checksum: 22e7cbe34
 
-Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 3281.750 ; gain = 3.902
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 2889.430 ; gain = 4.031
 
 Starting Power Optimization Task
 INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
 INFO: [Pwropt 34-9] Applying IDT optimizations ...
-INFO: [Pwropt 34-10] Applying ODC optimizations ...
 INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
 Running Vector-less Activity Propagation...
 
 Finished Running Vector-less Activity Propagation
@@ -323,10 +324,10 @@ INFO: [Pwropt 34-201] Structural ODC has moved 9 WE to EN ports
 Number of BRAM Ports augmented: 6 newly gated: 15 Total Ports: 126
 Ending PowerOpt Patch Enables Task | Checksum: 257a5d61e
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.400 . Memory (MB): peak = 3994.414 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.791 . Memory (MB): peak = 3607.426 ; gain = 0.000
 Ending Power Optimization Task | Checksum: 257a5d61e
 
-Time (s): cpu = 00:00:27 ; elapsed = 00:00:14 . Memory (MB): peak = 3994.414 ; gain = 712.664
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:26 . Memory (MB): peak = 3607.426 ; gain = 717.996
 
 Starting Final Cleanup Task
 
@@ -334,39 +335,40 @@ Starting Logic Optimization Task
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 Ending Logic Optimization Task | Checksum: 1b7b902b5
 
-Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 3994.414 ; gain = 0.000
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 3607.426 ; gain = 0.000
 Ending Final Cleanup Task | Checksum: 1b7b902b5
 
-Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 3994.414 ; gain = 0.000
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 3607.426 ; gain = 0.000
 
 Starting Netlist Obfuscation Task
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.038 . Memory (MB): peak = 3994.414 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.059 . Memory (MB): peak = 3607.426 ; gain = 0.000
 Ending Netlist Obfuscation Task | Checksum: 1b7b902b5
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.051 . Memory (MB): peak = 3994.414 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.082 . Memory (MB): peak = 3607.426 ; gain = 0.000
 INFO: [Common 17-83] Releasing license: Implementation
-106 Infos, 18 Warnings, 0 Critical Warnings and 0 Errors encountered.
+107 Infos, 18 Warnings, 0 Critical Warnings and 0 Errors encountered.
 opt_design completed successfully
-opt_design: Time (s): cpu = 00:00:58 ; elapsed = 00:00:46 . Memory (MB): peak = 3994.414 ; gain = 1101.109
+opt_design: Time (s): cpu = 00:01:19 ; elapsed = 00:01:10 . Memory (MB): peak = 3607.426 ; gain = 1102.289
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.182 . Memory (MB): peak = 3994.414 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'C:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.runs/impl_1/fpgadrv_wrapper_opt.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:18 ; elapsed = 00:00:13 . Memory (MB): peak = 3994.414 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.262 . Memory (MB): peak = 3607.426 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.runs/impl_1/fpgadrv_wrapper_opt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:21 ; elapsed = 00:00:20 . Memory (MB): peak = 3607.426 ; gain = 0.000
 INFO: [runtcl-4] Executing : report_drc -file fpgadrv_wrapper_drc_opted.rpt -pb fpgadrv_wrapper_drc_opted.pb -rpx fpgadrv_wrapper_drc_opted.rpx
 Command: report_drc -file fpgadrv_wrapper_drc_opted.rpt -pb fpgadrv_wrapper_drc_opted.pb -rpx fpgadrv_wrapper_drc_opted.rpx
 INFO: [IP_Flow 19-1839] IP Catalog is up to date.
 INFO: [DRC 23-27] Running DRC with 2 threads
-INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.runs/impl_1/fpgadrv_wrapper_drc_opted.rpt.
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.runs/impl_1/fpgadrv_wrapper_drc_opted.rpt.
 report_drc completed successfully
-report_drc: Time (s): cpu = 00:00:18 ; elapsed = 00:00:10 . Memory (MB): peak = 3994.414 ; gain = 0.000
+report_drc: Time (s): cpu = 00:00:25 ; elapsed = 00:00:19 . Memory (MB): peak = 3607.426 ; gain = 0.000
 Command: place_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7vx485t'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7vx485t'
-INFO: [Common 17-1540] The version limit for your license is '2022.07' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for new releases.
+INFO: [Common 17-86] Your Implementation license expires in 29 day(s)
+INFO: [Common 17-1540] The version limit for your license is '2024.02' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for new releases.
 INFO: [DRC 23-27] Running DRC with 2 threads
 INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
 INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
@@ -381,11 +383,11 @@ INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 
 Phase 1 Placer Initialization
 
 Phase 1.1 Placer Initialization Netlist Sorting
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.038 . Memory (MB): peak = 3994.414 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.058 . Memory (MB): peak = 3607.426 ; gain = 0.000
 Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 14659a433
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.056 . Memory (MB): peak = 3994.414 ; gain = 0.000
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.039 . Memory (MB): peak = 3994.414 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.084 . Memory (MB): peak = 3607.426 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.066 . Memory (MB): peak = 3607.426 ; gain = 0.000
 
 Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
 INFO: [Place 30-1907] fpgadrv_i/mig_0/u_fpgadrv_mig_0_0_mig/u_iodelay_ctrl/idelayctrl_gen_1.u_idelayctrl_300_400_REPLICATED_0 replication was created for fpgadrv_i/mig_0/u_fpgadrv_mig_0_0_mig/u_iodelay_ctrl/idelayctrl_gen_1.u_idelayctrl_300_400 IDELAYCTRL
@@ -396,37 +398,37 @@ WARNING: [Place 30-575] Sub-optimal placement for a clock-capable IO pin and MMC
 Resolution: A dedicated routing path between the two can be used if: (a) The clock-capable IO (CCIO) is placed on a CCIO capable site (b) The MMCM is placed in the same clock region as the CCIO pin. If the IOB is driving multiple MMCMs, all MMCMs must be placed in the same clock region, one clock region above or one clock region below the IOB. Both the above conditions must be met at the same time, else it may lead to longer and less predictable clock insertion delays.
 Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 1682865e7
 
-Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 3994.414 ; gain = 0.000
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:21 . Memory (MB): peak = 3607.426 ; gain = 0.000
 
 Phase 1.3 Build Placer Netlist Model
 Phase 1.3 Build Placer Netlist Model | Checksum: 14b59a5a8
 
-Time (s): cpu = 00:00:31 ; elapsed = 00:00:24 . Memory (MB): peak = 4012.781 ; gain = 18.367
+Time (s): cpu = 00:00:48 ; elapsed = 00:00:46 . Memory (MB): peak = 3607.484 ; gain = 0.059
 
 Phase 1.4 Constrain Clocks/Macros
 Phase 1.4 Constrain Clocks/Macros | Checksum: 14b59a5a8
 
-Time (s): cpu = 00:00:31 ; elapsed = 00:00:24 . Memory (MB): peak = 4012.781 ; gain = 18.367
+Time (s): cpu = 00:00:49 ; elapsed = 00:00:46 . Memory (MB): peak = 3607.484 ; gain = 0.059
 Phase 1 Placer Initialization | Checksum: 14b59a5a8
 
-Time (s): cpu = 00:00:31 ; elapsed = 00:00:24 . Memory (MB): peak = 4012.781 ; gain = 18.367
+Time (s): cpu = 00:00:49 ; elapsed = 00:00:46 . Memory (MB): peak = 3607.484 ; gain = 0.059
 
 Phase 2 Global Placement
 
 Phase 2.1 Floorplanning
 Phase 2.1 Floorplanning | Checksum: 137fe2211
 
-Time (s): cpu = 00:00:38 ; elapsed = 00:00:28 . Memory (MB): peak = 4012.781 ; gain = 18.367
+Time (s): cpu = 00:00:56 ; elapsed = 00:00:54 . Memory (MB): peak = 3607.484 ; gain = 0.059
 
 Phase 2.2 Update Timing before SLR Path Opt
 Phase 2.2 Update Timing before SLR Path Opt | Checksum: 1ea762534
 
-Time (s): cpu = 00:00:44 ; elapsed = 00:00:32 . Memory (MB): peak = 4012.781 ; gain = 18.367
+Time (s): cpu = 00:00:59 ; elapsed = 00:01:01 . Memory (MB): peak = 3607.484 ; gain = 0.059
 
 Phase 2.3 Post-Processing in Floorplanning
 Phase 2.3 Post-Processing in Floorplanning | Checksum: 1ea762534
 
-Time (s): cpu = 00:00:44 ; elapsed = 00:00:32 . Memory (MB): peak = 4012.781 ; gain = 18.367
+Time (s): cpu = 00:00:59 ; elapsed = 00:01:01 . Memory (MB): peak = 3607.484 ; gain = 0.059
 
 Phase 2.4 Global Placement Core
 
@@ -440,7 +442,7 @@ INFO: [Physopt 32-81] Processed net fpgadrv_i/mig_0/u_fpgadrv_mig_0_0_mig/u_memc
 INFO: [Physopt 32-81] Processed net fpgadrv_i/mig_0/u_fpgadrv_mig_0_0_mig/u_memc_ui_top_axi/u_ui_top/ui_wr_data0/app_wdf_rdy_r_copy2. Replicated 8 times.
 INFO: [Physopt 32-232] Optimized 3 nets. Created 25 new instances.
 INFO: [Physopt 32-775] End 1 Pass. Optimized 3 nets or cells. Created 25 new cells, deleted 0 existing cell and moved 0 existing cell
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.136 . Memory (MB): peak = 4028.254 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.187 . Memory (MB): peak = 3635.289 ; gain = 0.000
 INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in the design.
 INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
 INFO: [Physopt 32-1123] No candidate cells found for Shift Register to Pipeline optimization
@@ -453,7 +455,7 @@ INFO: [Physopt 32-846] No candidate cells for URAM register optimization found i
 INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
 INFO: [Physopt 32-949] No candidate nets found for dynamic/static region interface net replication
 INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.039 . Memory (MB): peak = 4028.254 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.059 . Memory (MB): peak = 3635.289 ; gain = 0.000
 
 Summary of Physical Synthesis Optimizations
 ============================================
@@ -462,7 +464,7 @@ Summary of Physical Synthesis Optimizations
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 |  Optimization                                     |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
-|  LUT Combining                                    |            3  |           2149  |                  2152  |           0  |           1  |  00:00:01  |
+|  LUT Combining                                    |            3  |           2149  |                  2152  |           0  |           1  |  00:00:03  |
 |  Retime                                           |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
 |  Very High Fanout                                 |           25  |              0  |                     3  |           0  |           1  |  00:00:01  |
 |  DSP Register                                     |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
@@ -471,64 +473,64 @@ Summary of Physical Synthesis Optimizations
 |  BRAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
 |  URAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
 |  Dynamic/Static Region Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
-|  Total                                            |           28  |           2149  |                  2155  |           0  |           9  |  00:00:03  |
+|  Total                                            |           28  |           2149  |                  2155  |           0  |           9  |  00:00:05  |
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 Phase 2.4.1 Physical Synthesis In Placer | Checksum: 155e0a7e0
 
-Time (s): cpu = 00:01:51 ; elapsed = 00:01:12 . Memory (MB): peak = 4028.254 ; gain = 33.840
+Time (s): cpu = 00:02:15 ; elapsed = 00:02:14 . Memory (MB): peak = 3635.289 ; gain = 27.863
 Phase 2.4 Global Placement Core | Checksum: 22b707190
 
-Time (s): cpu = 00:01:54 ; elapsed = 00:01:14 . Memory (MB): peak = 4028.254 ; gain = 33.840
+Time (s): cpu = 00:02:19 ; elapsed = 00:02:17 . Memory (MB): peak = 3635.289 ; gain = 27.863
 Phase 2 Global Placement | Checksum: 22b707190
 
-Time (s): cpu = 00:01:55 ; elapsed = 00:01:14 . Memory (MB): peak = 4028.254 ; gain = 33.840
+Time (s): cpu = 00:02:19 ; elapsed = 00:02:17 . Memory (MB): peak = 3635.289 ; gain = 27.863
 
 Phase 3 Detail Placement
 
 Phase 3.1 Commit Multi Column Macros
 Phase 3.1 Commit Multi Column Macros | Checksum: 1d30f0e75
 
-Time (s): cpu = 00:02:01 ; elapsed = 00:01:18 . Memory (MB): peak = 4028.254 ; gain = 33.840
+Time (s): cpu = 00:02:21 ; elapsed = 00:02:25 . Memory (MB): peak = 3635.289 ; gain = 27.863
 
 Phase 3.2 Commit Most Macros & LUTRAMs
 Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1196d41d5
 
-Time (s): cpu = 00:02:16 ; elapsed = 00:01:29 . Memory (MB): peak = 4028.254 ; gain = 33.840
+Time (s): cpu = 00:02:36 ; elapsed = 00:02:45 . Memory (MB): peak = 3635.289 ; gain = 27.863
 
 Phase 3.3 Area Swap Optimization
 Phase 3.3 Area Swap Optimization | Checksum: 15db84565
 
-Time (s): cpu = 00:02:17 ; elapsed = 00:01:30 . Memory (MB): peak = 4028.254 ; gain = 33.840
+Time (s): cpu = 00:02:37 ; elapsed = 00:02:46 . Memory (MB): peak = 3635.289 ; gain = 27.863
 
 Phase 3.4 Pipeline Register Optimization
 Phase 3.4 Pipeline Register Optimization | Checksum: 201394941
 
-Time (s): cpu = 00:02:17 ; elapsed = 00:01:30 . Memory (MB): peak = 4028.254 ; gain = 33.840
+Time (s): cpu = 00:02:37 ; elapsed = 00:02:46 . Memory (MB): peak = 3635.289 ; gain = 27.863
 
 Phase 3.5 Fast Optimization
 Phase 3.5 Fast Optimization | Checksum: 215985507
 
-Time (s): cpu = 00:02:31 ; elapsed = 00:01:38 . Memory (MB): peak = 4028.254 ; gain = 33.840
+Time (s): cpu = 00:02:42 ; elapsed = 00:03:01 . Memory (MB): peak = 3635.289 ; gain = 27.863
 
 Phase 3.6 Small Shape Detail Placement
 Phase 3.6 Small Shape Detail Placement | Checksum: 10388d245
 
-Time (s): cpu = 00:02:48 ; elapsed = 00:01:58 . Memory (MB): peak = 4028.254 ; gain = 33.840
+Time (s): cpu = 00:03:04 ; elapsed = 00:03:37 . Memory (MB): peak = 3635.289 ; gain = 27.863
 
 Phase 3.7 Re-assign LUT pins
 Phase 3.7 Re-assign LUT pins | Checksum: 163c75094
 
-Time (s): cpu = 00:02:51 ; elapsed = 00:02:01 . Memory (MB): peak = 4028.254 ; gain = 33.840
+Time (s): cpu = 00:03:09 ; elapsed = 00:03:44 . Memory (MB): peak = 3635.289 ; gain = 27.863
 
 Phase 3.8 Pipeline Register Optimization
 Phase 3.8 Pipeline Register Optimization | Checksum: 17f6e6996
 
-Time (s): cpu = 00:02:51 ; elapsed = 00:02:01 . Memory (MB): peak = 4028.254 ; gain = 33.840
+Time (s): cpu = 00:03:10 ; elapsed = 00:03:45 . Memory (MB): peak = 3635.289 ; gain = 27.863
 Phase 3 Detail Placement | Checksum: 17f6e6996
 
-Time (s): cpu = 00:02:52 ; elapsed = 00:02:02 . Memory (MB): peak = 4028.254 ; gain = 33.840
+Time (s): cpu = 00:03:10 ; elapsed = 00:03:45 . Memory (MB): peak = 3635.289 ; gain = 27.863
 
 Phase 4 Post Placement Optimization and Clean-Up
 
@@ -547,32 +549,32 @@ INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximu
 INFO: [Physopt 32-619] Estimated Timing Summary | WNS=0.062 | TNS=0.000 |
 Phase 1 Physical Synthesis Initialization | Checksum: 12243b01a
 
-Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 4062.094 ; gain = 0.000
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 3668.102 ; gain = 0.000
 INFO: [Place 46-33] Processed net fpgadrv_i/axi_pcie_0/inst/comp_axi_enhanced_pcie/comp_enhanced_core_top_wrap/axi_pcie_enhanced_core_top_i/pcie_7x_v2_0_2_inst/pcie_top_with_gt_top.gt_ges.gt_top_i/sys_rst_n_int_reg, BUFG insertion was skipped due to placement/routing conflicts.
 INFO: [Place 46-33] Processed net fpgadrv_i/microblaze_0/U0/MicroBlaze_Core_I/sync_reset, BUFG insertion was skipped due to placement/routing conflicts.
 INFO: [Place 46-56] BUFG insertion identified 2 candidate nets. Inserted BUFG: 0, Replicated BUFG Driver: 0, Skipped due to Placement/Routing Conflicts: 2, Skipped due to Timing Degradation: 0, Skipped due to Illegal Netlist: 0.
 Ending Physical Synthesis Task | Checksum: 16257c4c6
 
-Time (s): cpu = 00:00:06 ; elapsed = 00:00:04 . Memory (MB): peak = 4062.094 ; gain = 0.000
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 3668.559 ; gain = 0.457
 Phase 4.1.1.1 BUFG Insertion | Checksum: 1c4d678ee
 
-Time (s): cpu = 00:03:18 ; elapsed = 00:02:19 . Memory (MB): peak = 4062.094 ; gain = 67.680
+Time (s): cpu = 00:03:41 ; elapsed = 00:04:18 . Memory (MB): peak = 3668.559 ; gain = 61.133
 
 Phase 4.1.1.2 Post Placement Timing Optimization
 INFO: [Place 30-746] Post Placement Timing Summary WNS=0.201. For the most accurate timing information please run report_timing.
 Phase 4.1.1.2 Post Placement Timing Optimization | Checksum: 109a665a3
 
-Time (s): cpu = 00:03:20 ; elapsed = 00:02:22 . Memory (MB): peak = 4062.094 ; gain = 67.680
+Time (s): cpu = 00:03:45 ; elapsed = 00:04:23 . Memory (MB): peak = 3668.559 ; gain = 61.133
 
-Time (s): cpu = 00:03:20 ; elapsed = 00:02:22 . Memory (MB): peak = 4062.094 ; gain = 67.680
+Time (s): cpu = 00:03:45 ; elapsed = 00:04:23 . Memory (MB): peak = 3668.559 ; gain = 61.133
 Phase 4.1 Post Commit Optimization | Checksum: 109a665a3
 
-Time (s): cpu = 00:03:21 ; elapsed = 00:02:22 . Memory (MB): peak = 4062.094 ; gain = 67.680
+Time (s): cpu = 00:03:45 ; elapsed = 00:04:23 . Memory (MB): peak = 3668.559 ; gain = 61.133
 
 Phase 4.2 Post Placement Cleanup
 Phase 4.2 Post Placement Cleanup | Checksum: 109a665a3
 
-Time (s): cpu = 00:03:21 ; elapsed = 00:02:23 . Memory (MB): peak = 4062.094 ; gain = 67.680
+Time (s): cpu = 00:03:46 ; elapsed = 00:04:24 . Memory (MB): peak = 3668.559 ; gain = 61.133
 
 Phase 4.3 Placer Reporting
 
@@ -593,58 +595,61 @@ INFO: [Place 30-612] Post-Placement Estimated Congestion
 
 Phase 4.3.1 Print Estimated Congestion | Checksum: 109a665a3
 
-Time (s): cpu = 00:03:22 ; elapsed = 00:02:23 . Memory (MB): peak = 4062.094 ; gain = 67.680
+Time (s): cpu = 00:03:47 ; elapsed = 00:04:25 . Memory (MB): peak = 3668.559 ; gain = 61.133
 Phase 4.3 Placer Reporting | Checksum: 109a665a3
 
-Time (s): cpu = 00:03:22 ; elapsed = 00:02:23 . Memory (MB): peak = 4062.094 ; gain = 67.680
+Time (s): cpu = 00:03:47 ; elapsed = 00:04:25 . Memory (MB): peak = 3668.559 ; gain = 61.133
 
 Phase 4.4 Final Placement Cleanup
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.039 . Memory (MB): peak = 4062.094 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.059 . Memory (MB): peak = 3668.559 ; gain = 0.000
 
-Time (s): cpu = 00:03:22 ; elapsed = 00:02:23 . Memory (MB): peak = 4062.094 ; gain = 67.680
+Time (s): cpu = 00:03:47 ; elapsed = 00:04:25 . Memory (MB): peak = 3668.559 ; gain = 61.133
 Phase 4 Post Placement Optimization and Clean-Up | Checksum: 186dc1657
 
-Time (s): cpu = 00:03:22 ; elapsed = 00:02:24 . Memory (MB): peak = 4062.094 ; gain = 67.680
+Time (s): cpu = 00:03:48 ; elapsed = 00:04:26 . Memory (MB): peak = 3668.559 ; gain = 61.133
 Ending Placer Task | Checksum: e43bb955
 
-Time (s): cpu = 00:03:23 ; elapsed = 00:02:24 . Memory (MB): peak = 4062.094 ; gain = 67.680
+Time (s): cpu = 00:03:48 ; elapsed = 00:04:26 . Memory (MB): peak = 3668.559 ; gain = 61.133
 INFO: [Common 17-83] Releasing license: Implementation
-153 Infos, 19 Warnings, 0 Critical Warnings and 0 Errors encountered.
+155 Infos, 19 Warnings, 0 Critical Warnings and 0 Errors encountered.
 place_design completed successfully
-place_design: Time (s): cpu = 00:03:28 ; elapsed = 00:02:35 . Memory (MB): peak = 4062.094 ; gain = 67.680
+place_design: Time (s): cpu = 00:03:56 ; elapsed = 00:04:32 . Memory (MB): peak = 3668.559 ; gain = 61.133
 INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:13 ; elapsed = 00:00:05 . Memory (MB): peak = 4062.094 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'C:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.runs/impl_1/fpgadrv_wrapper_placed.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:25 ; elapsed = 00:00:17 . Memory (MB): peak = 4062.094 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:16 ; elapsed = 00:00:08 . Memory (MB): peak = 3668.559 ; gain = 0.000
+report_design_analysis: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 3668.559 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.runs/impl_1/fpgadrv_wrapper_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:33 ; elapsed = 00:00:29 . Memory (MB): peak = 3668.559 ; gain = 0.000
 INFO: [runtcl-4] Executing : report_io -file fpgadrv_wrapper_io_placed.rpt
-report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.179 . Memory (MB): peak = 4062.094 ; gain = 0.000
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.299 . Memory (MB): peak = 3668.559 ; gain = 0.000
 INFO: [runtcl-4] Executing : report_utilization -file fpgadrv_wrapper_utilization_placed.rpt -pb fpgadrv_wrapper_utilization_placed.pb
 INFO: [runtcl-4] Executing : report_control_sets -verbose -file fpgadrv_wrapper_control_sets_placed.rpt
-report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.270 . Memory (MB): peak = 4062.094 ; gain = 0.000
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.394 . Memory (MB): peak = 3668.559 ; gain = 0.000
 Command: phys_opt_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7vx485t'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7vx485t'
-INFO: [Common 17-1540] The version limit for your license is '2022.07' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for new releases.
+INFO: [Common 17-86] Your Implementation license expires in 29 day(s)
+INFO: [Common 17-1540] The version limit for your license is '2024.02' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for new releases.
 INFO: [Vivado_Tcl 4-383] Design worst setup slack (WNS) is greater than or equal to 0.000 ns. Skipping all physical synthesis optimizations.
 INFO: [Vivado_Tcl 4-232] No setup violation found. The netlist was not modified.
 INFO: [Common 17-83] Releasing license: Implementation
-163 Infos, 19 Warnings, 0 Critical Warnings and 0 Errors encountered.
+166 Infos, 19 Warnings, 0 Critical Warnings and 0 Errors encountered.
 phys_opt_design completed successfully
-phys_opt_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 4062.094 ; gain = 0.000
+phys_opt_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:18 . Memory (MB): peak = 3668.559 ; gain = 0.000
 INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:14 ; elapsed = 00:00:05 . Memory (MB): peak = 4062.094 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'C:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.runs/impl_1/fpgadrv_wrapper_physopt.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:19 ; elapsed = 00:00:12 . Memory (MB): peak = 4062.094 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:17 ; elapsed = 00:00:08 . Memory (MB): peak = 3669.672 ; gain = 1.113
+INFO: [Common 17-1381] The checkpoint 'D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.runs/impl_1/fpgadrv_wrapper_physopt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:24 ; elapsed = 00:00:17 . Memory (MB): peak = 3669.672 ; gain = 1.113
 Command: route_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7vx485t'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7vx485t'
-INFO: [Common 17-1540] The version limit for your license is '2022.07' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for new releases.
+INFO: [Common 17-86] Your Implementation license expires in 29 day(s)
+INFO: [Common 17-1540] The version limit for your license is '2024.02' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for new releases.
 Running DRC as a precondition to command route_design
 INFO: [DRC 23-27] Running DRC with 2 threads
 INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 1 Warnings
@@ -659,25 +664,25 @@ Checksum: PlaceDB: 3f3fe4e3 ConstDB: 0 ShapeSum: a4fbd472 RouteDB: 0
 Post Restoration Checksum: NetGraph: bc0a64ab NumContArr: a2577e70 Constraints: 0 Timing: 0
 Phase 1 Build RT Design | Checksum: 15e61e31b
 
-Time (s): cpu = 00:00:56 ; elapsed = 00:00:35 . Memory (MB): peak = 4379.816 ; gain = 260.230
+Time (s): cpu = 00:01:12 ; elapsed = 00:00:57 . Memory (MB): peak = 3955.445 ; gain = 242.977
 
 Phase 2 Router Initialization
 
 Phase 2.1 Fix Topology Constraints
 Phase 2.1 Fix Topology Constraints | Checksum: 15e61e31b
 
-Time (s): cpu = 00:00:57 ; elapsed = 00:00:35 . Memory (MB): peak = 4381.449 ; gain = 261.863
+Time (s): cpu = 00:01:13 ; elapsed = 00:00:58 . Memory (MB): peak = 3960.418 ; gain = 247.949
 
 Phase 2.2 Pre Route Cleanup
 Phase 2.2 Pre Route Cleanup | Checksum: 15e61e31b
 
-Time (s): cpu = 00:00:57 ; elapsed = 00:00:36 . Memory (MB): peak = 4381.449 ; gain = 261.863
+Time (s): cpu = 00:01:14 ; elapsed = 00:00:59 . Memory (MB): peak = 3960.418 ; gain = 247.949
  Number of Nodes with overlaps = 0
 
 Phase 2.3 Update Timing
 Phase 2.3 Update Timing | Checksum: 1eb54dbe7
 
-Time (s): cpu = 00:01:26 ; elapsed = 00:00:56 . Memory (MB): peak = 4478.848 ; gain = 359.262
+Time (s): cpu = 00:01:50 ; elapsed = 00:01:36 . Memory (MB): peak = 4070.172 ; gain = 357.703
 INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.119  | TNS=0.000  | WHS=-0.685 | THS=-4721.963|
 
 
@@ -686,12 +691,12 @@ Phase 2.4 Update Timing for Bus Skew
 Phase 2.4.1 Update Timing
 Phase 2.4.1 Update Timing | Checksum: 160869fe8
 
-Time (s): cpu = 00:01:46 ; elapsed = 00:01:08 . Memory (MB): peak = 4556.016 ; gain = 436.430
+Time (s): cpu = 00:02:12 ; elapsed = 00:01:59 . Memory (MB): peak = 4142.656 ; gain = 430.188
 INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.119  | TNS=0.000  | WHS=N/A    | THS=N/A    |
 
 Phase 2.4 Update Timing for Bus Skew | Checksum: 2125ce5bc
 
-Time (s): cpu = 00:01:47 ; elapsed = 00:01:09 . Memory (MB): peak = 4556.016 ; gain = 436.430
+Time (s): cpu = 00:02:13 ; elapsed = 00:02:00 . Memory (MB): peak = 4142.656 ; gain = 430.188
 
 Router Utilization Summary
   Global Vertical Routing Utilization    = 0.00435181 %
@@ -707,17 +712,17 @@ Router Utilization Summary
 
 Phase 2 Router Initialization | Checksum: 17e7e805e
 
-Time (s): cpu = 00:01:48 ; elapsed = 00:01:09 . Memory (MB): peak = 4574.043 ; gain = 454.457
+Time (s): cpu = 00:02:14 ; elapsed = 00:02:01 . Memory (MB): peak = 4160.145 ; gain = 447.676
 
 Phase 3 Initial Routing
 
 Phase 3.1 Global Routing
 Phase 3.1 Global Routing | Checksum: 17e7e805e
 
-Time (s): cpu = 00:01:48 ; elapsed = 00:01:09 . Memory (MB): peak = 4574.043 ; gain = 454.457
+Time (s): cpu = 00:02:14 ; elapsed = 00:02:01 . Memory (MB): peak = 4160.145 ; gain = 447.676
 Phase 3 Initial Routing | Checksum: 1a98afe9e
 
-Time (s): cpu = 00:02:11 ; elapsed = 00:01:22 . Memory (MB): peak = 4574.043 ; gain = 454.457
+Time (s): cpu = 00:02:48 ; elapsed = 00:02:24 . Memory (MB): peak = 4160.145 ; gain = 447.676
 INFO: [Route 35-580] Design has 98 pins with tight setup and hold constraints.
 
 The top 5 pins with tight setup and hold constraints:
@@ -747,25 +752,25 @@ INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.119  | TNS=0.000  | WHS
 
 Phase 4.1 Global Iteration 0 | Checksum: 23a0c1c6e
 
-Time (s): cpu = 00:02:53 ; elapsed = 00:01:53 . Memory (MB): peak = 4582.410 ; gain = 462.824
+Time (s): cpu = 00:03:37 ; elapsed = 00:03:19 . Memory (MB): peak = 4170.051 ; gain = 457.582
 Phase 4 Rip-up And Reroute | Checksum: 23a0c1c6e
 
-Time (s): cpu = 00:02:53 ; elapsed = 00:01:53 . Memory (MB): peak = 4582.410 ; gain = 462.824
+Time (s): cpu = 00:03:37 ; elapsed = 00:03:19 . Memory (MB): peak = 4170.051 ; gain = 457.582
 
 Phase 5 Delay and Skew Optimization
 
 Phase 5.1 Delay CleanUp
 Phase 5.1 Delay CleanUp | Checksum: 23a0c1c6e
 
-Time (s): cpu = 00:02:53 ; elapsed = 00:01:53 . Memory (MB): peak = 4582.410 ; gain = 462.824
+Time (s): cpu = 00:03:37 ; elapsed = 00:03:20 . Memory (MB): peak = 4170.051 ; gain = 457.582
 
 Phase 5.2 Clock Skew Optimization
 Phase 5.2 Clock Skew Optimization | Checksum: 23a0c1c6e
 
-Time (s): cpu = 00:02:54 ; elapsed = 00:01:54 . Memory (MB): peak = 4582.410 ; gain = 462.824
+Time (s): cpu = 00:03:38 ; elapsed = 00:03:20 . Memory (MB): peak = 4170.051 ; gain = 457.582
 Phase 5 Delay and Skew Optimization | Checksum: 23a0c1c6e
 
-Time (s): cpu = 00:02:54 ; elapsed = 00:01:54 . Memory (MB): peak = 4582.410 ; gain = 462.824
+Time (s): cpu = 00:03:38 ; elapsed = 00:03:20 . Memory (MB): peak = 4170.051 ; gain = 457.582
 
 Phase 6 Post Hold Fix
 
@@ -774,15 +779,15 @@ Phase 6.1 Hold Fix Iter
 Phase 6.1.1 Update Timing
 Phase 6.1.1 Update Timing | Checksum: 16e9a0fd9
 
-Time (s): cpu = 00:03:00 ; elapsed = 00:01:58 . Memory (MB): peak = 4582.410 ; gain = 462.824
+Time (s): cpu = 00:03:45 ; elapsed = 00:03:27 . Memory (MB): peak = 4170.051 ; gain = 457.582
 INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.119  | TNS=0.000  | WHS=0.031  | THS=0.000  |
 
 Phase 6.1 Hold Fix Iter | Checksum: 1bf46e1ad
 
-Time (s): cpu = 00:03:00 ; elapsed = 00:01:58 . Memory (MB): peak = 4582.410 ; gain = 462.824
+Time (s): cpu = 00:03:46 ; elapsed = 00:03:28 . Memory (MB): peak = 4170.051 ; gain = 457.582
 Phase 6 Post Hold Fix | Checksum: 1bf46e1ad
 
-Time (s): cpu = 00:03:00 ; elapsed = 00:01:58 . Memory (MB): peak = 4582.410 ; gain = 462.824
+Time (s): cpu = 00:03:46 ; elapsed = 00:03:28 . Memory (MB): peak = 4170.051 ; gain = 457.582
 
 Phase 7 Route finalize
 
@@ -800,14 +805,14 @@ Router Utilization Summary
 
 Phase 7 Route finalize | Checksum: 184595337
 
-Time (s): cpu = 00:03:01 ; elapsed = 00:01:59 . Memory (MB): peak = 4582.410 ; gain = 462.824
+Time (s): cpu = 00:03:47 ; elapsed = 00:03:29 . Memory (MB): peak = 4170.051 ; gain = 457.582
 
 Phase 8 Verifying routed nets
 
  Verification completed successfully
 Phase 8 Verifying routed nets | Checksum: 184595337
 
-Time (s): cpu = 00:03:01 ; elapsed = 00:01:59 . Memory (MB): peak = 4582.410 ; gain = 462.824
+Time (s): cpu = 00:03:47 ; elapsed = 00:03:29 . Memory (MB): peak = 4170.051 ; gain = 457.582
 
 Phase 9 Depositing Routes
 INFO: [Route 35-467] Router swapped GT pin fpgadrv_i/axi_pcie_0/inst/comp_axi_enhanced_pcie/comp_enhanced_core_top_wrap/axi_pcie_enhanced_core_top_i/pcie_7x_v2_0_2_inst/pcie_top_with_gt_top.gt_ges.gt_top_i/pipe_wrapper_i/pipe_lane[0].gt_wrapper_i/gtx_channel.gtxe2_channel_i/GTREFCLK0 to physical pin GTXE2_CHANNEL_X1Y11/GTREFCLK1
@@ -817,7 +822,7 @@ INFO: [Route 35-467] Router swapped GT pin fpgadrv_i/axi_pcie_0/inst/comp_axi_en
 INFO: [Route 35-467] Router swapped GT pin fpgadrv_i/axi_pcie_0/inst/comp_axi_enhanced_pcie/comp_enhanced_core_top_wrap/axi_pcie_enhanced_core_top_i/pcie_7x_v2_0_2_inst/pcie_top_with_gt_top.gt_ges.gt_top_i/pipe_wrapper_i/pipe_lane[3].gt_wrapper_i/gtx_channel.gtxe2_channel_i/GTREFCLK0 to physical pin GTXE2_CHANNEL_X1Y8/GTREFCLK1
 Phase 9 Depositing Routes | Checksum: 138f2b304
 
-Time (s): cpu = 00:03:06 ; elapsed = 00:02:04 . Memory (MB): peak = 4582.410 ; gain = 462.824
+Time (s): cpu = 00:03:54 ; elapsed = 00:03:39 . Memory (MB): peak = 4170.051 ; gain = 457.582
 
 Phase 10 Post Router Timing
 INFO: [Route 35-57] Estimated Timing Summary | WNS=0.119  | TNS=0.000  | WHS=0.031  | THS=0.000  |
@@ -825,38 +830,38 @@ INFO: [Route 35-57] Estimated Timing Summary | WNS=0.119  | TNS=0.000  | WHS=0.0
 INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
 Phase 10 Post Router Timing | Checksum: 138f2b304
 
-Time (s): cpu = 00:03:12 ; elapsed = 00:02:07 . Memory (MB): peak = 4582.410 ; gain = 462.824
+Time (s): cpu = 00:03:59 ; elapsed = 00:03:45 . Memory (MB): peak = 4170.051 ; gain = 457.582
 INFO: [Route 35-16] Router Completed Successfully
 
-Time (s): cpu = 00:03:12 ; elapsed = 00:02:07 . Memory (MB): peak = 4582.410 ; gain = 462.824
+Time (s): cpu = 00:03:59 ; elapsed = 00:03:46 . Memory (MB): peak = 4170.051 ; gain = 457.582
 
 Routing Is Done.
 INFO: [Common 17-83] Releasing license: Implementation
-185 Infos, 19 Warnings, 0 Critical Warnings and 0 Errors encountered.
+189 Infos, 19 Warnings, 0 Critical Warnings and 0 Errors encountered.
 route_design completed successfully
-route_design: Time (s): cpu = 00:03:35 ; elapsed = 00:02:28 . Memory (MB): peak = 4582.410 ; gain = 520.316
+route_design: Time (s): cpu = 00:04:34 ; elapsed = 00:04:09 . Memory (MB): peak = 4170.051 ; gain = 500.379
 INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:14 ; elapsed = 00:00:06 . Memory (MB): peak = 4582.410 ; gain = 0.000
-report_design_analysis: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 4582.410 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'C:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.runs/impl_1/fpgadrv_wrapper_routed.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:28 ; elapsed = 00:00:21 . Memory (MB): peak = 4582.410 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:19 ; elapsed = 00:00:09 . Memory (MB): peak = 4170.051 ; gain = 0.000
+report_design_analysis: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 4170.051 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.runs/impl_1/fpgadrv_wrapper_routed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:36 ; elapsed = 00:00:28 . Memory (MB): peak = 4170.051 ; gain = 0.000
 INFO: [runtcl-4] Executing : report_drc -file fpgadrv_wrapper_drc_routed.rpt -pb fpgadrv_wrapper_drc_routed.pb -rpx fpgadrv_wrapper_drc_routed.rpx
 Command: report_drc -file fpgadrv_wrapper_drc_routed.rpt -pb fpgadrv_wrapper_drc_routed.pb -rpx fpgadrv_wrapper_drc_routed.rpx
 INFO: [IP_Flow 19-1839] IP Catalog is up to date.
 INFO: [DRC 23-27] Running DRC with 2 threads
-INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.runs/impl_1/fpgadrv_wrapper_drc_routed.rpt.
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.runs/impl_1/fpgadrv_wrapper_drc_routed.rpt.
 report_drc completed successfully
-report_drc: Time (s): cpu = 00:00:31 ; elapsed = 00:00:17 . Memory (MB): peak = 4646.102 ; gain = 63.691
+report_drc: Time (s): cpu = 00:00:46 ; elapsed = 00:00:29 . Memory (MB): peak = 4224.602 ; gain = 54.551
 INFO: [runtcl-4] Executing : report_methodology -file fpgadrv_wrapper_methodology_drc_routed.rpt -pb fpgadrv_wrapper_methodology_drc_routed.pb -rpx fpgadrv_wrapper_methodology_drc_routed.rpx
 Command: report_methodology -file fpgadrv_wrapper_methodology_drc_routed.rpt -pb fpgadrv_wrapper_methodology_drc_routed.pb -rpx fpgadrv_wrapper_methodology_drc_routed.rpx
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 INFO: [DRC 23-133] Running Methodology with 2 threads
-INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file C:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.runs/impl_1/fpgadrv_wrapper_methodology_drc_routed.rpt.
+INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.runs/impl_1/fpgadrv_wrapper_methodology_drc_routed.rpt.
 report_methodology completed successfully
-report_methodology: Time (s): cpu = 00:00:30 ; elapsed = 00:00:18 . Memory (MB): peak = 4646.102 ; gain = 0.000
+report_methodology: Time (s): cpu = 00:00:40 ; elapsed = 00:00:31 . Memory (MB): peak = 4224.602 ; gain = 0.000
 INFO: [runtcl-4] Executing : report_power -file fpgadrv_wrapper_power_routed.rpt -pb fpgadrv_wrapper_power_summary_routed.pb -rpx fpgadrv_wrapper_power_routed.rpx
 Command: report_power -file fpgadrv_wrapper_power_routed.rpt -pb fpgadrv_wrapper_power_summary_routed.pb -rpx fpgadrv_wrapper_power_routed.rpx
 INFO: [Timing 38-35] Done setting XDC timing constraints.
@@ -865,17 +870,19 @@ Running Vector-less Activity Propagation...
 Finished Running Vector-less Activity Propagation
 WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
 Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
-197 Infos, 20 Warnings, 0 Critical Warnings and 0 Errors encountered.
+201 Infos, 20 Warnings, 0 Critical Warnings and 0 Errors encountered.
 report_power completed successfully
-report_power: Time (s): cpu = 00:00:37 ; elapsed = 00:00:23 . Memory (MB): peak = 4670.578 ; gain = 24.477
+report_power: Time (s): cpu = 00:00:44 ; elapsed = 00:00:35 . Memory (MB): peak = 4251.805 ; gain = 27.203
 INFO: [runtcl-4] Executing : report_route_status -file fpgadrv_wrapper_route_status.rpt -pb fpgadrv_wrapper_route_status.pb
 INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -report_unconstrained -file fpgadrv_wrapper_timing_summary_routed.rpt -pb fpgadrv_wrapper_timing_summary_routed.pb -rpx fpgadrv_wrapper_timing_summary_routed.rpx -warn_on_violation 
 INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
 INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
 WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+report_timing_summary: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 4263.410 ; gain = 11.605
 INFO: [runtcl-4] Executing : report_incremental_reuse -file fpgadrv_wrapper_incremental_reuse_routed.rpt
 INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
 INFO: [runtcl-4] Executing : report_clock_utilization -file fpgadrv_wrapper_clock_utilization_routed.rpt
+report_clock_utilization: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 4273.742 ; gain = 10.332
 INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file fpgadrv_wrapper_bus_skew_routed.rpt -pb fpgadrv_wrapper_bus_skew_routed.pb -rpx fpgadrv_wrapper_bus_skew_routed.rpx
 INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
 INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
@@ -924,7 +931,8 @@ INFO: [Memdata 28-208] The XPM instance: <fpgadrv_i/axi_pcie_0/inst/comp_axi_pci
 Command: write_bitstream -force fpgadrv_wrapper.bit
 Attempting to get a license for feature 'Implementation' and/or device 'xc7vx485t'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7vx485t'
-INFO: [Common 17-1540] The version limit for your license is '2022.07' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for new releases.
+INFO: [Common 17-86] Your Implementation license expires in 29 day(s)
+INFO: [Common 17-1540] The version limit for your license is '2024.02' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for new releases.
 Running DRC as a precondition to command write_bitstream
 INFO: [IP_Flow 19-1839] IP Catalog is up to date.
 INFO: [DRC 23-27] Running DRC with 2 threads
@@ -933,7 +941,7 @@ WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 fpgadrv_i/axi_
 WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 fpgadrv_i/axi_pcie_0/inst/comp_axi_pcie_mm_s/comp_slave_bridge/comp_read_data_bram/blk_gen_mem.FAMILY_SUPPORTED.I_TRUE_DUAL_PORT_BLK_MEM_GEN/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin fpgadrv_i/axi_pcie_0/inst/comp_axi_pcie_mm_s/comp_slave_bridge/comp_read_data_bram/blk_gen_mem.FAMILY_SUPPORTED.I_TRUE_DUAL_PORT_BLK_MEM_GEN/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ENBWREN (net: fpgadrv_i/axi_pcie_0/inst/comp_axi_pcie_mm_s/comp_slave_bridge/comp_read_data_bram/blk_gen_mem.FAMILY_SUPPORTED.I_TRUE_DUAL_PORT_BLK_MEM_GEN/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/enb) which is driven by a register (fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
 WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 fpgadrv_i/axi_pcie_0/inst/comp_axi_pcie_mm_s/comp_slave_bridge/comp_read_data_bram/blk_gen_mem.FAMILY_SUPPORTED.I_TRUE_DUAL_PORT_BLK_MEM_GEN/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin fpgadrv_i/axi_pcie_0/inst/comp_axi_pcie_mm_s/comp_slave_bridge/comp_read_data_bram/blk_gen_mem.FAMILY_SUPPORTED.I_TRUE_DUAL_PORT_BLK_MEM_GEN/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ENBWREN (net: fpgadrv_i/axi_pcie_0/inst/comp_axi_pcie_mm_s/comp_slave_bridge/comp_read_data_bram/blk_gen_mem.FAMILY_SUPPORTED.I_TRUE_DUAL_PORT_BLK_MEM_GEN/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_noinit.ram/enb) which is driven by a register (fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
 WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 fpgadrv_i/axi_pcie_0/inst/comp_axi_pcie_mm_s/comp_slave_bridge/comp_read_data_bram/blk_gen_mem.FAMILY_SUPPORTED.I_TRUE_DUAL_PORT_BLK_MEM_GEN/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin fpgadrv_i/axi_pcie_0/inst/comp_axi_pcie_mm_s/comp_slave_bridge/comp_read_data_bram/blk_gen_mem.FAMILY_SUPPORTED.I_TRUE_DUAL_PORT_BLK_MEM_GEN/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ENBWREN (net: fpgadrv_i/axi_pcie_0/inst/comp_axi_pcie_mm_s/comp_slave_bridge/comp_read_data_bram/blk_gen_mem.FAMILY_SUPPORTED.I_TRUE_DUAL_PORT_BLK_MEM_GEN/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_noinit.ram/enb) which is driven by a register (fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC RTSTAT-10] No routable loads: 45 net(s) have no routable loads. The problem bus(es) and/or net(s) are fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0], fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0], fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0], fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0], fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0], fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg[2:0], fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg[2:0], fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg[2:0], fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg[2:0], fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg[2:0]... and (the first 15 of 25 listed).
+WARNING: [DRC RTSTAT-10] No routable loads: 45 net(s) have no routable loads. The problem bus(es) and/or net(s) are fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0], fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0], fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0], fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0], fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0], fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg[2:0], fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg[2:0], fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg[2:0], fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg[2:0], fpgadrv_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg[2:0]... and (the first 15 of 25 listed).
 INFO: [DRC REQP-181] writefirst: Synchronous clocking is detected for BRAM (fpgadrv_i/axi_pcie_0/inst/comp_axi_pcie_mm_s/comp_AXI_MM_S_MasterBridge/comp_axi_mm_s_masterbridge_wr/comp_write_data_fifo/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_0) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
 INFO: [DRC REQP-181] writefirst: Synchronous clocking is detected for BRAM (fpgadrv_i/axi_pcie_0/inst/comp_axi_pcie_mm_s/comp_AXI_MM_S_MasterBridge/comp_axi_mm_s_masterbridge_wr/comp_write_data_fifo/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_1) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
 INFO: [DRC REQP-181] writefirst: Synchronous clocking is detected for BRAM (fpgadrv_i/axi_pcie_0/inst/comp_axi_pcie_mm_s/comp_slave_bridge/comp_write_data_fifo/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_0) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
@@ -953,7 +961,7 @@ Bitstream compression saved 107813088 bits.
 Writing bitstream ./fpgadrv_wrapper.bit...
 INFO: [Vivado 12-1842] Bitgen Completed Successfully.
 INFO: [Common 17-83] Releasing license: Implementation
-60 Infos, 6 Warnings, 0 Critical Warnings and 0 Errors encountered.
+61 Infos, 6 Warnings, 0 Critical Warnings and 0 Errors encountered.
 write_bitstream completed successfully
-write_bitstream: Time (s): cpu = 00:01:05 ; elapsed = 00:01:02 . Memory (MB): peak = 5504.371 ; gain = 802.633
-INFO: [Common 17-206] Exiting Vivado at Mon Dec  4 15:05:06 2023...
+write_bitstream: Time (s): cpu = 00:01:51 ; elapsed = 00:01:41 . Memory (MB): peak = 5075.086 ; gain = 801.344
+INFO: [Common 17-206] Exiting Vivado at Wed May 22 12:09:38 2024...

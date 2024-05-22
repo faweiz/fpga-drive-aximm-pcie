@@ -2,12 +2,12 @@
 # Vivado v2022.1 (64-bit)
 # SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
 # IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
-# Start of session at: Mon Dec  4 15:02:09 2023
-# Process ID: 35632
-# Current directory: d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.runs/synth_1
+# Start of session at: Wed May 22 11:46:01 2024
+# Process ID: 30136
+# Current directory: D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.runs/synth_1
 # Command line: vivado.exe -log xilinx_pcie_3_0_7vx_ep.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source xilinx_pcie_3_0_7vx_ep.tcl
-# Log file: d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.runs/synth_1/xilinx_pcie_3_0_7vx_ep.vds
-# Journal file: d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.runs/synth_1\vivado.jou
+# Log file: D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.runs/synth_1/xilinx_pcie_3_0_7vx_ep.vds
+# Journal file: D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.runs/synth_1\vivado.jou
 # Running On: Tony-VPI4CJD, OS: Windows, CPU Frequency: 2208 MHz, CPU Physical cores: 6, Host memory: 34140 MB
 #-----------------------------------------------------------
 source xilinx_pcie_3_0_7vx_ep.tcl -notrace
@@ -18,25 +18,25 @@ Command: synth_design -top xilinx_pcie_3_0_7vx_ep -part xc7vx690tffg1761-2
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx690t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx690t'
-INFO: [Common 17-86] Your Synthesis license expires in 26 day(s)
-INFO: [Common 17-1540] The version limit for your license is '2023.06' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for new releases.
+INFO: [Common 17-86] Your Synthesis license expires in 29 day(s)
+INFO: [Common 17-1540] The version limit for your license is '2024.02' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for new releases.
 INFO: [Device 21-403] Loading part xc7vx690tffg1761-2
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 119572
+INFO: [Synth 8-7075] Helper process launched with PID 28648
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1373.301 ; gain = 78.809
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1375.156 ; gain = 79.691
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'xilinx_pcie_3_0_7vx_ep' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/xilinx_pcie_3_0_7vx_ep.v:60]
+INFO: [Synth 8-6157] synthesizing module 'xilinx_pcie_3_0_7vx_ep' [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/xilinx_pcie_3_0_7vx_ep.v:60]
 INFO: [Synth 8-6157] synthesizing module 'IBUF' [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:55203]
 INFO: [Synth 8-6155] done synthesizing module 'IBUF' (0#1) [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:55203]
 INFO: [Synth 8-6157] synthesizing module 'IBUFDS_GTE2' [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:55357]
 INFO: [Synth 8-6155] done synthesizing module 'IBUFDS_GTE2' (0#1) [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:55357]
 INFO: [Synth 8-6157] synthesizing module 'OBUF' [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:71220]
 INFO: [Synth 8-6155] done synthesizing module 'OBUF' (0#1) [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:71220]
-INFO: [Synth 8-6157] synthesizing module 'vc709_fmc_ep_support' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/vc709_fmc_ep_support.v:61]
+INFO: [Synth 8-6157] synthesizing module 'vc709_fmc_ep_support' [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/vc709_fmc_ep_support.v:61]
 	Parameter PL_LINK_CAP_MAX_LINK_WIDTH bound to: 4 - type: integer 
 	Parameter PL_LINK_CAP_MAX_LINK_SPEED bound to: 2 - type: integer 
 	Parameter C_DATA_WIDTH bound to: 128 - type: integer 
@@ -44,7 +44,7 @@ INFO: [Synth 8-6157] synthesizing module 'vc709_fmc_ep_support' [d:/Tony/Downloa
 	Parameter PCIE_REFCLK_FREQ bound to: 0 - type: integer 
 	Parameter PCIE_USERCLK1_FREQ bound to: 4 - type: integer 
 	Parameter PCIE_USERCLK2_FREQ bound to: 3 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'vc709_fmc_ep_pipe_clock' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/vc709_fmc_ep_pipe_clock.v:66]
+INFO: [Synth 8-6157] synthesizing module 'vc709_fmc_ep_pipe_clock' [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/vc709_fmc_ep_pipe_clock.v:66]
 	Parameter PCIE_ASYNC_EN bound to: FALSE - type: string 
 	Parameter PCIE_TXBUF_EN bound to: FALSE - type: string 
 	Parameter PCIE_CLK_SHARING_EN bound to: FALSE - type: string 
@@ -91,10 +91,10 @@ INFO: [Synth 8-6157] synthesizing module 'MMCME2_ADV' [E:/Xilinx/Vivado/2022.1/s
 	Parameter REF_JITTER1 bound to: 0.010000 - type: double 
 	Parameter STARTUP_WAIT bound to: FALSE - type: string 
 INFO: [Synth 8-6155] done synthesizing module 'MMCME2_ADV' (0#1) [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:63509]
-INFO: [Synth 8-6155] done synthesizing module 'vc709_fmc_ep_pipe_clock' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/vc709_fmc_ep_pipe_clock.v:66]
-INFO: [Synth 8-638] synthesizing module 'vc709_fmc_ep' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.runs/synth_1/.Xil/Vivado-35632-Tony-VPI4CJD/realtime/vc709_fmc_ep_stub.vhdl:155]
-INFO: [Synth 8-6155] done synthesizing module 'vc709_fmc_ep_support' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/vc709_fmc_ep_support.v:61]
-INFO: [Synth 8-6157] synthesizing module 'pcie_app_7vx' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/pcie_app_7vx.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'vc709_fmc_ep_pipe_clock' (0#1) [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/vc709_fmc_ep_pipe_clock.v:66]
+INFO: [Synth 8-638] synthesizing module 'vc709_fmc_ep' [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.runs/synth_1/.Xil/Vivado-30136-Tony-VPI4CJD/realtime/vc709_fmc_ep_stub.vhdl:155]
+INFO: [Synth 8-6155] done synthesizing module 'vc709_fmc_ep_support' (0#1) [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/vc709_fmc_ep_support.v:61]
+INFO: [Synth 8-6157] synthesizing module 'pcie_app_7vx' [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/pcie_app_7vx.v:65]
 	Parameter C_DATA_WIDTH bound to: 128 - type: integer 
 	Parameter TCQ bound to: 1 - type: integer 
 	Parameter AXISTEN_IF_RQ_ALIGNMENT_MODE bound to: FALSE - type: string 
@@ -107,7 +107,7 @@ INFO: [Synth 8-6157] synthesizing module 'pcie_app_7vx' [d:/Tony/Downloads/PCIe/
 	Parameter AXISTEN_IF_MC_RX_STRADDLE bound to: 0 - type: integer 
 	Parameter AXISTEN_IF_ENABLE_RX_MSG_INTFC bound to: 0 - type: integer 
 	Parameter AXISTEN_IF_ENABLE_MSG_ROUTE bound to: 18'b101111111111111111 
-INFO: [Synth 8-6157] synthesizing module 'PIO' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO.v:66]
+INFO: [Synth 8-6157] synthesizing module 'PIO' [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO.v:66]
 	Parameter TCQ bound to: 1 - type: integer 
 	Parameter AXISTEN_IF_WIDTH bound to: 2'b01 
 	Parameter AXISTEN_IF_RQ_ALIGNMENT_MODE bound to: FALSE - type: string 
@@ -120,7 +120,7 @@ INFO: [Synth 8-6157] synthesizing module 'PIO' [d:/Tony/Downloads/PCIe/12022023/
 	Parameter AXISTEN_IF_MC_RX_STRADDLE bound to: 0 - type: integer 
 	Parameter AXISTEN_IF_ENABLE_RX_MSG_INTFC bound to: 0 - type: integer 
 	Parameter AXISTEN_IF_ENABLE_MSG_ROUTE bound to: 18'b101111111111111111 
-INFO: [Synth 8-6157] synthesizing module 'PIO_EP' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_EP.v:61]
+INFO: [Synth 8-6157] synthesizing module 'PIO_EP' [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_EP.v:61]
 	Parameter TCQ bound to: 1 - type: integer 
 	Parameter AXISTEN_IF_WIDTH bound to: 2'b01 
 	Parameter AXISTEN_IF_RQ_ALIGNMENT_MODE bound to: FALSE - type: string 
@@ -132,9 +132,9 @@ INFO: [Synth 8-6157] synthesizing module 'PIO_EP' [d:/Tony/Downloads/PCIe/120220
 	Parameter AXISTEN_IF_CC_PARITY_CHECK bound to: 0 - type: integer 
 	Parameter AXISTEN_IF_ENABLE_RX_MSG_INTFC bound to: 0 - type: integer 
 	Parameter AXISTEN_IF_ENABLE_MSG_ROUTE bound to: 18'b101111111111111111 
-INFO: [Synth 8-6157] synthesizing module 'PIO_EP_MEM_ACCESS' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_EP_MEM_ACCESS.v:69]
-INFO: [Synth 8-155] case statement is not full and has no default [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_EP_MEM_ACCESS.v:198]
-INFO: [Synth 8-6157] synthesizing module 'EP_MEM' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/EP_MEM.v:65]
+INFO: [Synth 8-6157] synthesizing module 'PIO_EP_MEM_ACCESS' [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_EP_MEM_ACCESS.v:69]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_EP_MEM_ACCESS.v:198]
+INFO: [Synth 8-6157] synthesizing module 'EP_MEM' [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/EP_MEM.v:65]
 INFO: [Synth 8-6157] synthesizing module 'RAMB36E1' [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:103900]
 	Parameter DOA_REG bound to: 1 - type: integer 
 	Parameter DOB_REG bound to: 1 - type: integer 
@@ -303,9 +303,9 @@ INFO: [Synth 8-6157] synthesizing module 'RAMB36E1' [E:/Xilinx/Vivado/2022.1/scr
 	Parameter WRITE_WIDTH_A bound to: 36 - type: integer 
 	Parameter WRITE_WIDTH_B bound to: 36 - type: integer 
 INFO: [Synth 8-6155] done synthesizing module 'RAMB36E1' (0#1) [E:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:103900]
-INFO: [Synth 8-6155] done synthesizing module 'EP_MEM' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/EP_MEM.v:65]
-INFO: [Synth 8-6155] done synthesizing module 'PIO_EP_MEM_ACCESS' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_EP_MEM_ACCESS.v:69]
-INFO: [Synth 8-6157] synthesizing module 'PIO_RX_ENGINE' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_RX_ENGINE.v:67]
+INFO: [Synth 8-6155] done synthesizing module 'EP_MEM' (0#1) [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/EP_MEM.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'PIO_EP_MEM_ACCESS' (0#1) [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_EP_MEM_ACCESS.v:69]
+INFO: [Synth 8-6157] synthesizing module 'PIO_RX_ENGINE' [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_RX_ENGINE.v:67]
 	Parameter TCQ bound to: 1 - type: integer 
 	Parameter AXISTEN_IF_WIDTH bound to: 2'b01 
 	Parameter AXISTEN_IF_CQ_ALIGNMENT_MODE bound to: FALSE - type: string 
@@ -313,8 +313,8 @@ INFO: [Synth 8-6157] synthesizing module 'PIO_RX_ENGINE' [d:/Tony/Downloads/PCIe
 	Parameter AXISTEN_IF_RC_STRADDLE bound to: 0 - type: integer 
 	Parameter AXISTEN_IF_ENABLE_RX_MSG_INTFC bound to: 0 - type: integer 
 	Parameter AXISTEN_IF_ENABLE_MSG_ROUTE bound to: 18'b101111111111111111 
-INFO: [Synth 8-6155] done synthesizing module 'PIO_RX_ENGINE' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_RX_ENGINE.v:67]
-INFO: [Synth 8-6157] synthesizing module 'PIO_TX_ENGINE' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_TX_ENGINE.v:66]
+INFO: [Synth 8-6155] done synthesizing module 'PIO_RX_ENGINE' (0#1) [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_RX_ENGINE.v:67]
+INFO: [Synth 8-6157] synthesizing module 'PIO_TX_ENGINE' [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_TX_ENGINE.v:66]
 	Parameter TCQ bound to: 1 - type: integer 
 	Parameter AXISTEN_IF_WIDTH bound to: 2'b01 
 	Parameter AXISTEN_IF_RQ_ALIGNMENT_MODE bound to: FALSE - type: string 
@@ -322,34 +322,34 @@ INFO: [Synth 8-6157] synthesizing module 'PIO_TX_ENGINE' [d:/Tony/Downloads/PCIe
 	Parameter AXISTEN_IF_ENABLE_CLIENT_TAG bound to: 0 - type: integer 
 	Parameter AXISTEN_IF_RQ_PARITY_CHECK bound to: 0 - type: integer 
 	Parameter AXISTEN_IF_CC_PARITY_CHECK bound to: 0 - type: integer 
-INFO: [Synth 8-155] case statement is not full and has no default [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_TX_ENGINE.v:852]
-INFO: [Synth 8-226] default block is never used [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_TX_ENGINE.v:254]
-INFO: [Synth 8-226] default block is never used [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_TX_ENGINE.v:270]
-INFO: [Synth 8-226] default block is never used [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_TX_ENGINE.v:297]
-INFO: [Synth 8-6155] done synthesizing module 'PIO_TX_ENGINE' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_TX_ENGINE.v:66]
-INFO: [Synth 8-6157] synthesizing module 'PIO_INTR_CTRL' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_INTR_CTRL.v:62]
-INFO: [Synth 8-6155] done synthesizing module 'PIO_INTR_CTRL' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_INTR_CTRL.v:62]
-INFO: [Synth 8-6155] done synthesizing module 'PIO_EP' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_EP.v:61]
-INFO: [Synth 8-6157] synthesizing module 'PIO_TO_CTRL' [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_TO_CTRL.v:61]
-INFO: [Synth 8-6155] done synthesizing module 'PIO_TO_CTRL' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_TO_CTRL.v:61]
-INFO: [Synth 8-6155] done synthesizing module 'PIO' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO.v:66]
-INFO: [Synth 8-6155] done synthesizing module 'pcie_app_7vx' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/pcie_app_7vx.v:65]
-INFO: [Synth 8-6155] done synthesizing module 'xilinx_pcie_3_0_7vx_ep' (0#1) [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/xilinx_pcie_3_0_7vx_ep.v:60]
-WARNING: [Synth 8-6014] Unused sequential element pclk_sel_slave_reg was removed.  [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/vc709_fmc_ep_pipe_clock.v:674]
-WARNING: [Synth 8-6014] Unused sequential element pio_rx_sm_128.req_snoop_latency_reg was removed.  [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_RX_ENGINE.v:791]
-WARNING: [Synth 8-6014] Unused sequential element pio_rx_sm_128.req_no_snoop_latency_reg was removed.  [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_RX_ENGINE.v:792]
-WARNING: [Synth 8-6014] Unused sequential element pio_rx_sm_128.req_obff_code_reg was removed.  [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_RX_ENGINE.v:793]
-WARNING: [Synth 8-6014] Unused sequential element pio_rx_sm_128.req_msg_code_reg was removed.  [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_RX_ENGINE.v:794]
-WARNING: [Synth 8-6014] Unused sequential element pio_rx_sm_128.req_msg_route_reg was removed.  [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_RX_ENGINE.v:795]
-WARNING: [Synth 8-6014] Unused sequential element pio_rx_sm_128.req_dst_id_reg was removed.  [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_RX_ENGINE.v:796]
-WARNING: [Synth 8-6014] Unused sequential element pio_rx_sm_128.req_vend_id_reg was removed.  [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_RX_ENGINE.v:797]
-WARNING: [Synth 8-6014] Unused sequential element pio_rx_sm_128.req_vend_hdr_reg was removed.  [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_RX_ENGINE.v:798]
-WARNING: [Synth 8-6014] Unused sequential element pio_rx_sm_128.req_tl_hdr_reg was removed.  [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_RX_ENGINE.v:799]
-WARNING: [Synth 8-6014] Unused sequential element m_axis_cq_tdata_q_reg was removed.  [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_RX_ENGINE.v:241]
-WARNING: [Synth 8-6014] Unused sequential element lower_addr_q_reg was removed.  [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_TX_ENGINE.v:340]
-WARNING: [Synth 8-6014] Unused sequential element tkeep_qq_reg was removed.  [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_TX_ENGINE.v:342]
-WARNING: [Synth 8-6014] Unused sequential element lower_addr_qq_reg was removed.  [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_TX_ENGINE.v:343]
-WARNING: [Synth 8-3848] Net rd_data_reg in module/entity PIO_TX_ENGINE does not have driver. [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_TX_ENGINE.v:222]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_TX_ENGINE.v:852]
+INFO: [Synth 8-226] default block is never used [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_TX_ENGINE.v:254]
+INFO: [Synth 8-226] default block is never used [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_TX_ENGINE.v:270]
+INFO: [Synth 8-226] default block is never used [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_TX_ENGINE.v:297]
+INFO: [Synth 8-6155] done synthesizing module 'PIO_TX_ENGINE' (0#1) [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_TX_ENGINE.v:66]
+INFO: [Synth 8-6157] synthesizing module 'PIO_INTR_CTRL' [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_INTR_CTRL.v:62]
+INFO: [Synth 8-6155] done synthesizing module 'PIO_INTR_CTRL' (0#1) [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_INTR_CTRL.v:62]
+INFO: [Synth 8-6155] done synthesizing module 'PIO_EP' (0#1) [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_EP.v:61]
+INFO: [Synth 8-6157] synthesizing module 'PIO_TO_CTRL' [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_TO_CTRL.v:61]
+INFO: [Synth 8-6155] done synthesizing module 'PIO_TO_CTRL' (0#1) [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_TO_CTRL.v:61]
+INFO: [Synth 8-6155] done synthesizing module 'PIO' (0#1) [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO.v:66]
+INFO: [Synth 8-6155] done synthesizing module 'pcie_app_7vx' (0#1) [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/pcie_app_7vx.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'xilinx_pcie_3_0_7vx_ep' (0#1) [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/xilinx_pcie_3_0_7vx_ep.v:60]
+WARNING: [Synth 8-6014] Unused sequential element pclk_sel_slave_reg was removed.  [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/vc709_fmc_ep_pipe_clock.v:674]
+WARNING: [Synth 8-6014] Unused sequential element pio_rx_sm_128.req_snoop_latency_reg was removed.  [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_RX_ENGINE.v:791]
+WARNING: [Synth 8-6014] Unused sequential element pio_rx_sm_128.req_no_snoop_latency_reg was removed.  [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_RX_ENGINE.v:792]
+WARNING: [Synth 8-6014] Unused sequential element pio_rx_sm_128.req_obff_code_reg was removed.  [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_RX_ENGINE.v:793]
+WARNING: [Synth 8-6014] Unused sequential element pio_rx_sm_128.req_msg_code_reg was removed.  [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_RX_ENGINE.v:794]
+WARNING: [Synth 8-6014] Unused sequential element pio_rx_sm_128.req_msg_route_reg was removed.  [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_RX_ENGINE.v:795]
+WARNING: [Synth 8-6014] Unused sequential element pio_rx_sm_128.req_dst_id_reg was removed.  [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_RX_ENGINE.v:796]
+WARNING: [Synth 8-6014] Unused sequential element pio_rx_sm_128.req_vend_id_reg was removed.  [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_RX_ENGINE.v:797]
+WARNING: [Synth 8-6014] Unused sequential element pio_rx_sm_128.req_vend_hdr_reg was removed.  [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_RX_ENGINE.v:798]
+WARNING: [Synth 8-6014] Unused sequential element pio_rx_sm_128.req_tl_hdr_reg was removed.  [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_RX_ENGINE.v:799]
+WARNING: [Synth 8-6014] Unused sequential element m_axis_cq_tdata_q_reg was removed.  [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_RX_ENGINE.v:241]
+WARNING: [Synth 8-6014] Unused sequential element lower_addr_q_reg was removed.  [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_TX_ENGINE.v:340]
+WARNING: [Synth 8-6014] Unused sequential element tkeep_qq_reg was removed.  [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_TX_ENGINE.v:342]
+WARNING: [Synth 8-6014] Unused sequential element lower_addr_qq_reg was removed.  [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_TX_ENGINE.v:343]
+WARNING: [Synth 8-3848] Net rd_data_reg in module/entity PIO_TX_ENGINE does not have driver. [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/PIO_TX_ENGINE.v:222]
 WARNING: [Synth 8-7129] Port cfg_interrupt_sent in module PIO_INTR_CTRL is either unconnected or has no load
 WARNING: [Synth 8-7129] Port cfg_msg_transmit_done in module PIO_TX_ENGINE is either unconnected or has no load
 WARNING: [Synth 8-7129] Port pcie_rq_tag[5] in module PIO_TX_ENGINE is either unconnected or has no load
@@ -452,18 +452,18 @@ WARNING: [Synth 8-7129] Port completer_id[11] in module PIO_TX_ENGINE is either 
 WARNING: [Synth 8-7129] Port completer_id[10] in module PIO_TX_ENGINE is either unconnected or has no load
 INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1476.004 ; gain = 181.512
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1477.891 ; gain = 182.426
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1476.004 ; gain = 181.512
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1477.891 ; gain = 182.426
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1476.004 ; gain = 181.512
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1477.891 ; gain = 182.426
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.079 . Memory (MB): peak = 1476.004 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.079 . Memory (MB): peak = 1477.891 ; gain = 0.000
 WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'vc709_fmc_ep_support_i/pipe_clock_i/pclk_i1_bufgctrl.pclk_i1' of type 'BUFGCTRL' is 'ULTRASCALE'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist. 
 INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -471,40 +471,40 @@ INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.gen/sources_1/ip/vc709_fmc_ep/vc709_fmc_ep/vc709_fmc_ep_in_context.xdc] for cell 'vc709_fmc_ep_support_i/vc709_fmc_ep_i'
-Finished Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.gen/sources_1/ip/vc709_fmc_ep/vc709_fmc_ep/vc709_fmc_ep_in_context.xdc] for cell 'vc709_fmc_ep_support_i/vc709_fmc_ep_i'
-Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/xilinx_pcie3_7x_ep_x4g2_VC709.xdc]
-INFO: [Timing 38-2] Deriving generated clocks [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/xilinx_pcie3_7x_ep_x4g2_VC709.xdc:142]
-Finished Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/xilinx_pcie3_7x_ep_x4g2_VC709.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/xilinx_pcie3_7x_ep_x4g2_VC709.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/xilinx_pcie_3_0_7vx_ep_propImpl.xdc].
+Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.gen/sources_1/ip/vc709_fmc_ep/vc709_fmc_ep/vc709_fmc_ep_in_context.xdc] for cell 'vc709_fmc_ep_support_i/vc709_fmc_ep_i'
+Finished Parsing XDC File [d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.gen/sources_1/ip/vc709_fmc_ep/vc709_fmc_ep/vc709_fmc_ep_in_context.xdc] for cell 'vc709_fmc_ep_support_i/vc709_fmc_ep_i'
+Parsing XDC File [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/xilinx_pcie3_7x_ep_x4g2_VC709.xdc]
+INFO: [Timing 38-2] Deriving generated clocks [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/xilinx_pcie3_7x_ep_x4g2_VC709.xdc:144]
+Finished Parsing XDC File [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/xilinx_pcie3_7x_ep_x4g2_VC709.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/xilinx_pcie3_7x_ep_x4g2_VC709.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/xilinx_pcie_3_0_7vx_ep_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/xilinx_pcie_3_0_7vx_ep_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.runs/synth_1/dont_touch.xdc]
-Finished Parsing XDC File [d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.runs/synth_1/dont_touch.xdc]
+Parsing XDC File [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1566.402 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1557.379 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1566.402 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1557.379 ; gain = 0.000
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 1566.402 ; gain = 271.910
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 1557.379 ; gain = 261.914
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7vx690tffg1761-2
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 1566.402 ; gain = 271.910
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 1557.379 ; gain = 261.914
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 Applied set_property KEEP_HIERARCHY = SOFT for vc709_fmc_ep_support_i/vc709_fmc_ep_i. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 1566.402 ; gain = 271.910
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 1557.379 ; gain = 261.914
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'wr_mem_state_reg' in module 'PIO_EP_MEM_ACCESS'
 INFO: [Synth 8-802] inferred FSM for state register 'pio_rx_sm_128.state_reg' in module 'PIO_RX_ENGINE'
@@ -549,7 +549,7 @@ INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'cfg_interrupt_int_reg' using encoding 'sequential' in module 'PIO_INTR_CTRL'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 1566.402 ; gain = 271.910
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 1557.379 ; gain = 261.914
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -625,25 +625,25 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:27 . Memory (MB): peak = 1566.402 ; gain = 271.910
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:28 . Memory (MB): peak = 1557.379 ; gain = 261.914
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:33 . Memory (MB): peak = 1566.402 ; gain = 271.910
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:35 . Memory (MB): peak = 1557.379 ; gain = 261.914
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:34 . Memory (MB): peak = 1566.402 ; gain = 271.910
+Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:35 . Memory (MB): peak = 1557.379 ; gain = 261.914
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:34 . Memory (MB): peak = 1566.402 ; gain = 271.910
+Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:36 . Memory (MB): peak = 1557.379 ; gain = 261.914
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -661,37 +661,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:33 ; elapsed = 00:00:40 . Memory (MB): peak = 1566.402 ; gain = 271.910
+Finished IO Insertion : Time (s): cpu = 00:00:29 ; elapsed = 00:00:42 . Memory (MB): peak = 1557.379 ; gain = 261.914
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:33 ; elapsed = 00:00:40 . Memory (MB): peak = 1566.402 ; gain = 271.910
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:29 ; elapsed = 00:00:42 . Memory (MB): peak = 1557.379 ; gain = 261.914
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:33 ; elapsed = 00:00:40 . Memory (MB): peak = 1566.402 ; gain = 271.910
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:42 . Memory (MB): peak = 1557.379 ; gain = 261.914
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:33 ; elapsed = 00:00:40 . Memory (MB): peak = 1566.402 ; gain = 271.910
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:42 . Memory (MB): peak = 1557.379 ; gain = 261.914
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:33 ; elapsed = 00:00:40 . Memory (MB): peak = 1566.402 ; gain = 271.910
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:42 . Memory (MB): peak = 1557.379 ; gain = 261.914
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:33 ; elapsed = 00:00:40 . Memory (MB): peak = 1566.402 ; gain = 271.910
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:42 . Memory (MB): peak = 1557.379 ; gain = 261.914
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -727,19 +727,19 @@ Report Cell Usage:
 |17    |OBUF              |    12|
 +------+------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:33 ; elapsed = 00:00:40 . Memory (MB): peak = 1566.402 ; gain = 271.910
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:42 . Memory (MB): peak = 1557.379 ; gain = 261.914
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 394 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:34 . Memory (MB): peak = 1566.402 ; gain = 181.512
-Synthesis Optimization Complete : Time (s): cpu = 00:00:33 ; elapsed = 00:00:40 . Memory (MB): peak = 1566.402 ; gain = 271.910
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:37 . Memory (MB): peak = 1557.379 ; gain = 182.426
+Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:43 . Memory (MB): peak = 1557.379 ; gain = 261.914
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.042 . Memory (MB): peak = 1566.402 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.060 . Memory (MB): peak = 1557.379 ; gain = 0.000
 WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'vc709_fmc_ep_support_i/pipe_clock_i/pclk_i1_bufgctrl.pclk_i1' of type 'BUFGCTRL' is 'ULTRASCALE'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist. 
 INFO: [Netlist 29-17] Analyzing 15 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1566.402 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1557.379 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
@@ -747,7 +747,7 @@ Synth Design complete, checksum: 1dbdf086
 INFO: [Common 17-83] Releasing license: Synthesis
 79 Infos, 118 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:40 ; elapsed = 00:00:50 . Memory (MB): peak = 1566.402 ; gain = 271.910
-INFO: [Common 17-1381] The checkpoint 'd:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.runs/synth_1/xilinx_pcie_3_0_7vx_ep.dcp' has been generated.
+synth_design: Time (s): cpu = 00:00:38 ; elapsed = 00:00:54 . Memory (MB): peak = 1557.379 ; gain = 261.914
+INFO: [Common 17-1381] The checkpoint 'D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.runs/synth_1/xilinx_pcie_3_0_7vx_ep.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file xilinx_pcie_3_0_7vx_ep_utilization_synth.rpt -pb xilinx_pcie_3_0_7vx_ep_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Mon Dec  4 15:03:07 2023...
+INFO: [Common 17-206] Exiting Vivado at Wed May 22 11:47:03 2024...

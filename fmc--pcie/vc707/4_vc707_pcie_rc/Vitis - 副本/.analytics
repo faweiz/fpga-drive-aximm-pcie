@@ -1,0 +1,18 @@
+timestamp=[2023-12-04 15:08:50], mode=WORKBENCH_START, duration=0:00:04.081, duration_ms=4081, data={}
+timestamp=[2023-12-04 15:08:50], mode=WORKBENCH_UI_INIT, duration=0:00:00.505, duration_ms=505, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2023-12-04 15:08:55], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:02.149, duration_ms=2149, data={}
+timestamp=[2023-12-04 15:09:28], mode=PLATFORM_CREATION, duration=0:00:09.739, duration_ms=9739, data={platform_source=dsa, os=standalone, processor=microblaze, platform=null}
+timestamp=[2023-12-04 15:09:46], mode=APP_CREATION, duration=0:00:03.562, duration_ms=3562, data={name=xaxipcie_rc_enumerate_example_1, project_type=sdk, os=standalone, processor=microblaze_0, runtime=C/C++, platform=vc707_pcie_rc_Vitis, application_type=application}
+timestamp=[2023-12-04 15:10:15], mode=PLATFORM_GENERATION, duration=0:00:25.385, duration_ms=25385, data={name=vc707_pcie_rc_Vitis}
+timestamp=[2023-12-04 15:10:29], mode=BUILD, duration=0:00:06.128, duration_ms=6128, data={name=xaxipcie_rc_enumerate_example_1, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 15:10:31], mode=BUILD, duration=0:00:00.727, duration_ms=727, data={name=xaxipcie_rc_enumerate_example_1_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 12:11:46], mode=WORKBENCH_START, duration=0:00:08.681, duration_ms=8681, data={}
+timestamp=[2024-05-22 12:11:47], mode=WORKBENCH_UI_INIT, duration=0:00:00.982, duration_ms=982, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,vc707_pcie_rc_Vitis,xaxipcie_rc_enumerate_example_1,xaxipcie_rc_enumerate_example_1_system}
+timestamp=[2024-05-22 12:11:47], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.330, duration_ms=330, data={}
+timestamp=[2024-05-22 12:12:50], mode=PLATFORM_GENERATION, duration=0:00:03.034, duration_ms=3034, data={name=vc707_pcie_rc_Vitis}
+timestamp=[2024-05-22 12:13:06], mode=PLATFORM_GENERATION, duration=0:00:09.104, duration_ms=9104, data={name=vc707_pcie_rc_Vitis}
+timestamp=[2024-05-22 12:13:35], mode=BUILD, duration=0:00:00.909, duration_ms=909, data={name=xaxipcie_rc_enumerate_example_1, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 12:13:36], mode=BUILD, duration=0:00:00.144, duration_ms=144, data={name=xaxipcie_rc_enumerate_example_1_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 12:18:47], mode=WORKBENCH_START, duration=0:00:07.695, duration_ms=7695, data={}
+timestamp=[2024-05-22 12:18:48], mode=WORKBENCH_UI_INIT, duration=0:00:01.016, duration_ms=1016, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,vc707_pcie_rc_Vitis,xaxipcie_rc_enumerate_example_1,xaxipcie_rc_enumerate_example_1_system}
+timestamp=[2024-05-22 12:18:49], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.371, duration_ms=371, data={}

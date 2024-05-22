@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:C:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.srcs/constrs_1/vc707_hpc1.xdc rfile:../../../vc707_hpc1.srcs/constrs_1/vc707_hpc1.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.srcs/constrs_1/vc707_hpc1.xdc rfile:../../../vc707_hpc1.srcs/constrs_1/vc707_hpc1.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AM39 [get_ports mmcm_lock]
 set_property src_info {type:XDC file:1 line:4 export:INPUT save:INPUT read:READ} [current_design]

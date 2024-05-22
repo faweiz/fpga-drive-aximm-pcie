@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
-| Date             : Mon Dec  4 15:08:22 2023
+| Date             : Wed May 22 11:52:17 2024
 | Host             : Tony-VPI4CJD running 64-bit major release  (build 9200)
 | Command          : report_power -file xilinx_pcie_3_0_7vx_ep_power_routed.rpt -pb xilinx_pcie_3_0_7vx_ep_power_summary_routed.pb -rpx xilinx_pcie_3_0_7vx_ep_power_routed.rpx
 | Design           : xilinx_pcie_3_0_7vx_ep

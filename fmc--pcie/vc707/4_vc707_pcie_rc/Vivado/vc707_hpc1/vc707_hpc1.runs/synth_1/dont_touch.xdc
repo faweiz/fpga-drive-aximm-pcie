@@ -120,4 +120,4 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==fpgadrv_res
 # IP: bd/fpgadrv/ip/fpgadrv_axi_emc_0_0/fpgadrv_axi_emc_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==fpgadrv_axi_emc_0_0 || ORIG_REF_NAME==fpgadrv_axi_emc_0_0} -quiet] -quiet
 
-# XDC: c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/fpgadrv_ooc.xdc
+# XDC: d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/4_vc707_pcie_rc/Vivado/vc707_hpc1/vc707_hpc1.gen/sources_1/bd/fpgadrv/fpgadrv_ooc.xdc

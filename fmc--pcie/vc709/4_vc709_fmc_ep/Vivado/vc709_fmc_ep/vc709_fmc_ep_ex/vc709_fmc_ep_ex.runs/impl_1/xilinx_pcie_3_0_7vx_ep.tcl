@@ -17,7 +17,7 @@ proc create_report { reportName command } {
   }
 }
 namespace eval ::optrace {
-  variable script "d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.runs/impl_1/xilinx_pcie_3_0_7vx_ep.tcl"
+  variable script "D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.runs/impl_1/xilinx_pcie_3_0_7vx_ep.tcl"
   variable category "vivado_impl"
 }
 
@@ -123,7 +123,6 @@ set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
   set_param chipscope.maxJobs 3
-  set_param xicom.use_bs_reader 1
 OPTRACE "create in-memory project" START { }
   create_project -in_memory -part xc7vx690tffg1761-2
   set_property board_part xilinx.com:vc709:part0:1.8 [current_project]
@@ -131,17 +130,17 @@ OPTRACE "create in-memory project" START { }
   set_param project.singleFileAddWarning.threshold 0
 OPTRACE "create in-memory project" END { }
 OPTRACE "set parameters" START { }
-  set_property webtalk.parent_dir d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.cache/wt [current_project]
-  set_property parent.project_path d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.xpr [current_project]
+  set_property webtalk.parent_dir D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.cache/wt [current_project]
+  set_property parent.project_path D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.xpr [current_project]
   set_property ip_output_repo d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
-  add_files -quiet d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.runs/synth_1/xilinx_pcie_3_0_7vx_ep.dcp
-  read_ip -quiet d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.srcs/sources_1/ip/vc709_fmc_ep/vc709_fmc_ep.xci
+  add_files -quiet D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.runs/synth_1/xilinx_pcie_3_0_7vx_ep.dcp
+  read_ip -quiet D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.srcs/sources_1/ip/vc709_fmc_ep/vc709_fmc_ep.xci
 OPTRACE "read constraints: implementation" START { }
-  read_xdc d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/xilinx_pcie3_7x_ep_x4g2_VC709.xdc
+  read_xdc D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/4_vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/imports/xilinx_pcie3_7x_ep_x4g2_VC709.xdc
 OPTRACE "read constraints: implementation" END { }
 OPTRACE "add files" END { }
 OPTRACE "link_design" START { }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7vx690tffg1761-2" LaunchTime="1701720125" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/xilinx_pcie_3_0_7vx_ep.dcp">
+<GenRun Id="synth_1" LaunchPart="xc7vx690tffg1761-2" LaunchTime="1716392758" LaunchIncrCheckpoint="$PPRDIR/../../../../../../../12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.srcs/utils_1/imports/synth_1/xilinx_pcie_3_0_7vx_ep.dcp">
   <File Type="PA-TCL" Name="xilinx_pcie_3_0_7vx_ep.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="xilinx_pcie_3_0_7vx_ep_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="xilinx_pcie_3_0_7vx_ep_reports.tcl"/>
@@ -133,14 +133,20 @@
         <Attr Name="AutoDcp" Val="1"/>
       </FileInfo>
     </File>
+    <File Path="$PPRDIR/../../../../../../../12022023/tony/vc709_fmc_ep/Vivado/vc709_fmc_ep/vc709_fmc_ep_ex/vc709_fmc_ep_ex.srcs/utils_1/imports/synth_1/xilinx_pcie_3_0_7vx_ep.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?scdStore version="2"?><scannerInfo id="org.eclipse.cdt.make.core.discoveredScannerInfo">
-    <instance id="xilinx.gnu.mb.exe.debug.331625137;xilinx.gnu.mb.exe.debug.331625137.">
+    <instance id="xilinx.gnu.mb.exe.debug.1019102227;xilinx.gnu.mb.exe.debug.1019102227.">
         <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
-            <includePath path="c:\apps\xilinx\vitis\2022.1\gnu\microblaze\nt\x86_64-oesdk-mingw32\usr\bin\microblaze-xilinx-elf\../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/11.2.0/include"/>
-            <includePath path="c:\apps\xilinx\vitis\2022.1\gnu\microblaze\nt\x86_64-oesdk-mingw32\usr\bin\microblaze-xilinx-elf\../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/11.2.0/include-fixed"/>
-            <includePath path="C:\Apps\Xilinx\Vitis\2022.1\gnu\microblaze\nt\bin\\..\microblazeeb-xilinx-elf/usr/include"/>
+            <includePath path="e:\xilinx\vitis\2022.1\gnu\microblaze\nt\x86_64-oesdk-mingw32\usr\bin\microblaze-xilinx-elf\../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/11.2.0/include"/>
+            <includePath path="e:\xilinx\vitis\2022.1\gnu\microblaze\nt\x86_64-oesdk-mingw32\usr\bin\microblaze-xilinx-elf\../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/11.2.0/include-fixed"/>
+            <includePath path="E:\Xilinx\Vitis\2022.1\gnu\microblaze\nt\bin\\..\microblazeeb-xilinx-elf/usr/include"/>
             <definedSymbol symbol="__STDC__=1"/>
             <definedSymbol symbol="__STDC_VERSION__=201710L"/>
             <definedSymbol symbol="__STDC_UTF_16__=1"/>
@@ -276,11 +276,11 @@
             <definedSymbol symbol="__MICROBLAZEEB__=1"/>
         </collector>
     </instance>
-    <instance id="xilinx.gnu.mb.exe.release.364847018;xilinx.gnu.mb.exe.release.364847018.">
+    <instance id="xilinx.gnu.mb.exe.release.587750059;xilinx.gnu.mb.exe.release.587750059.">
         <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
-            <includePath path="c:\apps\xilinx\vitis\2022.1\gnu\microblaze\nt\x86_64-oesdk-mingw32\usr\bin\microblaze-xilinx-elf\../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/11.2.0/include"/>
-            <includePath path="c:\apps\xilinx\vitis\2022.1\gnu\microblaze\nt\x86_64-oesdk-mingw32\usr\bin\microblaze-xilinx-elf\../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/11.2.0/include-fixed"/>
-            <includePath path="C:\Apps\Xilinx\Vitis\2022.1\gnu\microblaze\nt\bin\\..\microblazeeb-xilinx-elf/usr/include"/>
+            <includePath path="e:\xilinx\vitis\2022.1\gnu\microblaze\nt\x86_64-oesdk-mingw32\usr\bin\microblaze-xilinx-elf\../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/11.2.0/include"/>
+            <includePath path="e:\xilinx\vitis\2022.1\gnu\microblaze\nt\x86_64-oesdk-mingw32\usr\bin\microblaze-xilinx-elf\../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/11.2.0/include-fixed"/>
+            <includePath path="E:\Xilinx\Vitis\2022.1\gnu\microblaze\nt\bin\\..\microblazeeb-xilinx-elf/usr/include"/>
             <definedSymbol symbol="__STDC__=1"/>
             <definedSymbol symbol="__STDC_VERSION__=201710L"/>
             <definedSymbol symbol="__STDC_UTF_16__=1"/>
@@ -552,11 +552,11 @@
             <definedSymbol symbol="__MICROBLAZEEB__=1"/>
         </collector>
     </instance>
-    <instance id="xilinx.gnu.mb.exe.debug.331625137;xilinx.gnu.mb.exe.debug.331625137.;xilinx.gnu.mb.c.toolchain.compiler.debug.1979318852;xilinx.gnu.compiler.input.2138650656">
+    <instance id="xilinx.gnu.mb.exe.debug.1019102227;xilinx.gnu.mb.exe.debug.1019102227.;xilinx.gnu.mb.c.toolchain.compiler.debug.999190956;xilinx.gnu.compiler.input.1614794827">
         <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
-            <includePath path="c:\apps\xilinx\vitis\2022.1\gnu\microblaze\nt\x86_64-oesdk-mingw32\usr\bin\microblaze-xilinx-elf\../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/11.2.0/include"/>
-            <includePath path="c:\apps\xilinx\vitis\2022.1\gnu\microblaze\nt\x86_64-oesdk-mingw32\usr\bin\microblaze-xilinx-elf\../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/11.2.0/include-fixed"/>
-            <includePath path="C:\Apps\Xilinx\Vitis\2022.1\gnu\microblaze\nt\bin\\..\microblazeeb-xilinx-elf/usr/include"/>
+            <includePath path="e:\xilinx\vitis\2022.1\gnu\microblaze\nt\x86_64-oesdk-mingw32\usr\bin\microblaze-xilinx-elf\../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/11.2.0/include"/>
+            <includePath path="e:\xilinx\vitis\2022.1\gnu\microblaze\nt\x86_64-oesdk-mingw32\usr\bin\microblaze-xilinx-elf\../../lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/11.2.0/include-fixed"/>
+            <includePath path="E:\Xilinx\Vitis\2022.1\gnu\microblaze\nt\bin\\..\microblazeeb-xilinx-elf/usr/include"/>
             <definedSymbol symbol="__STDC__=1"/>
             <definedSymbol symbol="__STDC_VERSION__=201710L"/>
             <definedSymbol symbol="__STDC_UTF_16__=1"/>
