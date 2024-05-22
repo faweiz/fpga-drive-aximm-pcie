@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/vc707_pcie_ep_ex.runs/synth_1/xilinx_pcie_2_1_ep_7x.tcl"
+  variable script "D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/3_vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/vc707_pcie_ep_ex.runs/synth_1/xilinx_pcie_2_1_ep_7x.tcl"
   variable category "vivado_synth"
 }
 
@@ -77,32 +77,32 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/vc707_pcie_ep_ex.cache/wt [current_project]
-set_property parent.project_path c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/vc707_pcie_ep_ex.xpr [current_project]
+set_property webtalk.parent_dir D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/3_vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/vc707_pcie_ep_ex.cache/wt [current_project]
+set_property parent.project_path D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/3_vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/vc707_pcie_ep_ex.xpr [current_project]
 set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property board_part xilinx.com:vc707:part0:1.4 [current_project]
-set_property ip_output_repo c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/vc707_pcie_ep_ex.cache/ip [current_project]
+set_property ip_output_repo d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/3_vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/vc707_pcie_ep_ex.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib {
-  c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/imports/EP_MEM.v
-  c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/imports/PIO.v
-  c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/imports/PIO_EP.v
-  c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/imports/PIO_EP_MEM_ACCESS.v
-  c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/imports/PIO_RX_ENGINE.v
-  c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/imports/PIO_TO_CTRL.v
-  c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/imports/PIO_TX_ENGINE.v
-  c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/imports/pcie_app_7x.v
-  c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/imports/vc707_pcie_ep_pipe_clock.v
-  c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/imports/vc707_pcie_ep_support.v
-  c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/imports/xilinx_pcie_2_1_ep_7x.v
+  D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/3_vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/imports/EP_MEM.v
+  D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/3_vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/imports/PIO.v
+  D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/3_vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/imports/PIO_EP.v
+  D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/3_vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/imports/PIO_EP_MEM_ACCESS.v
+  D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/3_vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/imports/PIO_RX_ENGINE.v
+  D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/3_vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/imports/PIO_TO_CTRL.v
+  D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/3_vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/imports/PIO_TX_ENGINE.v
+  D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/3_vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/imports/pcie_app_7x.v
+  D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/3_vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/imports/vc707_pcie_ep_pipe_clock.v
+  D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/3_vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/imports/vc707_pcie_ep_support.v
+  D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/3_vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/imports/xilinx_pcie_2_1_ep_7x.v
 }
-read_ip -quiet c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/vc707_pcie_ep_ex.srcs/sources_1/ip/vc707_pcie_ep/vc707_pcie_ep.xci
-set_property used_in_implementation false [get_files -all c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/vc707_pcie_ep_ex.gen/sources_1/ip/vc707_pcie_ep/source/vc707_pcie_ep-PCIE_X1Y0.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/vc707_pcie_ep_ex.gen/sources_1/ip/vc707_pcie_ep/synth/vc707_pcie_ep_ooc.xdc]
+read_ip -quiet D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/3_vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/vc707_pcie_ep_ex.srcs/sources_1/ip/vc707_pcie_ep/vc707_pcie_ep.xci
+set_property used_in_implementation false [get_files -all d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/3_vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/vc707_pcie_ep_ex.gen/sources_1/ip/vc707_pcie_ep/source/vc707_pcie_ep-PCIE_X1Y0.xdc]
+set_property used_in_implementation false [get_files -all d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/3_vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/vc707_pcie_ep_ex.gen/sources_1/ip/vc707_pcie_ep/synth/vc707_pcie_ep_ooc.xdc]
 
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -113,12 +113,14 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/imports/xilinx_pcie_7x_ep_x4g2_VC707.xdc
-set_property used_in_implementation false [get_files c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/imports/xilinx_pcie_7x_ep_x4g2_VC707.xdc]
+read_xdc D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/3_vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/imports/xilinx_pcie_7x_ep_x4g2_VC707.xdc
+set_property used_in_implementation false [get_files D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/3_vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/imports/xilinx_pcie_7x_ep_x4g2_VC707.xdc]
 
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]
 set_param ips.enableIPCacheLiteLoad 1
+
+read_checkpoint -auto_incremental -incremental D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/3_vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/vc707_pcie_ep_ex.srcs/utils_1/imports/synth_1/xilinx_pcie_2_1_ep_7x.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }

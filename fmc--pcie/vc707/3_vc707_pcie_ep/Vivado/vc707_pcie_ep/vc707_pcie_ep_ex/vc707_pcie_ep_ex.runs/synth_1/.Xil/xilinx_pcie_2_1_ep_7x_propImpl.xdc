@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:c:/Users/M38172/Downloads/12022023/ngc/vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/imports/xilinx_pcie_7x_ep_x4g2_VC707.xdc rfile:../../../imports/xilinx_pcie_7x_ep_x4g2_VC707.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:D:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc707/3_vc707_pcie_ep/Vivado/vc707_pcie_ep/vc707_pcie_ep_ex/imports/xilinx_pcie_7x_ep_x4g2_VC707.xdc rfile:../../../imports/xilinx_pcie_7x_ep_x4g2_VC707.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:125 export:INPUT save:INPUT read:READ} [current_design]
 set_property LOC AV35 [get_ports sys_rst_n]
 set_property src_info {type:XDC file:1 line:138 export:INPUT save:INPUT read:READ} [current_design]

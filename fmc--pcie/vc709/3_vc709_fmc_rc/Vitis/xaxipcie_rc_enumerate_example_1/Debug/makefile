@@ -35,7 +35,7 @@ all: xaxipcie_rc_enumerate_example_1.elf secondary-outputs
 xaxipcie_rc_enumerate_example_1.elf: $(OBJS) ../src/lscript.ld $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MicroBlaze gcc linker'
-	mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vitis/vc709_fmc_rc_Vitis/export/vc709_fmc_rc_Vitis/sw/vc709_fmc_rc_Vitis/standalone_domain/bsplib/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mxl-multiply-high -Wl,--no-relax -Wl,--gc-sections -o "xaxipcie_rc_enumerate_example_1.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/3_vc709_fmc_rc/Vitis/vc709_fmc_rc_Vitis/export/vc709_fmc_rc_Vitis/sw/vc709_fmc_rc_Vitis/standalone_domain/bsplib/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mxl-multiply-high -Wl,--no-relax -Wl,--gc-sections -o "xaxipcie_rc_enumerate_example_1.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

@@ -117,4 +117,4 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==fpgadrv_res
 # IP: bd/fpgadrv/ip/fpgadrv_axi_emc_0_0/fpgadrv_axi_emc_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==fpgadrv_axi_emc_0_0 || ORIG_REF_NAME==fpgadrv_axi_emc_0_0} -quiet] -quiet
 
-# XDC: d:/Tony/Downloads/PCIe/12022023/tony/vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/fpgadrv_ooc.xdc
+# XDC: d:/Tony/Downloads/PCIe/fpga-drive-aximm-pcie/fmc--pcie/vc709/3_vc709_fmc_rc/Vivado/vc709_hpc/vc709_hpc.gen/sources_1/bd/fpgadrv/fpgadrv_ooc.xdc
